@@ -1,12 +1,10 @@
 import './App.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
-// Components
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import ScrollToTop from './Components/ScrollToTop';
 
-// Pages
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';

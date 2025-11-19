@@ -8,10 +8,10 @@ export default function Navbar() {
   return (
     <nav className="Navbar">
       <div className="rightside">
-        <a href="/">
+        <a href="#/">
           <img src={logos} alt="Logo" />
         </a>
-        <a href="/"><h2>Raiyan Global</h2></a>
+        <a href="#/"><h2>Raiyan Global</h2></a>
       </div>
 
       {/* HAMBURGER BUTTON (for mobile) */}
@@ -24,10 +24,10 @@ export default function Navbar() {
       {/* NAV LINKS */}
       <div className={`leftside ${isOpen ? "active" : ""}`}>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/About">About</a></li>
-          <li><a href="/Product">Product</a></li>
-          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="#/">Home</a></li>
+          <li><a href="#/about">About</a></li>
+          <li><a href="#/product">Product</a></li>
+          <li><a href="#/contact">Contact Us</a></li>
         </ul>
       </div>
     </nav>

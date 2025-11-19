@@ -44,10 +44,10 @@ export default function Footer() {
                 <div class="quick-links">
                     <h2>Quick links</h2>
                     <div class="link-column">
-                        <a href="/">→Home</a>
-                        <a href="/About">→About</a>
-                        <a href="/Product">→Product</a>
-                        <a href="/Contact">→Contact</a>
+                        <a href="#/">→Home</a>
+                        <a href="#/about">→About</a>
+                        <a href="#/product">→Product</a>
+                        <a href="#/contact">→Contact</a>
                     </div>
                 </div>
             </footer>

@@ -12,7 +12,7 @@ const Body = () => {
         <img src={Images} alt="Fresh Vegetables" className="hero-image" />
         <div className="hero-content">
           <h1>Freshness Beyond Borders.</h1>
-          <button className="contact-btn"><a href="/Contact">Contact us</a></button>
+          <button className="contact-btn"><a href="#/Contact">Contact us</a></button>
         </div>
       </div>
 
@@ -35,7 +35,7 @@ const Body = () => {
           <p>
             Our Motto is "We Believe in Quality"  
           </p>
-          <button className="learn-more-btn"><a href="/About">Learn More...</a></button>
+          <button className="learn-more-btn"><a href="#/About">Learn More...</a></button>
         </div>
       </div>
 
@@ -160,7 +160,7 @@ const Body = () => {
             <h3>Fruits</h3>
             <h2>Premium Alphonso Mangoes</h2>
             <p>Sweet and juicy Alphonso mangoes</p>
-            <a href="/Product" className="view-details">
+            <a href="#/Product" className="view-details">
               View More →
             </a>
           </div>
@@ -173,7 +173,7 @@ const Body = () => {
             <h3>Spices</h3>
             <h2>Organic Turmeric</h2>
             <p>Premium organic turmeric powder</p>
-            <a href="/Product" className="view-details">
+            <a href="#/Product" className="view-details">
               View More →
             </a>
           </div>
@@ -186,7 +186,7 @@ const Body = () => {
             <h3>Rice</h3>
             <h2>Premium Basmati Rice</h2>
             <p>Aged premium basmati rice</p>
-            <a href="/Product" className="view-details">
+            <a href="#/Product" className="view-details">
               View More →
             </a>
           </div>
