@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Website/static/css/main.3e50f7db.css",
+    "main.js": "/Website/static/js/main.5b4ee054.js",
+    "static/js/453.d26189d0.chunk.js": "/Website/static/js/453.d26189d0.chunk.js",
+    "static/media/imports.png": "/Website/static/media/imports.bc33aa4651315e5aaf67.png",
+    "static/media/customer.png": "/Website/static/media/customer.10890dea3dd59e04e612.png",
+    "static/media/airpot.png": "/Website/static/media/airpot.6b1a29d2b9991437b106.png",
+    "static/media/image.png": "/Website/static/media/image.4980ca7b7bf56084ddad.png",
+    "static/media/packhouse.png": "/Website/static/media/packhouse.05456667bd9372dd4656.png",
+    "static/media/logo.png": "/Website/static/media/logo.e56ddd3e9b13475f2491.png",
+    "static/media/Bindi.jpg": "/Website/static/media/Bindi.863a97d7a76531a5b3fb.jpg",
+    "static/media/Dragonfruit.jpg": "/Website/static/media/Dragonfruit.da5eac61300ab16b8dc1.jpg",
+    "static/media/Spices.png": "/Website/static/media/Spices.ec406876f01cc5be0b09.png",
+    "static/media/Amla.jpg": "/Website/static/media/Amla.f616b570f57af1a1ab0f.jpg",
+    "static/media/Appleboor.jpg": "/Website/static/media/Appleboor.c2c347d81c2be9662584.jpg",
+    "static/media/chikoo.jpg": "/Website/static/media/chikoo.ec943684b9a042ded9c5.jpg",
+    "static/media/Rice.png": "/Website/static/media/Rice.940823637b8f94768f31.png",
+    "static/media/guvava.jpg": "/Website/static/media/guvava.7b80022ae2fc0f0c09ea.jpg",
+    "static/media/farm.png": "/Website/static/media/farm.938f142d0d1a45ab6013.png",
+    "static/media/Mango.png": "/Website/static/media/Mango.4e4275bc707559766428.png",
+    "index.html": "/Website/index.html",
+    "main.3e50f7db.css.map": "/Website/static/css/main.3e50f7db.css.map",
+    "main.5b4ee054.js.map": "/Website/static/js/main.5b4ee054.js.map",
+    "453.d26189d0.chunk.js.map": "/Website/static/js/453.d26189d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e50f7db.css",
+    "static/js/main.5b4ee054.js"
+  ]
+}
