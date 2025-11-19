@@ -1,0 +1,367 @@
+.aboutcompany_detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 60px 10%;
+}
+
+.textpart_aboutus {
+  flex: 1;
+  font-size: large;
+  line-height: 1.6;
+}
+
+.imagepart_aboutus {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-bg {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-bg img {
+  width: 400px;
+  height: auto;
+  display: block;
+}
+
+.textpart_aboutus h1{
+  color: green;
+}
+
+.aboutcompany_detail p{
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.our_community{
+  background-color: transparent;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.box{
+  padding-right: 170px;
+  padding-left: 150px;
+}
+
+.box h2{
+  color: green;
+  font-size: 30px;
+}
+
+.box p{
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.supplychain {
+  text-align: center;
+  padding: 60px 10%;
+  margin-top: 10px;
+}
+
+.supplychain h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: green;
+}
+
+.supplychain-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.supplychain-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  gap: 25px;
+  padding-bottom: 10px;
+}
+
+.supplychain-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 260px;
+  flex-shrink: 0;
+  text-align: center;
+  position: relative;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.supplychain-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.supplychain-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-bottom: 3px solid #e0e0e0;
+}
+
+.supplychain-card .icon {
+  background-color: #e6f8ed;
+  color: green;
+  font-size: 1.4rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -30px auto 10px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.supplychain-card h3 {
+  color: #006b3f;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.supplychain-card p {
+  color: #444;
+  font-size: 0.95rem;
+  padding: 0 15px 20px;
+}
+
+.about-image{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+.about-image:hover{
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+
+.aboutus-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.abt-text{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1.2rem;
+}
+
+.learn-more-btn{
+    background-color: rgb(255, 98, 0);
+    color: black;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.learn-more-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.learn-more-btn:hover {
+    background-color: rgb(101, 198, 32);
+}
+
+.para{
+    color: green;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.abt-text h1{
+    font-size: 2.5rem;
+}
+
+.card {
+  background: linear-gradient(135deg, #6ed0a4, #c9f0d2);
+  border-radius: 15px;
+  padding: 30px 10px;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
+  color: #065f46;
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+
+.card .icon {
+  background: #e6f6f0;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  display: flex;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.card-main{
+    display: flex;
+    justify-content: center;
+}
+
+.wy-choose-us{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+
+  /* ABOUT TOP SECTION */
+  .aboutcompany_detail {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+    gap: 30px;
+  }
+
+  .textpart_aboutus {
+    font-size: 16px;
+  }
+
+  .image-bg {
+    padding: 20px;
+  }
+
+  .image-bg img {
+    width: 250px;
+  }
+
+  .box {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .box h2 {
+    font-size: 24px;
+  }
+
+  .box p {
+    font-size: 16px;
+  }
+
+  /* SUPPLY CHAIN SECTION */
+  .supplychain {
+    padding: 40px 20px;
+  }
+
+  .supplychain h2 {
+    font-size: 28px;
+  }
+
+  /* scroll horizontally on mobile */
+  .supplychain-cards {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+
+  .supplychain-card {
+    min-width: 220px;
+    width: 220px;
+    flex-shrink: 0;
+  }
+
+  /* WHY CHOOSE US */
+  .card-main {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card {
+    margin: 0;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .wy-choose-us {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+}
+
+/* SMALLER MOBILES */
+@media (max-width: 480px) {
+
+  .textpart_aboutus h1 {
+    font-size: 28px;
+  }
+
+  .aboutcompany_detail p,
+  .box p {
+    font-size: 14px;
+  }
+
+  .supplychain h2 {
+    font-size: 24px;
+  }
+
+  .supplychain-card h3 {
+    font-size: 16px;
+  }
+
+  .supplychain-card p {
+    font-size: 13px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card h2 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+}
