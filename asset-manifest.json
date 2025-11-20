@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/website/static/css/main.3e50f7db.css",
-    "main.js": "/website/static/js/main.76f5f785.js",
+    "main.js": "/website/static/js/main.d6a74bd0.js",
     "static/js/453.d6ad4dea.chunk.js": "/website/static/js/453.d6ad4dea.chunk.js",
     "static/media/image.png": "/website/static/media/image.4980ca7b7bf56084ddad.png",
     "static/media/customer.png": "/website/static/media/customer.b1bf071515c9ede083c3.png",
-    "static/media/alphonsomango.png": "/website/static/media/alphonsomango.5f456d32c8a92f177479.png",
     "static/media/packhouse.png": "/website/static/media/packhouse.f4a05954b4000fc3f61a.png",
+    "static/media/alphonsomango.png": "/website/static/media/alphonsomango.e3a02ef0a4ad5dc48ab9.png",
     "static/media/logo.png": "/website/static/media/logo.e56ddd3e9b13475f2491.png",
     "static/media/pavtapapdi.png": "/website/static/media/pavtapapdi.738ac44f0def0c9a1d61.png",
     "static/media/vellari.png": "/website/static/media/vellari.04853bd57923fc2a44b2.png",
@@ -61,11 +61,11 @@
     "static/media/Khatumda.png": "/website/static/media/Khatumda.4072fc0051af85a7b369.png",
     "index.html": "/website/index.html",
     "main.3e50f7db.css.map": "/website/static/css/main.3e50f7db.css.map",
-    "main.76f5f785.js.map": "/website/static/js/main.76f5f785.js.map",
+    "main.d6a74bd0.js.map": "/website/static/js/main.d6a74bd0.js.map",
     "453.d6ad4dea.chunk.js.map": "/website/static/js/453.d6ad4dea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e50f7db.css",
-    "static/js/main.76f5f785.js"
+    "static/js/main.d6a74bd0.js"
   ]
 }
