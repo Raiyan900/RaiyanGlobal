@@ -11,7 +11,7 @@ export default function Products() {
   const categories = [
     "All",
     "Fruits",
-    "Grains",
+    "Mangos",
     "Spices",
     "Vegetables",
   ];
