@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.3e50f7db.css",
-    "main.js": "/website/static/js/main.e66ab1f0.js",
+    "main.css": "/website/static/css/main.28d9e571.css",
+    "main.js": "/website/static/js/main.1afb3b4a.js",
     "static/js/453.d6ad4dea.chunk.js": "/website/static/js/453.d6ad4dea.chunk.js",
     "static/media/image.png": "/website/static/media/image.4980ca7b7bf56084ddad.png",
     "static/media/customer.png": "/website/static/media/customer.b1bf071515c9ede083c3.png",
@@ -35,7 +35,6 @@
     "static/media/Kamrakh.png": "/website/static/media/Kamrakh.4b86a534d4092bc50184.png",
     "static/media/orangeyellohaldi.png": "/website/static/media/orangeyellohaldi.e4e6c8f82ea481fdd809.png",
     "static/media/MuskMelon.png": "/website/static/media/MuskMelon.6436e0deac388d5af1a6.png",
-    "static/media/Spices.png": "/website/static/media/Spices.ec406876f01cc5be0b09.png",
     "static/media/KesarMango.png": "/website/static/media/KesarMango.7ad5f494adf488d377fb.png",
     "static/media/tuverpapdi.png": "/website/static/media/tuverpapdi.ee251d1beaca9a2286fe.png",
     "static/media/import.png": "/website/static/media/import.682b1f3f08a4f89e2d94.png",
@@ -44,7 +43,6 @@
     "static/media/Pomegranate.png": "/website/static/media/Pomegranate.02bcb7a4f446fcc1aad3.png",
     "static/media/Singoda.png": "/website/static/media/Singoda.f47ce8e57bb30967ed0c.png",
     "static/media/TotapuriMango.png": "/website/static/media/TotapuriMango.6429399b07928c691a26.png",
-    "static/media/Rice.png": "/website/static/media/Rice.940823637b8f94768f31.png",
     "static/media/Papaya.png": "/website/static/media/Papaya.d2ba6472cce79a16006e.png",
     "static/media/PayariMango.png": "/website/static/media/PayariMango.7f11dc9c1f16dcc231a9.png",
     "static/media/Grapes.png": "/website/static/media/Grapes.868c3fa16b1b8744646d.png",
@@ -60,12 +58,12 @@
     "static/media/tinda.png": "/website/static/media/tinda.358d8c3d1986e028ad11.png",
     "static/media/Khatumda.png": "/website/static/media/Khatumda.4072fc0051af85a7b369.png",
     "index.html": "/website/index.html",
-    "main.3e50f7db.css.map": "/website/static/css/main.3e50f7db.css.map",
-    "main.e66ab1f0.js.map": "/website/static/js/main.e66ab1f0.js.map",
+    "main.28d9e571.css.map": "/website/static/css/main.28d9e571.css.map",
+    "main.1afb3b4a.js.map": "/website/static/js/main.1afb3b4a.js.map",
     "453.d6ad4dea.chunk.js.map": "/website/static/js/453.d6ad4dea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e50f7db.css",
-    "static/js/main.e66ab1f0.js"
+    "static/css/main.28d9e571.css",
+    "static/js/main.1afb3b4a.js"
   ]
 }
