@@ -187,7 +187,7 @@ const Body = () => {
               <h3>View More</h3>
               <h2>Explore All Products</h2>
               <p>Explore our full range of export-quality items.</p>
-              <Link to="/product" className="view-details">
+              <Link to="/products" className="view-details">
                 View Products →
               </Link>
             </div>
