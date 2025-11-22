@@ -174,7 +174,7 @@ const Body = () => {
               <h3>Vegetables</h3>
               <h2>Fresh Premium Vegetables</h2>
               <p>Fresh, export-grade vegetables.</p>
-              <Link to="/Product/202" className="view-details">
+              <Link to="/Product/208" className="view-details">
                 View More →
               </Link>
             </div>
