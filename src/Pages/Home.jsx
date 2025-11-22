@@ -1,6 +1,7 @@
 import '../Components/Hero/Hero.css';
 import Images from "../assets/logo/image.png";
 import Mango from "../assets/products/mango/alphonsomango.png";
+import PoiBhaji from "../assets/products/vegetables/PoiBhaji.jpg";
 import background from "../assets/background.png";
 import logo from "../assets/logo/logo.png";
 import { Link } from "react-router-dom";
@@ -168,12 +169,12 @@ const Body = () => {
 
           {/* Card 2 */}
           <div className="prdts-fd-cards spices">
-            <img src="" alt="Spices" />
+            <img src={PoiBhaji} alt="Spices" />
             <div className="prdts-content">
               <h3>Vegetables</h3>
               <h2>Fresh Premium Vegetables</h2>
               <p>Fresh, export-grade vegetables.</p>
-              <Link to="/Product/114" className="view-details">
+              <Link to="/Product/202" className="view-details">
                 View More →
               </Link>
             </div>

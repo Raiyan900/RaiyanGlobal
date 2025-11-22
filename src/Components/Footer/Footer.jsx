@@ -46,7 +46,7 @@ export default function Footer() {
                     <div class="link-column">
                         <a href="#/">→Home</a>
                         <a href="#/about">→About</a>
-                        <a href="#/product">→Product</a>
+                        <a href="#/products">→Product</a>
                         <a href="#/contact">→Contact</a>
                     </div>
                 </div>
