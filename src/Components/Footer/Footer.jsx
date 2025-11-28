@@ -4,22 +4,36 @@ import logos from "../../assets/logo/logo.png";
 export default function Footer() {
     return (
         <>
-            <footer class="footer">
+            {/* TOP FULL-WIDTH DIVIDER */}
+            <div className="full-divider"></div>
 
-                <div class="abouts_us">
+            <footer className="footer">
+
+                {/* ABOUT SECTION */}
+                <div className="footer-col abouts_us">
                     <div className="img-cnt">
                         <img src={logos} alt="Logo" />
                         <h2>Raiyan Global</h2>
                     </div>
-                    <p>Raiyan Global is the best exporter of premium fruits and vegetables, committed to delivering fresh,
-                        high-quality produce to customers worldwide. We Ensure the Quality of product, Packaging and Trust of of
-                        valued customers for variety of products that is fulfilled by us.</p>
+
+                    <p>
+                        Raiyan Global is the best exporter of premium fruits and vegetables, committed to delivering
+                        fresh, high-quality produce to customers worldwide.
+                    </p>
+
+                    <p>
+                        We ensure quality, packaging and trust for all valued customers for our variety of products.
+                    </p>
                 </div>
 
+                {/* VERTICAL DIVIDER */}
+                <div className="vertical-divider"></div>
 
-                <div class="quick-links">
-                    <h2>Quick links</h2>
-                    <div class="link-column">
+                {/* QUICK LINKS */}
+                <div className="footer-col quick-links">
+                    <h2>Quick Links</h2>
+
+                    <div className="link-column">
                         <a href="#/">Home</a>
                         <a href="#/about">About</a>
                         <a href="#/products">Product</a>
@@ -27,48 +41,54 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div class="address">
+                {/* VERTICAL DIVIDER */}
+                <div className="vertical-divider"></div>
+
+                {/* ADDRESS */}
+                <div className="footer-col address">
                     <h2>Stay in Touch!</h2>
 
-                    <div class="footer-item">
-                        <i class="fa-solid fa-location-crosshairs"></i>
-                        <p>Address: Versova, Andheri West, Mumbai 500061, Maharashatra</p>
+                    <div className="footer-item">
+                        <i className="fa-solid fa-location-crosshairs"></i>
+                        <p>Versova, Andheri West, Mumbai 500061, Maharashtra</p>
                     </div>
 
-                    <div class="footer-item">
-                        <i class="fa-solid fa-phone"></i>
+                    <div className="footer-item">
+                        <i className="fa-solid fa-phone"></i>
                         <p>+91 9920810651</p>
                     </div>
 
-                    <div class="footer-item">
-                        <i class="fa-solid fa-phone"></i>
+                    <div className="footer-item">
+                        <i className="fa-solid fa-phone"></i>
                         <p>+91 8879917449</p>
+                    </div>
 
-                    </div><div class="footer-item">
-                        <i class="fa-solid fa-phone"></i>
+                    <div className="footer-item">
+                        <i className="fa-solid fa-phone"></i>
                         <p>+91 8928608614</p>
                     </div>
 
-                    <div class="footer-item">
-                        <i class="fa-solid fa-envelope"></i>
+                    <div className="footer-item">
+                        <i className="fa-solid fa-envelope"></i>
                         <p>sales.raiyanglobal@gmail.com</p>
                     </div>
 
-                    <div class="social-icons">
-                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://in.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <div className="social-icons">
+                        <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i className="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
 
-
             </footer>
 
-            <div class="bottom-footer">
-                <p class="left">All Rights Reserved by Raiyan Global</p>
-                <p class="right">Managed by Raiyan Global</p>
-            </div>
+            {/* BOTTOM FULL-WIDTH DIVIDER */}
+            <div className="full-divider"></div>
 
+            <div className="bottom-footer">
+                <p className="left">© 2025 Raiyan Global. All Rights Reserved.</p>
+                <p className="right">Managed by Raiyan Global</p>
+            </div>
         </>
-    )
+    );
 }
