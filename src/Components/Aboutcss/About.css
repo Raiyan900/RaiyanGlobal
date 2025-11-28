@@ -20,7 +20,7 @@
 }
 
 .image-bg {
-  background-color: transparent;
+  background-color: #102F2C;
   border-radius: 15px;
   padding: 40px 60px;
   display: flex;
@@ -36,7 +36,11 @@
 }
 
 .textpart_aboutus h1{
-  color: green;
+  color: #F3AF59;
+}
+
+.textpart_aboutus h3{
+  color: #F3AF59;
 }
 
 .aboutcompany_detail p{
@@ -46,7 +50,7 @@
 }
 
 .our_community{
-  background-color: transparent;
+  background-color: #102F2C;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   padding: 20px 40px;
   border-radius: 20px;
@@ -59,7 +63,7 @@
 }
 
 .box h2{
-  color: green;
+  color: #F3AF59;
   font-size: 30px;
 }
 
@@ -78,7 +82,7 @@
 .supplychain h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: green;
+  color: #F3AF59 ;
 }
 
 .supplychain-cards {
@@ -98,7 +102,7 @@
 }
 
 .supplychain-card {
-  background-color: #fff;
+  background-color: #102F2C;
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -122,8 +126,8 @@
 }
 
 .supplychain-card .icon {
-  background-color: #e6f8ed;
-  color: green;
+  background-color: #FCE8D3;
+  color: #F3AF59;
   font-size: 1.4rem;
   width: 60px;
   height: 60px;
@@ -136,13 +140,13 @@
 }
 
 .supplychain-card h3 {
-  color: #006b3f;
+  color: #F3AF59;
   font-size: 1.3rem;
   margin: 10px 0;
 }
 
 .supplychain-card p {
-  color: #444;
+  color: #FCE8D3;
   font-size: 0.95rem;
   padding: 0 15px 20px;
 }
@@ -173,10 +177,9 @@
 }
 
 .learn-more-btn{
-    background-color: rgb(255, 98, 0);
-    color: black;
+    color: #F3AF59;
     border: none;
-    padding: 20px;
+    padding: 2px;
     border-radius: 20px;
     font-size: 1rem;
     cursor: pointer;
@@ -185,11 +188,11 @@
 
 .learn-more-btn a{
     text-decoration: none;
-    color: black;
+    color: #F3AF59 ;
 }
 
 .learn-more-btn:hover {
-    background-color: rgb(101, 198, 32);
+    color: #F3F3F3;
 }
 
 .para{
@@ -203,7 +206,6 @@
 }
 
 .card {
-  background: linear-gradient(135deg, #6ed0a4, #c9f0d2);
   border-radius: 15px;
   padding: 30px 10px;
   width: 300px;
@@ -217,7 +219,6 @@
 }
 
 .card .icon {
-  background: #e6f6f0;
   width: 50px;
   height: 50px;
   border-radius: 12px;
@@ -266,6 +267,7 @@
 
   .image-bg {
     padding: 20px;
+    background-color: #102F2C;
   }
 
   .image-bg img {

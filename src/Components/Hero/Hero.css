@@ -1,3 +1,6 @@
+.body-container{
+  background-color: #205751;
+}
 /* Hero Component Styles */
 
 .Container {
@@ -19,18 +22,19 @@
   top: 50%;
   left: 15%;
   transform: translateY(-50%);
-  color: white;
+  color: #102F2C;
 }
 
 .hero-content h1 {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  color: #F3AF59;
 }
 
 .contact-btn {
-  background-color: #ff4500;
-  color: white;
+  background-color: #FCE8D3;
+  color: #102F2C;
   border: none;
   padding: 12px 28px;
   border-radius: 25px;
@@ -39,82 +43,104 @@
   transition: 0.3s;
 }
 
-.contact-btn a{
-    text-decoration: none;
-    color: white;
+.contact-btn a {
+  text-decoration: none;
+  color: #102F2C;
+  font-weight: bold;
 }
 
 .contact-btn:hover {
-  background-color: #e03e00;
+  background-color: #102F2C;
+  color: #F3AF59;
 }
+
+.contact-btn:hover a {
+  color: #F3AF59;
+}
+
 
 /* About Us Section */
 
-.about-image{
-    margin-top: 50px;
-    margin-left: 100px;
-    width: 300px;
-    height: 250px;
-    border-radius: 20px;
+.about-image {
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.p1{
+  color: white;
+}
+
+.p2
+{
+  color: #F3AF59;
+}
+
+.p3{
+  color: white;
 }
 
 .about-image,
 .about-image:hover {
-    transform: none !important;
-    transition: none !important;
+  transform: none !important;
+  transition: none !important;
 }
 
-.aboutus-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 100px;
+.aboutus-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  background-color: #205751;
 }
 
-.abt-text{
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 1.2rem;
+.abt-text {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 1.2rem;
 }
 
-.learn-more-btn{
-    background-color: rgb(255, 98, 0);
-    color: black;
-    border: none;
-    padding: 20px;
-    border-radius: 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: 0.3s;
+.learn-more-btn {
+  background-color: #205751;
+  color: #F3AF59;
+  border: none;
+  padding: 2px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 20px;
 }
 
-.learn-more-btn a{
-    text-decoration: none;
-    color: black;
+.learn-more-btn a {
+  text-decoration: none;
 }
 
-.learn-more-btn:hover {
-    background-color: rgb(101, 198, 32);
+.learn-more-btn:hover a {
+  color: #F3F3F3;
 }
 
-.para{
-    color: green;
-    font-size: 1.2rem;
-    margin-top: 10px;
+.paras {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
 
-.abt-text h1{
-    font-size: 2.5rem;
+.abt-text h1 {
+  font-size: 2.5rem;
+  color: #F3AF59 ;
 }
 
 .card {
-  background: linear-gradient(135deg, #6ed0a4, #c9f0d2);
+  background: #102F2C;
   border-radius: 15px;
   padding: 30px 10px;
   width: 300px;
   height: 250px;
   text-align: center;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   font-family: 'Arial', sans-serif;
   color: #065f46;
   margin-bottom: 100px;
@@ -122,7 +148,7 @@
 }
 
 .card .icon {
-  background: #e6f6f0;
+  background: #FCE8D3;
   width: 50px;
   height: 50px;
   border-radius: 12px;
@@ -137,29 +163,30 @@
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: bold;
+  color: #F3AF59;
 }
 
 .card p {
   font-size: 14px;
   line-height: 1.6;
+  color: #FCE8D3;
 }
 
-.card-main{
-    display: flex;
-    justify-content: center;
+.card-main {
+  display: flex;
+  justify-content: center;
 }
 
-.wy-choose-us{
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 80px;
-    margin-bottom: 40px;
+.wy-choose-us {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: #F3AF59;
 }
-
 /* Products Section */
 
 .products-section {
-  background-color: #f9fafb;
   padding: 60px 20px;
 }
 
@@ -169,7 +196,7 @@
   font-weight: 700;
   margin-left: 70px;
   margin-bottom: 40px;
-  color: #0a0a0a;
+  color: #F3AF59 ;
 }
 
 .prdts-fd {
@@ -215,7 +242,7 @@
 
 
 .prdts-content h3 {
-  color: #065f46;
+  color: #F3AF59;
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 8px;
@@ -224,38 +251,38 @@
 .prdts-content h2 {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #1b1b1b;
+  color: #F3F3F3;
   margin-bottom: 10px;
 }
 
 .prdts-content p {
-  color: #4b5563;
+  color: #F3AF59;
   margin-bottom: 15px;
   font-size: 0.95rem;
 }
 
 .view-details {
-  color: #065f46;
+  color: #FCE8D3;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .view-details:hover {
-  color: #047857;
+  color: #F3AF59;
 }
 
 .fruits .prdts-content {
-  background-color: #f0f9ff;
-  
+  background-color: #102F2C;
+
 }
 
 .spices .prdts-content {
-  background-color: #f0fdf4;
+  background-color: #102F2C ;
 }
 
 .rice .prdts-content {
-  background-color: #fdf2f8;
+  background-color: #102F2C;
 }
 
 /* TABLETS */

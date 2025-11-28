@@ -1,7 +1,18 @@
+.product-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #205751 ;
+  padding: 40px 0;
+}
+
+
 .product-detail-page {
+  background: #102F2C;
   max-width: 1150px;
   margin: auto;
-  padding: 40px 20px;
+  padding: 0px 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
 }
 
 .detail-header {
@@ -11,12 +22,12 @@
 }
 
 .detail-header h1 {
-  color: #0b3d2e;
+  color: #F3AF59;
   font-size: 2rem;
 }
 
 .back-link {
-  color: #0b8457;
+  color: #F3AF59;
   font-weight: 600;
   text-decoration: none;
 }
@@ -30,7 +41,7 @@
 }
 
 .detail-media {
-  background: #f3f8f5;
+  background: transparent;
   padding: 20px;
   border-radius: 16px;
   display: flex;
@@ -44,8 +55,7 @@
   height: 320px;         
   object-fit: contain; 
   object-position: center;
-  border-radius: 12px;
-  background: white; 
+  background: transparent; 
   padding: 10px;
 }
 
@@ -57,8 +67,8 @@
 }
 
 .detail-badge {
-  background: #e6f6ef;
-  color: #0b8457;
+  background: #FCE8D3;
+  color: #F3AF59;
   padding: 6px 14px;
   border-radius: 100px;
   font-weight: 600;
@@ -68,16 +78,21 @@
 .detail-short {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #0b3d2e;
+  color: #F3AF59;
 }
 
 .detail-full {
-  color: #555;
+  color: #FCE8D3 ;
   line-height: 1.5;
+}
+
+h3{
+  color: #F3AF59;
 }
 
 .detail-list li {
   margin-bottom: 6px;
+  color: #FCE8D3;
 }
 
 /* Specifications Box */
@@ -98,15 +113,15 @@
 }
 
 .spec-key {
-  background: #f6faf8;
+  background: transparent;
   padding: 10px;
   font-weight: 600;
-  color: #0b3d2e;
+  color: #FCE8D3 ;
 }
 
 .spec-val {
   padding: 10px;
-  color: #444;
+  color: #F3AF59;
 }
 
 /* Mobile */

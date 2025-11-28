@@ -34,63 +34,65 @@ export default function Products() {
   );
 
   return (
-    <main className="products-page">
-      <h1 className="page-title">Our Products</h1>
+    <main className="product-wrapper">
+      <div className="products-page">
+        <h1 className="page-title">Our Products</h1>
 
-      {/* Toolbar */}
-      <div className="products-toolbar">
-        <input
-          className="search-input"
-          placeholder="Search products..."
-          value={query}
-          onChange={(e) => {
-            setQuery(e.target.value);
-            setPage(1);
-          }}
-        />
+        {/* Toolbar */}
+        <div className="products-toolbar">
+          <input
+            className="search-input"
+            placeholder="Search products..."
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              setPage(1);
+            }}
+          />
 
-        <select
-          className="category-select"
-          value={category}
-          onChange={(e) => {
-            setCategory(e.target.value);
-            setPage(1);
-          }}
-        >
-          {categories.map((c) => (
-            <option key={c}>{c}</option>
+          <select
+            className="category-select"
+            value={category}
+            onChange={(e) => {
+              setCategory(e.target.value);
+              setPage(1);
+            }}
+          >
+            {categories.map((c) => (
+              <option key={c}>{c}</option>
+            ))}
+          </select>
+        </div>
+
+        {/* Product Grid */}
+        <div className="products-grid">
+          {paginatedProducts.map((product) => (
+            <ProductCard key={product.id} product={product} />
           ))}
-        </select>
-      </div>
+        </div>
 
-      {/* Product Grid */}
-      <div className="products-grid">
-        {paginatedProducts.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
-      </div>
+        {/* Pagination */}
+        <div className="pagination">
+          <button
+            className="page-btn"
+            onClick={() => setPage(page - 1)}
+            disabled={page === 1}
+          >
+            Prev
+          </button>
 
-      {/* Pagination */}
-      <div className="pagination">
-        <button
-          className="page-btn"
-          onClick={() => setPage(page - 1)}
-          disabled={page === 1}
-        >
-          Prev
-        </button>
+          <span className="page-status">
+            Page {page} of {totalPages}
+          </span>
 
-        <span className="page-status">
-          Page {page} of {totalPages}
-        </span>
-
-        <button
-          className="page-btn"
-          onClick={() => setPage(page + 1)}
-          disabled={page === totalPages}
-        >
-          Next
-        </button>
+          <button
+            className="page-btn"
+            onClick={() => setPage(page + 1)}
+            disabled={page === totalPages}
+          >
+            Next
+          </button>
+        </div>
       </div>
     </main>
   );
