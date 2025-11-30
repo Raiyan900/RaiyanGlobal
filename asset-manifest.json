@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.5bc228a6.css",
-    "main.js": "/website/static/js/main.600561a1.js",
+    "main.css": "/website/static/css/main.94b70791.css",
+    "main.js": "/website/static/js/main.7ae69561.js",
     "static/js/453.d6ad4dea.chunk.js": "/website/static/js/453.d6ad4dea.chunk.js",
-    "static/media/image.png": "/website/static/media/image.4980ca7b7bf56084ddad.png",
+    "static/media/fruits_video.mp4": "/website/static/media/fruits_video.b3b8a2d7fdf59009a678.mp4",
     "static/media/customer.png": "/website/static/media/customer.b1bf071515c9ede083c3.png",
+    "static/media/abc.png": "/website/static/media/abc.858a148068af08bfc7e9.png",
     "static/media/packhouse.png": "/website/static/media/packhouse.f4a05954b4000fc3f61a.png",
     "static/media/alphonsomango.png": "/website/static/media/alphonsomango.e3a02ef0a4ad5dc48ab9.png",
-    "static/media/logo.png": "/website/static/media/logo.e56ddd3e9b13475f2491.png",
     "static/media/POMEGRANATE.jpg": "/website/static/media/POMEGRANATE.a941a3bafe97e181bd95.jpg",
     "static/media/PINKGUAVA.jpg": "/website/static/media/PINKGUAVA.1b6e13bab42545a0d882.jpg",
     "static/media/CHAMELIBER.jpg": "/website/static/media/CHAMELIBER.6f599a0b474c3e35b427.jpg",
@@ -41,21 +41,23 @@
     "static/media/airport.png": "/website/static/media/airport.d138e960ab8787b3e2d2.png",
     "static/media/Pickles.jpg": "/website/static/media/Pickles.e3c8260316669dbaf5cb.jpg",
     "static/media/SAPOTACHIKU.jpg": "/website/static/media/SAPOTACHIKU.17681fd3e76d748934f8.jpg",
+    "static/media/logo.jpg": "/website/static/media/logo.a43ea7c9d5e7591c2d18.jpg",
     "static/media/APPLEBER.jpg": "/website/static/media/APPLEBER.d8481e6aee6ecc07407c.jpg",
     "static/media/KHATUMDA.jpg": "/website/static/media/KHATUMDA.fad3582ef1c1f46101e7.jpg",
     "static/media/RAYNA.jpg": "/website/static/media/RAYNA.b7bd4249cc87801cfe3f.jpg",
     "static/media/GRAPES.jpg": "/website/static/media/GRAPES.4f56eb120839169e4e43.jpg",
     "static/media/drumstick.jpg": "/website/static/media/drumstick.bd5efe91b594ea658991.jpg",
+    "static/media/logos.jpg": "/website/static/media/logos.dfb7a38d260a6a278d60.jpg",
     "static/media/GUAVA.jpg": "/website/static/media/GUAVA.9509337322ea31c48c9c.jpg",
     "static/media/JALEBIIMLI.jpg": "/website/static/media/JALEBIIMLI.62c33f0f09c6ee3ff6dc.jpg",
     "static/media/CURRYBANANA.jpg": "/website/static/media/CURRYBANANA.b6e9ae4b8f41e6b11599.jpg",
     "index.html": "/website/index.html",
-    "main.5bc228a6.css.map": "/website/static/css/main.5bc228a6.css.map",
-    "main.600561a1.js.map": "/website/static/js/main.600561a1.js.map",
+    "main.94b70791.css.map": "/website/static/css/main.94b70791.css.map",
+    "main.7ae69561.js.map": "/website/static/js/main.7ae69561.js.map",
     "453.d6ad4dea.chunk.js.map": "/website/static/js/453.d6ad4dea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bc228a6.css",
-    "static/js/main.600561a1.js"
+    "static/css/main.94b70791.css",
+    "static/js/main.7ae69561.js"
   ]
 }
