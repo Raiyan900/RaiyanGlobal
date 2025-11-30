@@ -1,5 +1,5 @@
 import '../Components/home/Home.css';
-import Images from "../assets/logo/image.png";
+import video from "../assets/fruits_video.mp4";
 import Mango from "../assets/products/mango/alphonsomango.png";
 import PoiBhaji from "../assets/products/vegetables/PoiBhaji.jpg";
 import background from "../assets/background.png";
@@ -12,7 +12,7 @@ const Body = () => {
 
       <div className="body-container">
         <div className="Container">
-          <img src={Images} alt="Fresh Vegetables" className="hero-image" />
+          <video src={video} autoPlay muted loop className="hero-video"></video>
           <div className="hero-content">
             <h1>Delivering Sustainable.</h1>
             <h2 className='h1_p'>Food Solutions</h2>

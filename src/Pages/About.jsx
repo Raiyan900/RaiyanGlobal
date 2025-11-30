@@ -39,7 +39,11 @@ export default function About() {
         </div>
 
         <div class="supplychain">
-          <h2>Our Supply Chain</h2>
+          <div className="supplychain-flex">
+            <h1 className="h1_h1">Our </h1>
+            <h1 className="h2_h2"> Supply </h1>
+            <h1 className="h1_h1">Supply</h1>
+          </div>
           <div class="supplychain-cards">
             <div class="supplychain-card">
               <img src={farm} alt="Farm" />
@@ -77,7 +81,10 @@ export default function About() {
             </div>
           </div>
         </div>
-        <h1 className="wy-choose-us">Why choose Us</h1>
+        <div className="wy-flex">
+          <h1 className="wy-choose-uss">Why</h1>
+          <h1 className="wy-choose-us">Choose Us</h1>
+        </div>
         <div className="card-main">
           <div className="card">
             <div className="icon">
