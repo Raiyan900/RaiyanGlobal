@@ -1,5 +1,5 @@
 import '../Components/Aboutcss/About.css';
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/logo/logo.jpg";
 import farm from "../assets/images/Farm.png";
 import packhouse from "../assets/images/packhouse.png";
 import airport from "../assets/images/airport.png";

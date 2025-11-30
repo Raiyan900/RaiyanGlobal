@@ -1,9 +1,9 @@
-import '../Components/Hero/Hero.css';
+import '../Components/home/Home.css';
 import Images from "../assets/logo/image.png";
 import Mango from "../assets/products/mango/alphonsomango.png";
 import PoiBhaji from "../assets/products/vegetables/PoiBhaji.jpg";
 import background from "../assets/background.png";
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/abc.png";
 import { Link } from "react-router-dom";
 
 const Body = () => {
@@ -14,20 +14,23 @@ const Body = () => {
         <div className="Container">
           <img src={Images} alt="Fresh Vegetables" className="hero-image" />
           <div className="hero-content">
-            <h1>Freshness Beyond Borders.</h1>
+            <h1>Delivering Sustainable.</h1>
+            <h2 className='h1_p'>Food Solutions</h2>
+            <p>We provide workplace dining that balances taste, nutrition and operational discipline.With strong hygiene protocols and trained manpower, we deliver reliability across industries.
+              Sustainability guides not just what we serve, but how source, prepare, and manage food services.</p>
             <button className="contact-btn"><a href="#/Contact">Contact us</a></button>
           </div>
         </div>
 
         <div className="aboutus-section">
           <div className="abt-img">
-            <img src={logo} alt="" className="about-image" />
+            <img src={logo} alt="" />
           </div>
 
           <div className="abt-text">
-            <p className="paras">
+            <h2 className="paras">
               Welcome to
-            </p>
+            </h2>
             <h1>Raiyan Global</h1>
             <p className="p1">
               We were established in the year 2022. We are best exporter of premium fruits and vegetables, committed to delivering fresh, high-quality produce to customers worldwide..
@@ -38,12 +41,15 @@ const Body = () => {
             <p className="p3">
               Our Motto is "We Believe in Quality"
             </p>
-            <button className="learn-more-btn"><a href="#/About">Learn More...</a></button>
+            <button className="learn-more-btn"><a href="#/About">Know More</a></button>
           </div>
         </div>
 
         <div className="why_choose_main_container">
-          <h1 className="wy-choose-us">Why choose Us</h1>
+          <div className="wy-flex">
+            <h1 className="wy-choose-uss">Why</h1>
+            <h1 className="wy-choose-us">Choose Us</h1>
+          </div>
           <div className="card-main">
             <div className="card">
               <div className="icon">
@@ -154,7 +160,10 @@ const Body = () => {
         </div>
 
         <div className="products-section">
-          <h1 className="prdts-fd-h1">Featured Products</h1>
+          <div className="feature_product_flex">
+          <h1 className="prdts-fd-h1_p1">Featured</h1>
+          <h1 className="prdts-fd-h1_p2">Products</h1>
+          </div>
 
           <div className="prdts-fd">
             {/* Card 1 */}
@@ -197,7 +206,7 @@ const Body = () => {
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </>
 
   );

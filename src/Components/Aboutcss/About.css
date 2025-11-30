@@ -20,7 +20,7 @@
 }
 
 .image-bg {
-  background-color: #102F2C;
+  background-color: var(--primary-dark);
   border-radius: 15px;
   padding: 40px 60px;
   display: flex;
@@ -36,11 +36,11 @@
 }
 
 .textpart_aboutus h1{
-  color: #F3AF59;
+  color: var(--accent);
 }
 
 .textpart_aboutus h3{
-  color: #F3AF59;
+  color: var(--accent);
 }
 
 .aboutcompany_detail p{
@@ -50,7 +50,7 @@
 }
 
 .our_community{
-  background-color: #102F2C;
+  background-color: var(--primary-dark);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   padding: 20px 40px;
   border-radius: 20px;
@@ -63,7 +63,7 @@
 }
 
 .box h2{
-  color: #F3AF59;
+  color: var(--accent);
   font-size: 30px;
 }
 
@@ -82,7 +82,7 @@
 .supplychain h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #F3AF59 ;
+  color: var(--accent) ;
 }
 
 .supplychain-cards {
@@ -102,7 +102,7 @@
 }
 
 .supplychain-card {
-  background-color: #102F2C;
+  background-color: var(--primary-dark);
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -126,8 +126,8 @@
 }
 
 .supplychain-card .icon {
-  background-color: #FCE8D3;
-  color: #F3AF59;
+  background-color: var(--mint);
+  color: var(--accent);
   font-size: 1.4rem;
   width: 60px;
   height: 60px;
@@ -140,13 +140,13 @@
 }
 
 .supplychain-card h3 {
-  color: #F3AF59;
+  color: var(--accent);
   font-size: 1.3rem;
   margin: 10px 0;
 }
 
 .supplychain-card p {
-  color: #FCE8D3;
+  color: var(--mint);
   font-size: 0.95rem;
   padding: 0 15px 20px;
 }
@@ -177,7 +177,7 @@
 }
 
 .learn-more-btn{
-    color: #F3AF59;
+    color: var(--accent);
     border: none;
     padding: 2px;
     border-radius: 20px;
@@ -188,11 +188,11 @@
 
 .learn-more-btn a{
     text-decoration: none;
-    color: #F3AF59 ;
+    color: var(--accent) ;
 }
 
 .learn-more-btn:hover {
-    color: #F3F3F3;
+    color: var(--lightgreen);
 }
 
 .para{
@@ -212,10 +212,14 @@
   height: 250px;
   text-align: center;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-;
   color: #065f46;
   margin-bottom: 100px;
   margin-left: 50px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 90px;
+  border-bottom-left-radius: 0px;
 }
 
 .card .icon {
@@ -245,11 +249,6 @@
     justify-content: center;
 }
 
-.wy-choose-us{
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 10px;
-}
 
 @media (max-width: 768px) {
 
@@ -267,7 +266,7 @@
 
   .image-bg {
     padding: 20px;
-    background-color: #102F2C;
+    background-color: var(--primary-dark);
   }
 
   .image-bg img {

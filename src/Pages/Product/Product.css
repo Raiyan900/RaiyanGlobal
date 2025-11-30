@@ -8,7 +8,7 @@
   text-align: center;
   font-size: 2.1rem;
   font-weight: 700;
-  color: #F3AF59;
+  color: var(--accent);
   margin-bottom: 25px;
 }
 
@@ -25,13 +25,13 @@
   padding: 12px 14px;
   border-radius: 12px;
   font-size: 0.95rem;
-  color: #F3AF59;
+  color: var(--accent);
   background: transparent;
-  border: 1px solid #F3AF59;
+  border: 1px solid var(--accent);
 }
 
 .search-input::placeholder {
-  color: #F3AF59;
+  color: var(--accent);
 }
 
 .search-input {
@@ -44,8 +44,8 @@
 
 .category-select {
   background: transparent;
-  color: #F3AF59;
-  border: 1px solid #F3AF59;
+  color: var(--accent);
+  border: 1px solid var(--accent);
   padding: 12px 14px;
   border-radius: 12px;
   font-size: 0.95rem;
@@ -53,8 +53,8 @@
 }
 
 .category-select option {
-  background: #205751; 
-  color: #F3AF59;
+  background: var(--primary); 
+  color: var(--accent);
   padding: 10px;
 }
 
@@ -78,8 +78,8 @@
 }
 
 .page-btn {
-  background: #102F2C;
-  color: #F3AF59;
+  background: var(--primary-dark);
+  color: var(--accent);
   border: none;
   padding: 9px 18px;
   border-radius: 8px;
@@ -89,7 +89,7 @@
 }
 
 .page-btn:hover {
-  background: #FCE8D3;
+  background: var(--mint);
 }
 
 .page-btn:disabled {
@@ -99,7 +99,7 @@
 
 .page-status {
   font-size: 0.95rem;
-  color: #F3AF59;
+  color: var(--accent);
   font-weight: 600;
 }
 

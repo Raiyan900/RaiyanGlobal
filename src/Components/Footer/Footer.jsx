@@ -1,5 +1,5 @@
 import './Footer.css';
-import logos from "../../assets/logo/logo.png";
+import logos from "../../assets/logo/logo.jpg";
 
 export default function Footer() {
     return (
@@ -48,6 +48,12 @@ export default function Footer() {
                 <div className="footer-col address">
                     <h2>Stay in Touch!</h2>
 
+                    <div className="social-icons">
+                        <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i className="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
                     <div className="footer-item">
                         <i className="fa-solid fa-location-crosshairs"></i>
                         <p>Versova, Andheri West, Mumbai 500061, Maharashtra</p>
@@ -73,11 +79,6 @@ export default function Footer() {
                         <p>sales.raiyanglobal@gmail.com</p>
                     </div>
 
-                    <div className="social-icons">
-                        <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i className="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
-                    </div>
                 </div>
 
             </footer>

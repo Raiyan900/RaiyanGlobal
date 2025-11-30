@@ -1,16 +1,14 @@
 .footer {
-  background: #102F2C;
+  background-color: var(--primary-light);
   display: flex;
-  justify-content: space-around;
   padding: 40px 5%;
-  gap: 50px;
   font-size: large;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   flex-wrap: nowrap;
 }
 
 .footer h2 {
-  color: #F3AF59;
+  color: var(--accent);
 }
 
 .img-cnt img {
@@ -25,7 +23,7 @@
 }
 
 .footer p {
-  color: #F3F3F3;
+  color:var(--lightgreen);
 }
 
 .address h2 {
@@ -36,7 +34,7 @@
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .footer-item i {
@@ -44,7 +42,7 @@
   margin-top: 3px;
   padding-top: 2px;
   min-width: 20px;
-  color: #F3AF59;
+  color: var(--accent);
 }
 
 .footer-item p {
@@ -56,6 +54,7 @@
 .abouts_us,
 .quick-links {
   max-width: 300px;
+  margin-right: 100px;
 }
 
 .link-column {
@@ -65,32 +64,47 @@
 .link-column {
   display: flex;
   flex-direction: column;
+  justify-content: left;
+  margin-left: 40px;
+}
+
+.quick-links {
+  width: 100%;
+  max-width: 500px;
 }
 
 .link-column a {
-  color: #F3F3F3;
+  display: block;
+  border-bottom: 1.5px solid var(--lightgreen);
+  padding-bottom: 18px;
+  padding-top: 18px;
+  color: var(--mint);
   text-decoration: none;
-  margin-bottom: 8px;
+}
+
+.quick-links h2{
+  margin-left: 40px;
 }
 
 .link-column a:hover {
-  color: #F3AF59;
+  color: var(--accent);
 }
 
 .address {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-left: 40px;
 }
 
-.address .social-icons {
-  margin-top: 15px;
+.address .social-icons{
+  margin-top: 0%;
   display: flex;
   gap: 20px;
 }
 
 .address .social-icons a {
-  color: #F3F3F3;
+  color: var(--lightgreen);
   text-decoration: none;
   font-size: 28px;
   transition: transform 0.6s;
@@ -98,12 +112,12 @@
 }
 
 .address .social-icons a:hover {
-  color: #F3AF59;
+  color: var(--accent);
   transform: translateY(-10px);
 }
 
 .bottom-footer {
-  background: #102F2C;
+  background: var(--primary-dark);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,13 +133,13 @@
 .bottom-footer .left {
   text-align: left;
   padding-left: 90px;
-  color: #F3F3F3;
+  color: var(--lightgreen);
 }
 
 .bottom-footer .right {
   text-align: right;
   padding-right: 90px;
-  color: #F3F3F3
+  color: var(--lightgreen)
 }
 
 .vertical-divider {
@@ -161,10 +175,14 @@
   .footer-item {
     justify-content: flex-start;
     text-align: left;
+    padding: 0px;
   }
 
-  .link-column {
-    align-items: flex-start;
+  .link-column  a {
+    justify-content: flex-start;
+    align-items: left;
+    padding: 0%;
+    margin-right: 50%;
   }
 
   .footer-section-divider {

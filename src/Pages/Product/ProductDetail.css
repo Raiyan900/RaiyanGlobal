@@ -1,13 +1,13 @@
 .product-wrapper {
   width: 100%;
   min-height: 100vh;
-  background: #205751 ;
+  background: var(--primary) ;
   padding: 40px 0;
 }
 
 
 .product-detail-page {
-  background: #102F2C;
+  background: var(--primary-dark);
   max-width: 1150px;
   margin: auto;
   padding: 0px 20px;
@@ -22,12 +22,12 @@
 }
 
 .detail-header h1 {
-  color: #F3AF59;
+  color: var(--accent);
   font-size: 2rem;
 }
 
 .back-link {
-  color: #F3AF59;
+  color: var(--accent);
   font-weight: 600;
   text-decoration: none;
 }
@@ -67,8 +67,8 @@
 }
 
 .detail-badge {
-  background: #FCE8D3;
-  color: #F3AF59;
+  background: var(--mint);
+  color: var(--accent);
   padding: 6px 14px;
   border-radius: 100px;
   font-weight: 600;
@@ -78,21 +78,21 @@
 .detail-short {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #F3AF59;
+  color: var(--accent);
 }
 
 .detail-full {
-  color: #FCE8D3 ;
+  color: var(--mint) ;
   line-height: 1.5;
 }
 
 h3{
-  color: #F3AF59;
+  color: var(--accent);
 }
 
 .detail-list li {
   margin-bottom: 6px;
-  color: #FCE8D3;
+  color: var(--mint);
 }
 
 /* Specifications Box */
@@ -116,12 +116,12 @@ h3{
   background: transparent;
   padding: 10px;
   font-weight: 600;
-  color: #FCE8D3 ;
+  color: var(--mint) ;
 }
 
 .spec-val {
   padding: 10px;
-  color: #F3AF59;
+  color: var(--accent);
 }
 
 /* Mobile */

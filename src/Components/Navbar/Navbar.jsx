@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Navbar.css";
-import logos from "../../assets/logo/logo.png";
+import logo from "../../assets/logo/logos.jpg";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="Navbar">
       <div className="rightside">
         <a href="#/">
-          <img src={logos} alt="Logo" />
+          <img src={logo} alt="Logo" />
         </a>
         <a href="#/"><h2>Raiyan Global</h2></a>
       </div>
