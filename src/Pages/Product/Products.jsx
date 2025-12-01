@@ -8,7 +8,7 @@ export default function Products() {
   const [category, setCategory] = useState("All");
   const [page, setPage] = useState(1);
 
-  const pageSize = 9;
+  const pageSize = 12;
 
   // All categories
   const categories = ["All", ...new Set(productsData.map(p => p.category))];
