@@ -1,10 +1,20 @@
-import '../Components/home/Home.css';
+import "../Components/style/Home.css";
 import video from "../assets/fruits_video.mp4";
-import Mango from "../assets/products/mango/alphonsomango.png";
-import PoiBhaji from "../assets/products/vegetables/PoiBhaji.jpg";
+import Mango from "../assets/images/products/mango/alphonsomango.png";
+import grapes from "../assets/images/products/fruits/GRAPES.jpg"
+import PoiBhaji from "../assets/images/products/vegetables/PoiBhaji.jpg";
+import bhindi from "../assets/images/products/vegetables/Bhindi.jpg"
+import carrot from "../assets/images/products/vegetables/carrot.jpg"
 import background from "../assets/background.png";
 import logo from "../assets/abc.png";
 import { Link } from "react-router-dom";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+
 
 const Body = () => {
   return (
@@ -161,52 +171,110 @@ const Body = () => {
 
         <div className="products-section">
           <div className="feature_product_flex">
-          <h1 className="prdts-fd-h1_p1">Featured</h1>
-          <h1 className="prdts-fd-h1_p2">Products</h1>
+            <h1 className="prdts-fd-h1_p1">Featured</h1>
+            <h1 className="prdts-fd-h1_p2">Products</h1>
           </div>
 
-          <div className="prdts-fd">
-            {/* Card 1 */}
-            <div className="prdts-fd-cards fruits">
-              <img src={Mango} alt="Mango" />
-              <div className="prdts-content">
-                <h3>Mango</h3>
-                <h2>Premium Alphonso Mangoes</h2>
-                <p>Sweet and juicy Alphonso mangoes</p>
-                <Link to="/product/401" className="view-details">
-                  View More
-                </Link>
-              </div>
+          <div className="prdts-slider-wrapper">
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={20}
+              navigation={{
+                nextEl: ".prdts-next",
+                prevEl: ".prdts-prev",
+              }}
+
+              breakpoints={{
+                640: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+              }}
+              modules={[Navigation]}
+              className="prdts-slider"
+            >
+
+              <SwiperSlide>
+                <div className="prdts-fd-cards fruits">
+                  <img src={Mango} alt="Mango" />
+                  <div className="prdts-content">
+                    <h3>Mango</h3>
+                    <h2>Premium Alphonso Mangoes</h2>
+                    <p>Sweet and juicy Alphonso mangoes</p>
+                    <Link to="/product/401" className="view-details">
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="prdts-fd-cards spices">
+                  <img src={grapes} alt="Veg" />
+                  <div className="prdts-content">
+                    <h3>Fruits</h3>
+                    <h2>Fresh Premium Grapes</h2>
+                    <p>Fresh, export-grade Grapes.</p>
+                    <Link to="/Product/307" className="view-details">View More</Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="prdts-fd-cards spices">
+                  <img src={carrot} alt="Spices" />
+                  <div className="prdts-content">
+                    <h3>Vegetables</h3>
+                    <h2>Fresh Premium Vegetables</h2>
+                    <p>Fresh, export-grade vegetables.</p>
+                    <Link to="/Product/202" className="view-details">View More</Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="prdts-fd-cards spices">
+                  <img src={PoiBhaji} alt="Spices" />
+                  <div className="prdts-content">
+                    <h3>Vegetables</h3>
+                    <h2>Fresh Premium Vegetables</h2>
+                    <p>Fresh, export-grade vegetables.</p>
+                    <Link to="/Product/208" className="view-details">View More</Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="prdts-fd-cards spices">
+                  <img src={bhindi} alt="Spices" />
+                  <div className="prdts-content">
+                    <h3>Vegetables</h3>
+                    <h2>Fresh Premium Vegetables</h2>
+                    <p>Fresh, export-grade vegetables.</p>
+                    <Link to="/Product/201" className="view-details">View More</Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="prdts-fd-cards rice">
+                  <img src={background} alt="Rice" />
+                  <div className="prdts-content">
+                    <h3>View More</h3>
+                    <h2>Explore All Products</h2>
+                    <p>Explore our full range of export-quality items.</p>
+                    <Link to="/products" className="view-details">View Products</Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+
+            <div className="prdts-nav">
+              <div className="prdts-prev">←</div>
+              <div className="prdts-next">→</div>
             </div>
 
-            {/* Card 2 */}
-            <div className="prdts-fd-cards spices">
-              <img src={PoiBhaji} alt="Spices" />
-              <div className="prdts-content">
-                <h3>Vegetables</h3>
-                <h2>Fresh Premium Vegetables</h2>
-                <p>Fresh, export-grade vegetables.</p>
-                <Link to="/Product/208" className="view-details">
-                  View More
-                </Link>
-              </div>
-            </div>
-
-            {/* Card 3 */}
-            <div className="prdts-fd-cards rice">
-              <img src={background} alt="Rice" />
-              <div className="prdts-content">
-                <h3>View More</h3>
-                <h2>Explore All Products</h2>
-                <p>Explore our full range of export-quality items.</p>
-                <Link to="/products" className="view-details">
-                  View Products
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
-        </div>
+      </div>
     </>
 
   );

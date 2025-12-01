@@ -1,15 +1,17 @@
 import './App.css';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 
-import Navbar from './Components/Navbar/Navbar';
-import Footer from './Components/Footer/Footer';
-import ScrollToTop from './Components/ScrollToTop';
+import Navbar from "./Components/layout/Navbar.jsx";
+import Footer from "./Components/layout/Footer";
+import ScrollToTop from "./Components/common/ScrollToTop";
 
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
-import Products from './Pages/Product/Products';
-import ProductDetail from './Pages/Product/ProductDetail';
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+
+import Products from "./Pages/Product/Products";
+import ProductDetail from "./Pages/Product/ProductDetail";
+
 
 function App() {
   return (

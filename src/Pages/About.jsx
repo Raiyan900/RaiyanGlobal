@@ -1,4 +1,4 @@
-import '../Components/Aboutcss/About.css';
+import "../Components/style/About.css";
 import logo from "../assets/logo/logo.jpg";
 import farm from "../assets/images/Farm.png";
 import packhouse from "../assets/images/packhouse.png";

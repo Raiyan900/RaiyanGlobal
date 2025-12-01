@@ -1,8 +1,19 @@
+import alphonsomango from "../../assets/images/products/mango/alphonsomango.png";
+import AmrapaliMango from "../../assets/images/products/mango/AmrapaliMango.png";
+import BadamiMango from "../../assets/images/products/mango/BadamiMango.png";
+import ChoulsaMango from "../../assets/images/products/mango/ChoulsaMango.png";
+import KesarMango from "../../assets/images/products/mango/KesarMango.png";
+import LengdaMango from "../../assets/images/products/mango/LengdaMango.png";
+import PayariMango from "../../assets/images/products/mango/PayariMango.png";
+import RajapuriMango from "../../assets/images/products/mango/RajapuriMango.png";
+import Rawmango from "../../assets/images/products/mango/Rawmango.png";
+import TotapuriMango from "../../assets/images/products/mango/TotapuriMango.png";
+
 const mango = [
-      {
+  {
     id: 401,
     name: "Alphonso Mango",
-    image: require("../../assets/products/mango/alphonsomango.png"),
+    image: alphonsomango,
     category: "Mangos",
     shortDescription: "The king of mangoes with rich aroma and sweetness.",
     fullDescription:
@@ -24,7 +35,7 @@ const mango = [
   {
     id: 402,
     name: "Amrapali Mango",
-    image: require("../../assets/products/mango/AmrapaliMango.png"),
+    image: AmrapaliMango,
     category: "Mangos",
     shortDescription: "A sweet hybrid mango variety with deep orange pulp.",
     fullDescription:
@@ -41,7 +52,7 @@ const mango = [
   {
     id: 403,
     name: "Badami Mango",
-    image: require("../../assets/products/mango/BadamiMango.png"),
+    image: BadamiMango,
     category: "Mangos",
     shortDescription: "Often called the 'Alphonso of Karnataka'.",
     fullDescription:
@@ -58,7 +69,7 @@ const mango = [
   {
     id: 404,
     name: "Chausa Mango",
-    image: require("../../assets/products/mango/ChoulsaMango.png"),
+    image: ChoulsaMango,
     category: "Mangos",
     shortDescription: "Famous North-Indian mango known for juiciness.",
     fullDescription:
@@ -75,7 +86,7 @@ const mango = [
   {
     id: 405,
     name: "Kesar Mango",
-    image: require("../../assets/products/mango/KesarMango.png"),
+    image: KesarMango,
     category: "Mangos",
     shortDescription: "Known as the 'Queen of Mangoes' for its saffron color.",
     fullDescription:
@@ -92,7 +103,7 @@ const mango = [
   {
     id: 406,
     name: "Lengda Mango",
-    image: require("../../assets/products/mango/LengdaMango.png"),
+    image: LengdaMango,
     category: "Mangos",
     shortDescription: "Strong-flavored mango variety from North India.",
     fullDescription:
@@ -109,7 +120,7 @@ const mango = [
   {
     id: 407,
     name: "Payari Mango",
-    image: require("../../assets/products/mango/PayariMango.png"),
+    image: PayariMango,
     category: "Mangos",
     shortDescription: "A juicy and aromatic mango from Maharashtra.",
     fullDescription:
@@ -126,7 +137,7 @@ const mango = [
   {
     id: 408,
     name: "Rajapuri Mango",
-    image: require("../../assets/products/mango/RajapuriMango.png"),
+    image: RajapuriMango,
     category: "Mangos",
     shortDescription: "Large-sized mango with mild sweetness.",
     fullDescription:
@@ -143,7 +154,7 @@ const mango = [
   {
     id: 409,
     name: "Raw Mango",
-    image: require("../../assets/products/mango/Rawmango.png"),
+    image: Rawmango,
     category: "Mangos",
     shortDescription: "Tangy raw mango used for pickles & chutneys.",
     fullDescription:
@@ -160,7 +171,7 @@ const mango = [
   {
     id: 410,
     name: "Totapuri Mango",
-    image: require("../../assets/products/mango/TotapuriMango.png"),
+    image: TotapuriMango,
     category: "Mangos",
     shortDescription: "A long mango variety widely used for pulp.",
     fullDescription:

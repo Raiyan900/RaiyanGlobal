@@ -1,8 +1,21 @@
+import Bhindi from "../../assets/images/products/vegetables/Bhindi.jpg";
+import carrot from "../../assets/images/products/vegetables/carrot.jpg";
+import drumstick from "../../assets/images/products/vegetables/drumstick.jpg";
+import DrumstickFlowerStems from "../../assets/images/products/vegetables/DrumstickFlowerStems.jpg";
+import Dudhi from "../../assets/images/products/vegetables/Dudhi.jpg";
+import onion from "../../assets/images/products/vegetables/onion.jpg";
+import Pickles from "../../assets/images/products/vegetables/Pickles.jpg";
+import PoiBhaji from "../../assets/images/products/vegetables/PoiBhaji.jpg";
+import suran from "../../assets/images/products/vegetables/suran.jpg";
+import SurtiPapdi from "../../assets/images/products/vegetables/SurtiPapdi.jpg";
+import Tindora from "../../assets/images/products/vegetables/Tindora.jpg";
+import YHaldi from "../../assets/images/products/vegetables/Y.Haldi.jpg";
+
 const vegetables = [
   {
     id: 201,
     name: "Fresh Bhindi (Okra)",
-    image: require("../../assets/products/vegetables/Bhindi.jpg"),
+    image: Bhindi,
     category: "Vegetables",
     shortDescription:
       "Premium export-grade bhindi with uniform size and natural green color.",
@@ -25,7 +38,7 @@ const vegetables = [
   {
     id: 202,
     name: "Fresh Carrots",
-    image: require("../../assets/products/vegetables/carrot.jpg"),
+    image: carrot,
     category: "Vegetables",
     shortDescription:
       "Fresh, naturally sweet carrots grown in clean soil and packed for export.",
@@ -48,7 +61,7 @@ const vegetables = [
   {
     id: 203,
     name: "Fresh Drumsticks (Moringa Pods)",
-    image: require("../../assets/products/vegetables/drumstick.jpg"),
+    image: drumstick,
     category: "Vegetables",
     shortDescription:
       "Long, firm and fresh moringa pods specially sorted for export.",
@@ -71,7 +84,7 @@ const vegetables = [
   {
     id: 204,
     name: "Drumstick Flower Stems",
-    image: require("../../assets/products/vegetables/DrumstickFlowerStems.jpg"),
+    image: DrumstickFlowerStems,
     category: "Vegetables",
     shortDescription:
       "Fresh moringa flower stems carefully cut and packed for export usage.",
@@ -94,7 +107,7 @@ const vegetables = [
   {
     id: 205,
     name: "Fresh Dudhi (Bottle Gourd)",
-    image: require("../../assets/products/vegetables/Dudhi.jpg"),
+    image: Dudhi,
     category: "Vegetables",
     shortDescription:
       "Fresh tender bottle gourd ideal for cooking and long-distance export.",
@@ -117,7 +130,7 @@ const vegetables = [
   {
     id: 206,
     name: "Fresh Onion",
-    image: require("../../assets/products/vegetables/onion.jpg"),
+    image: onion,
     category: "Vegetables",
     shortDescription:
       "Naturally grown fresh onions ideal for global retail and wholesale markets.",
@@ -140,7 +153,7 @@ const vegetables = [
   {
     id: 207,
     name: "Pickles Vegetables (Mixed)",
-    image: require("../../assets/products/vegetables/Pickles.jpg"),
+    image: Pickles,
     category: "Vegetables",
     shortDescription: "Fresh vegetables ideal for pickle making.",
     fullDescription:
@@ -157,7 +170,7 @@ const vegetables = [
   {
     id: 208,
     name: "Poi Bhaji (Malabar Spinach)",
-    image: require("../../assets/products/vegetables/PoiBhaji.jpg"),
+    image: PoiBhaji,
     category: "Vegetables",
     shortDescription: "Fresh tender Malabar spinach leaves and stems.",
     fullDescription:
@@ -179,7 +192,7 @@ const vegetables = [
   {
     id: 209,
     name: "Fresh Suran (Elephant Foot Yam)",
-    image: require("../../assets/products/vegetables/suran.jpg"),
+    image: suran,
     category: "Vegetables",
     shortDescription: "Firm and export-quality elephant foot yam.",
     fullDescription:
@@ -201,7 +214,7 @@ const vegetables = [
   {
     id: 210,
     name: "Fresh Surti Papdi",
-    image: require("../../assets/products/vegetables/SurtiPapdi.jpg"),
+    image: SurtiPapdi,
     category: "Vegetables",
     shortDescription:
       "Fresh green Surti Papdi known for its tenderness and export demand.",
@@ -224,7 +237,7 @@ const vegetables = [
   {
     id: 211,
     name: "Fresh Tindora (Ivy Gourd)",
-    image: require("../../assets/products/vegetables/Tindora.jpg"),
+    image: Tindora,
     category: "Vegetables",
     shortDescription:
       "High-quality Tindora with natural shine and freshness for export.",
@@ -247,7 +260,7 @@ const vegetables = [
   {
     id: 212,
     name: "Fresh Haldi (Turmeric Root)",
-    image: require("../../assets/products/vegetables/Y.Haldi.jpg"),
+    image: YHaldi,
     category: "Vegetables",
     shortDescription:
       "Premium fresh turmeric root with rich aroma and natural yellow color.",

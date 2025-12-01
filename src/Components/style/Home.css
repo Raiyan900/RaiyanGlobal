@@ -397,7 +397,6 @@
   font-size: 20px;
 }
 
-/* Wrapper keeps swiper centered */
 .prdts-slider-wrapper {
   width: 90%;
   max-width: 1300px;
@@ -405,7 +404,6 @@
   position: relative;
 }
 
-/* Arrows stay inside wrapper */
 .prdts-nav {
   width: 100%;
   max-width: 1300px;
@@ -415,44 +413,37 @@
   height: 0;
 }
 
+.prdts-nav :hover{
+  background: var(--accent);
+}
 
-/* Left arrow */
 .prdts-prev {
   position: absolute;
   left: 0;
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  background: #f2c48d;
+  background: var(--mint);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 22px;
-  color: #073c3b;
+  color: var(--primary);
   cursor: pointer;
 }
 
-/* Right arrow */
 .prdts-next {
   position: absolute;
   right: 80px;
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  background: #f2c48d;
+  background: var(--mint);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 22px;
-  color: #073c3b;
+  color: var(--primary);
   cursor: pointer;
 }
 
-
-.prdts-prev {
-  left: 0;
-}
-
-.prdts-next {
-  right: 0;
-}

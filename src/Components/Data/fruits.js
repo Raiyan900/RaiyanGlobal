@@ -1,8 +1,26 @@
+import APPLEBER from "../../assets/images/products/fruits/APPLEBER.jpg";
+import BIGGUAVA from "../../assets/images/products/fruits/BIGGUAVA.jpg";
+import CHAMELIBER from "../../assets/images/products/fruits/CHAMELIBER.jpg";
+import CURRYBANANA from "../../assets/images/products/fruits/CURRYBANANA.jpg";
+import CUSTURDAPPLE from "../../assets/images/products/fruits/CUSTURDAPPLE.jpg";
+import ELAICHIBANANA from "../../assets/images/products/fruits/ELAICHIBANANA.jpg";
+import GRAPES from "../../assets/images/products/fruits/GRAPES.jpg";
+import GUAVA from "../../assets/images/products/fruits/GUAVA.jpg";
+import JALEBIIMLI from "../../assets/images/products/fruits/JALEBIIMLI.jpg";
+import KHATUMDA from "../../assets/images/products/fruits/KHATUMDA.jpg";
+import PAPAYA from "../../assets/images/products/fruits/PAPAYA.jpg";
+import PINKGUAVA from "../../assets/images/products/fruits/PINKGUAVA.jpg";
+import POMEGRANATE from "../../assets/images/products/fruits/POMEGRANATE.jpg";
+import RAYNA from "../../assets/images/products/fruits/RAYNA.jpg";
+import SAPOTACHIKU from "../../assets/images/products/fruits/SAPOTACHIKU.jpg";
+import TADGOLA from "../../assets/images/products/fruits/TADGOLA.jpg";
+import WATERMALON from "../../assets/images/products/fruits/WATERMALON.jpg";
+
 const fruits = [
   {
     id: 301,
     name: "Fresh Apple Ber",
-    image: require("../../assets/products/fruits/APPLEBER.jpg"),
+    image: APPLEBER,
     category: "Fruits",
     shortDescription: "Sweet and juicy apple ber sourced from premium orchards.",
     fullDescription:
@@ -24,7 +42,7 @@ const fruits = [
   {
     id: 302,
     name: "Fresh Big Guava",
-    image: require("../../assets/products/fruits/BIGGUAVA.jpg"),
+    image: BIGGUAVA,
     category: "Fruits",
     shortDescription: "Large, firm and sweet guavas ideal for export.",
     fullDescription:
@@ -41,7 +59,7 @@ const fruits = [
   {
     id: 303,
     name: "Fresh Chameliber",
-    image: require("../../assets/products/fruits/CHAMELIBER.jpg"),
+    image: CHAMELIBER,
     category: "Fruits",
     shortDescription: "Traditional Indian fruit with a rich sweet-tangy profile.",
     fullDescription:
@@ -58,7 +76,7 @@ const fruits = [
   {
     id: 304,
     name: "Curry Banana",
-    image: require("../../assets/products/fruits/CURRYBANANA.jpg"),
+    image: CURRYBANANA,
     category: "Fruits",
     shortDescription: "Fresh raw curry bananas perfect for cooking and export.",
     fullDescription:
@@ -75,7 +93,7 @@ const fruits = [
   {
     id: 305,
     name: "Fresh Custard Apple",
-    image: require("../../assets/products/fruits/CUSTURDAPPLE.jpg"),
+    image: CUSTURDAPPLE,
     category: "Fruits",
     shortDescription: "Soft, creamy and sweet custard apples.",
     fullDescription:
@@ -92,7 +110,7 @@ const fruits = [
   {
     id: 306,
     name: "Elaichi Banana",
-    image: require("../../assets/products/fruits/ELAICHIBANANA.jpg"),
+    image: ELAICHIBANANA,
     category: "Fruits",
     shortDescription: "Small, sweet, aromatic elaichi bananas.",
     fullDescription:
@@ -109,7 +127,7 @@ const fruits = [
   {
     id: 307,
     name: "Fresh Grapes",
-    image: require("../../assets/products/fruits/GRAPES.jpg"),
+    image: GRAPES,
     category: "Fruits",
     shortDescription: "Juicy, seedless export-quality grapes.",
     fullDescription:
@@ -126,7 +144,7 @@ const fruits = [
   {
     id: 308,
     name: "Fresh Guava",
-    image: require("../../assets/products/fruits/GUAVA.jpg"),
+    image: GUAVA,
     category: "Fruits",
     shortDescription: "Crisp, juicy and aromatic fresh guavas.",
     fullDescription:
@@ -143,7 +161,7 @@ const fruits = [
   {
     id: 309,
     name: "Fresh Jalebi Imli",
-    image: require("../../assets/products/fruits/JALEBIIMLI.jpg"),
+    image: JALEBIIMLI,
     category: "Fruits",
     shortDescription: "Sweet tamarind variety known for jalebi-like texture.",
     fullDescription:
@@ -160,7 +178,7 @@ const fruits = [
   {
     id: 310,
     name: "Fresh Khatta Umda",
-    image: require("../../assets/products/fruits/KHATUMDA.jpg"),
+    image: KHATUMDA,
     category: "Fruits",
     shortDescription: "Sour, tangy and fresh umda fruit.",
     fullDescription:
@@ -177,7 +195,7 @@ const fruits = [
   {
     id: 311,
     name: "Fresh Papaya",
-    image: require("../../assets/products/fruits/PAPAYA.jpg"),
+    image: PAPAYA,
     category: "Fruits",
     shortDescription: "Sweet, orange-fleshed export papayas.",
     fullDescription:
@@ -194,7 +212,7 @@ const fruits = [
   {
     id: 312,
     name: "Fresh Pink Guava",
-    image: require("../../assets/products/fruits/PINKGUAVA.jpg"),
+    image: PINKGUAVA,
     category: "Fruits",
     shortDescription: "Pink-fleshed guava with natural aroma.",
     fullDescription:
@@ -211,7 +229,7 @@ const fruits = [
   {
     id: 313,
     name: "Fresh Pomegranate",
-    image: require("../../assets/products/fruits/POMEGRANATE.jpg"),
+    image: POMEGRANATE,
     category: "Fruits",
     shortDescription: "Bright red arils with premium sweetness.",
     fullDescription:
@@ -228,7 +246,7 @@ const fruits = [
   {
     id: 314,
     name: "Fresh Rayna Fruit",
-    image: require("../../assets/products/fruits/RAYNA.jpg"),
+    image: RAYNA,
     category: "Fruits",
     shortDescription: "Seasonal fruit with natural freshness.",
     fullDescription:
@@ -245,7 +263,7 @@ const fruits = [
   {
     id: 315,
     name: "Fresh Sapota (Chikoo)",
-    image: require("../../assets/products/fruits/SAPOTACHIKU.jpg"),
+    image: SAPOTACHIKU,
     category: "Fruits",
     shortDescription: "Naturally sweet chikoo with soft texture.",
     fullDescription:
@@ -262,7 +280,7 @@ const fruits = [
   {
     id: 316,
     name: "Fresh Tadgola (Ice Apple)",
-    image: require("../../assets/products/fruits/TADGOLA.jpg"),
+    image: TADGOLA,
     category: "Fruits",
     shortDescription:
       "Cooling, hydrating and refreshing ice apple sourced fresh.",
@@ -280,10 +298,9 @@ const fruits = [
   {
     id: 317,
     name: "Fresh Watermelon",
-    image: require("../../assets/products/fruits/WATERMALON.jpg"),
+    image: WATERMALON,
     category: "Fruits",
-    shortDescription:
-      "Juicy, red-fleshed watermelon ideal for export.",
+    shortDescription: "Juicy, red-fleshed watermelon ideal for export.",
     fullDescription:
       "Large, sweet and hydrating watermelons selected by size and sweetness, perfect for international markets.",
     features: ["Sweet", "Refreshing", "Large size"],
