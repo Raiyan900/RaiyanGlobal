@@ -96,11 +96,12 @@
 
   .leftside {
     position: absolute;
-    top: 80px;
+    top: 50px;
     right: 0;
     width: 100%;
     background: var(--primary);
     padding: 20px 0;
+    margin-right: 50px;
     display: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     animation: slide 0.3s ease;
@@ -193,9 +194,8 @@
 
   .leftside ul li a {
     display: block !important;
-    width: 100% !important;
-    padding: 12px 0 !important;
-    border-radius: 0 !important;
+    margin-right: 100px;
+    margin-left: 100px;
   }
 }
 
@@ -208,5 +208,6 @@
 
   .leftside ul li a {
     font-size: 0.9rem !important;
+    margin-top: 0px;
   }
 }
