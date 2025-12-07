@@ -149,67 +149,124 @@
   /* ensures divider height matches columns */
 }
 
+/* ==============================================
+   FOOTER FULL RESPONSIVE FIX (FINAL VERSION)
+================================================ */
 
-
-@media (max-width: 768px) {
+/* TABLET & BELOW */
+@media (max-width: 1024px) {
 
   .footer {
-    flex-direction: column;
-    align-items: flex-start;  /* LEFT aligned */
-    text-align: left;
-    gap: 25px;
-    padding: 25px 20px;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+    gap: 35px !important;
+    padding: 35px 25px !important;
   }
 
-  .img-cnt {
-    justify-content: flex-start;
-  }
-
+  /* Remove big margins */
   .abouts_us,
   .quick-links,
   .address {
-    width: 100%;
-    max-width: 100%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Center logo section */
+  .img-cnt {
+    justify-content: center !important;
+    width: 100% !important;
+  }
+
+  .img-cnt img {
+    width: 160px !important;
+  }
+
+  .footer p {
+    text-align: center !important;
+  }
+
+  /* Hide vertical lines */
+  .vertical-divider {
+    display: none !important;
+  }
+
+  /* Quick links clean alignment */
+  .quick-links h2 {
+    margin-left: 0 !important;
+    text-align: center !important;
+  }
+
+  .link-column {
+    margin-left: 0 !important;
+    align-items: center !important;
+  }
+
+  .link-column a {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 12px 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Address section */
+  .address {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .address .social-icons {
+    justify-content: center !important;
   }
 
   .footer-item {
-    justify-content: flex-start;
-    text-align: left;
-    padding: 0px;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
   }
 
-  .link-column  a {
-    justify-content: flex-start;
-    align-items: left;
-    padding: 0%;
-    margin-right: 50%;
+  .footer-item p {
+    max-width: 100% !important;
   }
 
-  .footer-section-divider {
-    margin: 15px 0;
-  }
-
-  /* BOTTOM FOOTER */
+  /* Bottom footer */
   .bottom-footer {
-    flex-direction: column;
-    text-align: center;
-    font-size: 15px;
-    padding: 12px;
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 5px !important;
+    padding: 15px 0 !important;
   }
 
   .bottom-footer .left,
   .bottom-footer .right {
-    padding: 0;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 }
 
-/* Extra small phones */
+
+/* SMALL MOBILE FIX */
 @media (max-width: 480px) {
+
   .footer {
-    font-size: 15px;
+    font-size: 14px !important;
   }
 
   .address .social-icons a {
-    font-size: 22px;
+    font-size: 20px !important;
+  }
+
+  .img-cnt img {
+    width: 140px !important;
+  }
+
+  .link-column a {
+    font-size: 15px !important;
+  }
+
+  .bottom-footer {
+    font-size: 14px !important;
   }
 }
+  
