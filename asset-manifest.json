@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/RaiyanGlobal/static/css/main.21d156a2.css",
-    "main.js": "/RaiyanGlobal/static/js/main.c3444e55.js",
+    "main.css": "/RaiyanGlobal/static/css/main.8bff31a3.css",
+    "main.js": "/RaiyanGlobal/static/js/main.1152a055.js",
     "static/js/453.d6ad4dea.chunk.js": "/RaiyanGlobal/static/js/453.d6ad4dea.chunk.js",
     "static/media/fruits_video.mp4": "/RaiyanGlobal/static/media/fruits_video.b3b8a2d7fdf59009a678.mp4",
     "static/media/abc.png": "/RaiyanGlobal/static/media/abc.858a148068af08bfc7e9.png",
+    "static/media/aboutimg.svg": "/RaiyanGlobal/static/media/aboutimg.fdba2cb9dd5274d3492e67a09755bae4.svg",
     "static/media/alphonsomango.png": "/RaiyanGlobal/static/media/alphonsomango.e3a02ef0a4ad5dc48ab9.png",
     "static/media/POMEGRANATE.jpg": "/RaiyanGlobal/static/media/POMEGRANATE.a941a3bafe97e181bd95.jpg",
     "static/media/PINKGUAVA.jpg": "/RaiyanGlobal/static/media/PINKGUAVA.1b6e13bab42545a0d882.jpg",
@@ -18,7 +19,7 @@
     "static/media/PoiBhaji.jpg": "/RaiyanGlobal/static/media/PoiBhaji.7377f18c7870cc1b545b.jpg",
     "static/media/SurtiPapdi.jpg": "/RaiyanGlobal/static/media/SurtiPapdi.df834b341094aa41e2eb.jpg",
     "static/media/RajapuriMango.png": "/RaiyanGlobal/static/media/RajapuriMango.bf5ee28fe3b458117cda.png",
-    "static/media/supplychaincard.svg": "/RaiyanGlobal/static/media/supplychaincard.d7a11ad825555d4e9861f19681a16c03.svg",
+    "static/media/offerings-m-1.svg": "/RaiyanGlobal/static/media/offerings-m-1.507b67f72809a00e57b8febcdd8d94fa.svg",
     "static/media/ELAICHIBANANA.jpg": "/RaiyanGlobal/static/media/ELAICHIBANANA.a219663131065254761a.jpg",
     "static/media/Rawmango.png": "/RaiyanGlobal/static/media/Rawmango.92155bcb71b8b3afb34c.png",
     "static/media/carrot.jpg": "/RaiyanGlobal/static/media/carrot.35f4585b8c5c4b945828.jpg",
@@ -48,12 +49,12 @@
     "static/media/JALEBIIMLI.jpg": "/RaiyanGlobal/static/media/JALEBIIMLI.62c33f0f09c6ee3ff6dc.jpg",
     "static/media/CURRYBANANA.jpg": "/RaiyanGlobal/static/media/CURRYBANANA.b6e9ae4b8f41e6b11599.jpg",
     "index.html": "/RaiyanGlobal/index.html",
-    "main.21d156a2.css.map": "/RaiyanGlobal/static/css/main.21d156a2.css.map",
-    "main.c3444e55.js.map": "/RaiyanGlobal/static/js/main.c3444e55.js.map",
+    "main.8bff31a3.css.map": "/RaiyanGlobal/static/css/main.8bff31a3.css.map",
+    "main.1152a055.js.map": "/RaiyanGlobal/static/js/main.1152a055.js.map",
     "453.d6ad4dea.chunk.js.map": "/RaiyanGlobal/static/js/453.d6ad4dea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21d156a2.css",
-    "static/js/main.c3444e55.js"
+    "static/css/main.8bff31a3.css",
+    "static/js/main.1152a055.js"
   ]
 }
