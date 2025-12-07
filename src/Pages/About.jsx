@@ -1,6 +1,6 @@
 import "../Components/style/About.css";
 import logo from "../assets/logo/logo.jpg";
-import supplychaincard from "../assets/images/supplychaincard.svg";
+import supplychaincard from "../assets/images/aboutimg.svg";
 
 export default function About() {
   return (

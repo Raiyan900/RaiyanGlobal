@@ -243,8 +243,9 @@ const Body = () => {
                   </div>
                 </div>
               </SwiperSlide>
-
+              
               <SwiperSlide>
+
                 <div className="prdts-fd-cards spices">
                   <img src={bhindi} alt="Spices" />
                   <div className="prdts-content">
