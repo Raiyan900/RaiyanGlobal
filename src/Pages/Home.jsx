@@ -24,7 +24,7 @@ const Body = () => {
 
       <div className="body-container">
         <div className="Container">
-          <video src={video} autoPlay muted loop className="hero-video"></video>
+          <video src={video} autoPlay muted loop playsInline preload="auto" className="hero-video"></video>
           <div className="hero-content">
             <h1>Delivering Sustainable.</h1>
             <h2 className='h1_p'>Food Solutions</h2>
@@ -270,8 +270,8 @@ const Body = () => {
             </Swiper>
 
             <div className="prdts-nav">
-              <div className="prdts-prev"><p className="svg_class_1"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="35px" fill="#328781"><path d="m423-480 278 277q22 23 22 55t-23 55q-22 22-54 22t-55-22L299-384q-20-21-30-45.5T259-480q0-27 10-51.5t30-44.5l292-292q23-22 55-22.5t55 22.5q22 22 22 55t-22 55L423-480Z"/></svg></p></div>
-              <div className="prdts-next"><p className="svg_class_2"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="35px" fill="#328781"><path d="M542-480 265-758q-23-22-23-54t22-55q23-22 55.5-22t54.5 22l292 291q20 20 29.5 44.5T705-480q0 26-9.5 50.5T666-384L374-93q-22 22-54 21.5T265-94q-22-22-22-54.5t22-54.5l277-277Z"/></svg></p></div>
+              <div className="prdts-prev"><p className="svg_class_1"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="35px" fill="#328781"><path d="m423-480 278 277q22 23 22 55t-23 55q-22 22-54 22t-55-22L299-384q-20-21-30-45.5T259-480q0-27 10-51.5t30-44.5l292-292q23-22 55-22.5t55 22.5q22 22 22 55t-22 55L423-480Z" /></svg></p></div>
+              <div className="prdts-next"><p className="svg_class_2"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="35px" fill="#328781"><path d="M542-480 265-758q-23-22-23-54t22-55q23-22 55.5-22t54.5 22l292 291q20 20 29.5 44.5T705-480q0 26-9.5 50.5T666-384L374-93q-22 22-54 21.5T265-94q-22-22-22-54.5t22-54.5l277-277Z" /></svg></p></div>
             </div>
 
           </div>

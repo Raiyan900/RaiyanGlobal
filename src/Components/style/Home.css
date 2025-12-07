@@ -413,7 +413,7 @@
   height: 0;
 }
 
-.prdts-nav :hover{
+.prdts-nav :hover {
   background: var(--accent);
 }
 
@@ -448,14 +448,14 @@
   cursor: pointer;
 }
 
-.svg_class_1 svg{
+.svg_class_1 svg {
   align-items: center;
   justify-content: center;
   margin-right: 5px;
   margin-top: 5px;
 }
 
-.svg_class_2 svg{
+.svg_class_2 svg {
   align-items: center;
   justify-content: center;
   margin-left: 5px;
@@ -522,6 +522,8 @@
     flex-direction: column;
     text-align: center;
     padding: 20px 10px;
+    margin-bottom: 30px !important;
+    padding-bottom: 10px
   }
 
   .abt-img img {
@@ -534,6 +536,7 @@
     margin: 0;
     width: 100%;
     padding: 0 10px;
+    margin-bottom: 0 !important;
   }
 
   .abt-text h1 {
@@ -545,18 +548,23 @@
     line-height: 1.4;
   }
 
+  .learn-more-btn {
+    margin-bottom: 10px !important;
+  }
 
   /* WHY CHOOSE US */
   .wy-flex {
-    flex-direction: column;
-    text-align: center;
-    margin: 0;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
   }
 
   .wy-choose-uss,
   .wy-choose-us {
-    margin-left: 0 !important;
-    font-size: 1.9rem !important;
+    font-size: 1.8rem !important;
+    margin: 0 !important;
+    white-space: nowrap;
   }
 
   .card-main {
@@ -565,10 +573,11 @@
   }
 
   .card {
-    width: 92% !important;
+    width: 85% !important;
     height: auto !important;
-    margin: 0 auto !important;
     padding: 20px !important;
+    margin-right: 15px;   
+    margin-left: 8px;
   }
 
   .card p {
@@ -586,7 +595,6 @@
   .prdts-fd-h1_p1,
   .prdts-fd-h1_p2 {
     font-size: 1.9rem !important;
-    margin: 0 5px !important;
   }
 
 
@@ -597,6 +605,7 @@
 
   .prdts-fd-cards {
     width: 100% !important;
+    margin-top: 10px;
   }
 
   .prdts-fd-cards img {
@@ -609,7 +618,7 @@
     padding: 15px !important;
   }
 
-  
+
   /* SLIDER NAVIGATION ARROWS */
   .prdts-prev,
   .prdts-next {
@@ -619,10 +628,12 @@
   }
 
   .prdts-prev {
-    left: 10px !important;
+    left: 200px !important;
+    margin-top: 15px;
   }
 
   .prdts-next {
     right: 10px !important;
+    margin-top: 15px;
   }
 }
