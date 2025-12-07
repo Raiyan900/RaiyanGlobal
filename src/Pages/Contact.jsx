@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Mail, Phone, MapPin, Check, AlertCircle } from "lucide-react";
 import "../Components/style/contact.css"
 
-const API_URL = "http://localhost:3001/api/contact";
-// const API_URL = "/.netlify/functions/sendEmail";
+const API_URL = process.env.REACT_APP_API_URL;
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -24,34 +23,9 @@ export default function Contact() {
   const [loading, setLoading] = useState(false);
   const [serverStatus, setServerStatus] = useState("unknown");
 
-  useEffect(() => {
-    const checkServer = async () => {
-      try {
-        const response = await fetch(API_URL);
-        if (response.ok) setServerStatus("online");
-        else setServerStatus("error");
-      } catch {
-        setServerStatus("offline");
-      }
-    };
-
-    checkServer();
-  }, []);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-
-    if (serverStatus === "offline") {
-      setStatus({
-        submitted: true,
-        success: false,
-        message:
-          "The email server is offline. Please try again later or contact us directly.",
-      });
-      setLoading(false);
-      return;
-    }
 
     try {
       const response = await fetch(API_URL, {
@@ -122,9 +96,8 @@ export default function Contact() {
           {/* STATUS MESSAGE */}
           {status.submitted ? (
             <div
-              className={`alert ${
-                status.success ? "alert-success" : "alert-error"
-              }`}
+              className={`alert ${status.success ? "alert-success" : "alert-error"
+                }`}
             >
               {status.success ? <Check size={20} /> : <AlertCircle size={20} />}
               <p>{status.message}</p>
@@ -238,7 +211,7 @@ export default function Contact() {
           <h3 className="subtitle">Contact Information</h3>
 
           <div className="info-block">
-            <MapPin className="icon" />
+            <MapPin className="icons" />
             <div>
               <h4>Address</h4>
               <p>E-3, Gulshan CHS, Versova, Andheri West, Mumbai 400061</p>
@@ -246,7 +219,7 @@ export default function Contact() {
           </div>
 
           <div className="info-block">
-            <Phone className="icon" />
+            <Phone className="icons" />
             <div>
               <h4>Phone</h4>
               <p>+91 59562629</p>
@@ -255,7 +228,7 @@ export default function Contact() {
           </div>
 
           <div className="info-block">
-            <Mail className="icon" />
+            <Mail className="icons" />
             <div>
               <h4>Email</h4>
               <p>sales.raiyanglobal@gmail.com</p>

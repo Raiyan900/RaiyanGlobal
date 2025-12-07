@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../style/Navbar.css";
-import logo from "../../assets/logo/logos.jpg";
+import logo from "../../assets/logo/Raiyan_Global_Logos.svg"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,6 @@ export default function Navbar() {
         <a href="#/">
           <img src={logo} alt="Logo" />
         </a>
-        <a href="#/"><h2>Raiyan Global</h2></a>
       </div>
 
       {/* HAMBURGER BUTTON (for mobile) */}

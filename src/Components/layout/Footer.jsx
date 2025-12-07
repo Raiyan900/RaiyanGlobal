@@ -1,5 +1,5 @@
 import '../style/Footer.css';
-import logos from "../../assets/logo/logo.jpg";
+import logos from '../../assets/logo/Raiyan_Global_Logos.svg'
 
 export default function Footer() {
     return (
@@ -12,8 +12,7 @@ export default function Footer() {
                 {/* ABOUT SECTION */}
                 <div className="footer-col abouts_us">
                     <div className="img-cnt">
-                        <img src={logos} alt="Logo" />
-                        <h2>Raiyan Global</h2>
+                        <img src={logos} alt="Logo" /> 
                     </div>
 
                     <p>

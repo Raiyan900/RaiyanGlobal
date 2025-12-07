@@ -448,3 +448,16 @@
   cursor: pointer;
 }
 
+.svg_class_1 svg{
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.svg_class_2 svg{
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  margin-top: 5px;
+}

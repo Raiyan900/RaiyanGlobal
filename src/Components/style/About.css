@@ -73,99 +73,12 @@
   margin-bottom: 15px;
 }
 
-.supplychain {
-  text-align: center;
-  padding: 60px 10%;
-  margin-top: 10px;
+.supplychain{
+  margin-left: 200px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-
-.supplychain h2 {
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-  color: var(--accent) ;
-}
-
-.supplychain-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-}
-
-.supplychain-cards {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  gap: 25px;
-  padding-bottom: 10px;
-}
-
-.supplychain-card {
-  background-color: var(--primary-dark);
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  overflow: hidden;
-  width: 260px;
-  flex-shrink: 0;
-  text-align: center;
-  position: relative;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
-
-.supplychain-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
-.supplychain-card img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  border-bottom: 3px solid #e0e0e0;
-}
-
-.supplychain-card .icon {
-  background-color: var(--mint);
-  color: var(--accent);
-  font-size: 1.4rem;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: -30px auto 10px auto;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.supplychain-card h3 {
-  color: var(--accent);
-  font-size: 1.3rem;
-  margin: 10px 0;
-}
-
-.supplychain-card p {
-  color: var(--mint);
-  font-size: 0.95rem;
-  padding: 0 15px 20px;
-}
-
-.supplychain-flex{
-  display: flex;
-  margin-left: 380px;
-}
-
-.h1_h1{
-  color: var(--accent);
-}
-
-.h2_h2{
-  color: var(--mint);
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
 
 .about-image{
     margin-top: 50px;

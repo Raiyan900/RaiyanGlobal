@@ -1,10 +1,6 @@
 import "../Components/style/About.css";
 import logo from "../assets/logo/logo.jpg";
-import farm from "../assets/images/Farm.png";
-import packhouse from "../assets/images/packhouse.png";
-import airport from "../assets/images/airport.png";
-import importer from "../assets/images/import.png";
-import customer from "../assets/images/customer.png";
+import supplychaincard from "../assets/images/supplychaincard.svg";
 
 export default function About() {
   return (
@@ -39,46 +35,8 @@ export default function About() {
         </div>
 
         <div class="supplychain">
-          <div className="supplychain-flex">
-            <h1 className="h1_h1">Our </h1>
-            <h1 className="h2_h2"> Supply </h1>
-            <h1 className="h1_h1">Supply</h1>
-          </div>
-          <div class="supplychain-cards">
-            <div class="supplychain-card">
-              <img src={farm} alt="Farm" />
-              <div class="icon"><i class="fa-solid fa-seedling"></i></div>
-              <h3>Farm</h3>
-              <p>High-quality produce from our certified farms</p>
-            </div>
-
-            <div class="supplychain-card">
-              <img src={packhouse} alt="Packhouse" />
-              <div class="icon"><i class="fa-solid fa-box"></i></div>
-              <h3>Packhouse</h3>
-              <p>Careful sorting and premium packaging</p>
-            </div>
-
-            <div class="supplychain-card">
-              <img src={airport} alt="Airport" />
-              <div class="icon"><i class="fa-solid fa-plane-departure"></i></div>
-              <h3>Airport</h3>
-              <p>Temperature-controlled air transport</p>
-            </div>
-
-            <div class="supplychain-card">
-              <img src={importer} alt="Importer" />
-              <div class="icon"><i class="fa-solid fa-building"></i></div>
-              <h3>Importer</h3>
-              <p>Trusted partners in destination countries</p>
-            </div>
-
-            <div class="supplychain-card">
-              <img src={customer} alt="Customer" />
-              <div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
-              <h3>Customer</h3>
-              <p>Fresh produce for consumers worldwide</p>
-            </div>
+          <div className="supplychain_card_img">
+            <img src={supplychaincard} alt="" />
           </div>
         </div>
         <div className="wy-flex">
