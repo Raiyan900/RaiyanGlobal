@@ -146,14 +146,8 @@
   width: 1px;
   background: rgba(255, 255, 255, 0.25);
   align-self: stretch;
-  /* ensures divider height matches columns */
 }
 
-/* ==============================================
-   FOOTER FULL RESPONSIVE FIX (FINAL VERSION)
-================================================ */
-
-/* TABLET & BELOW */
 @media (max-width: 1024px) {
 
   .footer {
@@ -163,7 +157,6 @@
     padding: 35px 25px !important;
   }
 
-  /* Remove big margins */
   .abouts_us,
   .quick-links,
   .address {
@@ -173,7 +166,6 @@
     max-width: 100% !important;
   }
 
-  /* Center logo section */
   .img-cnt {
     justify-content: center !important;
     width: 100% !important;
@@ -187,12 +179,10 @@
     text-align: center !important;
   }
 
-  /* Hide vertical lines */
   .vertical-divider {
     display: none !important;
   }
 
-  /* Quick links clean alignment */
   .quick-links h2 {
     margin-left: 0 !important;
     text-align: center !important;
@@ -210,7 +200,6 @@
     margin: 0 !important;
   }
 
-  /* Address section */
   .address {
     align-items: center !important;
     text-align: center !important;
@@ -230,7 +219,6 @@
     max-width: 100% !important;
   }
 
-  /* Bottom footer */
   .bottom-footer {
     flex-direction: column !important;
     text-align: center !important;
@@ -245,8 +233,6 @@
   }
 }
 
-
-/* SMALL MOBILE FIX */
 @media (max-width: 480px) {
 
   .footer {

@@ -19,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .detail-header h1 {
@@ -32,7 +33,6 @@
   text-decoration: none;
 }
 
-/* Main layout */
 .detail-hero {
   display: grid;
   grid-template-columns: 380px 1fr;
@@ -95,7 +95,6 @@ h3{
   color: var(--mint);
 }
 
-/* Specifications Box */
 .spec-grid {
   border: 1px solid #e1ebe7;
   border-radius: 14px;
@@ -124,9 +123,24 @@ h3{
   color: var(--accent);
 }
 
-/* Mobile */
 @media (max-width: 900px) {
   .detail-hero {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .detail-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .detail-header h1 {
+    font-size: 1.6rem;
+    text-align: left;
+    width: 100%;
+  }
+
+  .back-link {
+    font-size: 1rem;
   }
 }

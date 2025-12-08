@@ -1,17 +1,14 @@
-/* ===== Base ===== */
 .body-container {
   background-color: var(--primary);
   overflow-x: hidden;
 }
 
 :root {
-  /* fallback font sizes via clamp for headings */
   --h1-size: clamp(2rem, 6vw, 4rem);
   --h2-size: clamp(1.75rem, 5vw, 3.2rem);
   --content-max: 1100px;
 }
 
-/* ===== HERO ===== */
 .Container {
   position: relative;
   width: 100%;
@@ -81,7 +78,6 @@
   transform: translateY(-1px);
 }
 
-/* ===== ABOUT ===== */
 .aboutus-section {
   width: 100%;
   background-color: var(--primary-light);
@@ -124,9 +120,17 @@
   margin: 0.25rem 0 0.75rem 0;
 }
 
-.p1 { color: var(--lightgreen); }
-.p2 { color: var(--accent); }
-.p3 { color: var(--lightgreen); }
+.p1 {
+  color: var(--lightgreen);
+}
+
+.p2 {
+  color: var(--accent);
+}
+
+.p3 {
+  color: var(--lightgreen);
+}
 
 .abt-text p {
   margin: 0 0 12px 0;
@@ -167,10 +171,11 @@
     text-align: center !important;
     margin: 0 auto;
     max-width: 90%;
+    margin-right: 30px;
+    padding-right: 5px;
   }
 }
 
-/* ===== WHY CHOOSE US ===== */
 .why_choose_main_container {
   padding: 56px 20px 20px;
 }
@@ -191,8 +196,13 @@
   margin: 0;
 }
 
-.wy-choose-uss { color: var(--mint); }
-.wy-choose-us  { color: var(--accent); }
+.wy-choose-uss {
+  color: var(--mint);
+}
+
+.wy-choose-us {
+  color: var(--accent);
+}
 
 .card-main {
   display: grid;
@@ -207,7 +217,7 @@
   padding: 28px 18px;
   text-align: center;
   color: #065f46;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 80px;
   border-bottom-right-radius: 80px;
 }
@@ -247,7 +257,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .card p{
+  .card p {
     padding: 0px;
   }
 }
@@ -264,10 +274,9 @@
   background: var(--primary-dark);
   text-align: center;
   overflow-wrap: break-word;
-  word-break: break-word; 
+  word-break: break-word;
 }
 
-/* ===== PRODUCTS ===== */
 .products-section {
   padding: 56px 20px 16px;
 }
@@ -287,8 +296,13 @@
   margin: 0;
 }
 
-.prdts-fd-h1_p1 { color: var(--mint); }
-.prdts-fd-h1_p2 { color: var(--accent); }
+.prdts-fd-h1_p1 {
+  color: var(--mint);
+}
+
+.prdts-fd-h1_p2 {
+  color: var(--accent);
+}
 
 .prdts-slider-wrapper {
   width: min(94%, 1300px);
@@ -300,7 +314,7 @@
   width: 100%;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -350,13 +364,16 @@
   text-decoration: none;
   transition: color .25s ease;
 }
-.view-details:hover { color: var(--accent); }
+
+.view-details:hover {
+  color: var(--accent);
+}
 
 
 .swiper-button-next,
 .swiper-button-prev {
   color: var(--mint);
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -364,22 +381,24 @@
   place-items: center;
   transition: .25s ease;
 }
+
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   background: var(--accent);
   color: #fff;
 }
-.swiper-button-prev { 
-  left: 76px; 
+
+.swiper-button-prev {
+  left: 76px;
 }
 
-.swiper-button-next { 
-  right: 76px; 
+.swiper-button-next {
+  right: 76px;
 }
 
 .swiper-button-next::after,
-.swiper-button-prev::after { 
-  font-size: 18px; 
+.swiper-button-prev::after {
+  font-size: 18px;
 }
 
 
@@ -421,33 +440,32 @@
 }
 
 .prtds-prev {
-  margin-left: 0;             /* no need to push prev */
+  margin-left: 0;
 }
 
 .prtds-next {
-  margin-left: 20px;          /* push next slightly right */
+  margin-left: 20px;
 }
 
-/* Mobile title fix */
 @media (max-width: 600px) {
+
   .prdts-fd-h1_p1,
   .prdts-fd-h1_p2 {
-    font-size: 1.8rem !important;  /* smaller title */
+    font-size: 1.8rem !important;
     text-align: left !important;
   }
 
   .feature_product_flex {
-    padding-left: 10px;  /* align title nicely */
+    padding-left: 10px;
   }
 }
 
 @media (max-width: 768px) {
   .prtds-nav {
-    justify-content: center;  /* keep arrows centered on phone if you want */
+    justify-content: center;
   }
 
   .prtds-next {
     margin-left: 10px;
   }
 }
-

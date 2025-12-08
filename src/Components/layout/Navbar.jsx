@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../style/Navbar.css";
-import logo from "../../assets/logo/Raiyan_Global_Logos.svg"
+import navbar_logo from "../../assets/logo/Raiyan_Global_Logos.svg"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="Navbar">
       <div className="rightside">
         <a href="#/">
-          <img src={logo} alt="Logo" />
+          <img src={navbar_logo} alt="Logo" />
         </a>
       </div>
 
@@ -23,10 +23,10 @@ export default function Navbar() {
       {/* NAV LINKS */}
       <div className={`leftside ${isOpen ? "active" : ""}`}>
         <ul>
-          <li><a href="#/">Home</a></li>
-          <li><a href="#/about">About</a></li>
-          <li><a href="#/products">Product</a></li>
-          <li><a href="#/contact">Contact Us</a></li>
+          <li onClick={() => setIsOpen(false)}><a href="#/">Home</a></li>
+          <li onClick={() => setIsOpen(false)}><a href="#/about">About</a></li>
+          <li onClick={() => setIsOpen(false)}><a href="#/products">Product</a></li>
+          <li onClick={() => setIsOpen(false)}><a href="#/contact">Contact Us</a></li>
         </ul>
       </div>
     </nav>
