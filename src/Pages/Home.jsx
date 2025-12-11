@@ -21,7 +21,14 @@ const Body = () => {
       {/* ===== HERO ===== */}
       <div className="body-container">
         <section className="Container" aria-label="Hero">
-          <video src={video} autoPlay muted loop className="hero-video" />
+          <video
+            src={video}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="hero-video"
+          />
           <div className="hero-content">
             <h1>Delivering Sustainable.</h1>
             <h2 className="h1_p">Food Solutions</h2>

@@ -12,7 +12,7 @@ export default function About() {
           <div className="about-container">
 
             <div className="about-text">
-              <h1>About Raiyan<br />Global</h1>
+              <h1>About Raiyan Global</h1>
 
               <p>The main goal of this organization from the beginning has been to deliver high-quality food goods including fruits, vegetables, and other edible items to every corner of the globe.</p>
 

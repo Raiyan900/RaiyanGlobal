@@ -23,7 +23,7 @@
 .search-input,
 .category-select{
   padding: 12px 14px;
-  border-radius: 12px;
+  border-radius: 30px;
   font-size: 0.95rem;
   color: var(--accent);
   background: transparent;
@@ -47,7 +47,7 @@
   color: var(--accent);
   border: 1px solid var(--accent);
   padding: 12px 14px;
-  border-radius: 12px;
+  border-radius: 30px;
   font-size: 0.95rem;
   cursor: pointer;
 }

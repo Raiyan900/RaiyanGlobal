@@ -214,7 +214,7 @@ export default function Contact() {
             <MapPin className="icons" />
             <div>
               <h4>Address</h4>
-              <p>E-3, Gulshan CHS, Versova, Andheri West, Mumbai 400061</p>
+              <p>Versova, Andheri West, Mumbai 500061, Maharashtra</p>
             </div>
           </div>
 
@@ -222,8 +222,9 @@ export default function Contact() {
             <Phone className="icons" />
             <div>
               <h4>Phone</h4>
-              <p>+91 59562629</p>
-              <p>+91 25926255</p>
+              <p>+91 9920810651</p>
+              <p>+91 8879917449</p>
+              <p>+91 8928608614</p>
             </div>
           </div>
 
