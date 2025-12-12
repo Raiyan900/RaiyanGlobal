@@ -1,11 +1,11 @@
 import "../Components/style/Home.css";
-import video from "../assets/fruits_video.mp4";
-import Mango from "../assets/images/products/mango/alphonsomango.png";
-import grapes from "../assets/images/products/fruits/GRAPES.jpg";
-import PoiBhaji from "../assets/images/products/vegetables/PoiBhaji.jpg";
-import bhindi from "../assets/images/products/vegetables/Bhindi.jpg";
-import carrot from "../assets/images/products/vegetables/carrot.jpg";
-import background from "../assets/background.png";
+import video from "../assets/MiscImages/fruits_video.mp4";
+// import Mango from "../assets/images/products/mango/alphonsomango.png";
+// import grapes from "../assets/images/products/fruits/GRAPES.jpg";
+// import PoiBhaji from "../assets/images/products/vegetables/PoiBhaji.jpg";
+// import bhindi from "../assets/images/products/vegetables/Bhindi.jpg";
+// import carrot from "../assets/images/products/vegetables/carrot.jpg";
+import background from "../assets/MiscImages/background.png";
 import logo from "../assets/logo/Heroimage.gif";
 import { Link } from "react-router-dom";
 
@@ -206,8 +206,8 @@ const Body = () => {
             >
               <SwiperSlide>
                 <div className="prdts-fd-cards fruits">
-                  <Link to="/product/401" className="onclick_full_product_details">
-                  <img src={Mango} alt="Mango" />
+                  <Link to="/product/MG001" className="onclick_full_product_details">
+                  <img src="" alt="Mango" />
                   <div className="prdts-content">
                     <h3>Mango</h3>
                     <h2>Premium Alphonso Mangoes</h2>
@@ -222,8 +222,8 @@ const Body = () => {
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
-                  <Link to="/Product/307" className="onclick_full_product_details">
-                  <img src={grapes} alt="Fruits" />
+                  <Link to="/Product/FR007" className="onclick_full_product_details">
+                  <img src="" alt="Fruits" />
                   <div className="prdts-content">
                     <h3>Fruits</h3>
                     <h2>Fresh Premium Grapes</h2>
@@ -238,8 +238,8 @@ const Body = () => {
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
-                  <Link to="/Product/202" className="onclick_full_product_details">
-                  <img src={carrot} alt="Vegetables" />
+                  <Link to="/Product/VG002" className="onclick_full_product_details">
+                  <img src="" alt="Vegetables" />
                   <div className="prdts-content">
                     <h3>Vegetables</h3>
                     <h2>Fresh Premium Vegetables</h2>
@@ -254,8 +254,8 @@ const Body = () => {
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
-                  <Link to="/Product/208" className="onclick_full_product_details">
-                  <img src={PoiBhaji} alt="Vegetables" />
+                  <Link to="/Product/VG008" className="onclick_full_product_details">
+                  <img src="" alt="Vegetables" />
                   <div className="prdts-content">
                     <h3>Vegetables</h3>
                     <h2>Fresh Premium Vegetables</h2>
@@ -270,8 +270,8 @@ const Body = () => {
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
-                  <Link to="/Product/201" className="onclick_full_product_details">
-                  <img src={bhindi} alt="Vegetables" />
+                  <Link to="/Product/VG001" className="onclick_full_product_details">
+                  <img src="" alt="Vegetables" />
                   <div className="prdts-content">
                     <h3>Vegetables</h3>
                     <h2>Fresh Premium Vegetables</h2>

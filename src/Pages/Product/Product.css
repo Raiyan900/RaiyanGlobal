@@ -1,7 +1,14 @@
+main.product-wrapper {
+  background: var(--primary);
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
 .products-page {
   padding: 40px 20px;
-  max-width: 1250px;
-  margin: auto;
+  max-width: 100%;  
+  margin: 0;
 }
 
 .page-title {
@@ -10,7 +17,6 @@
   margin-bottom: 25px;
 }
 
-/* Toolbar */
 .products-toolbar {
   display: flex;
   gap: 14px;
@@ -64,7 +70,7 @@
 /* Product Grid */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -122,10 +128,9 @@
 
 /* Category Pills */
 .category-select {
-  display: none; /* Hide dropdown – we replace it with pills */
+  display: none;
 }
 
-/* Create container for pills */
 .products-toolbar::after {
   content: "";
   display: block;
@@ -149,14 +154,13 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* Hover effect for category pills */
 .category-pill {
   transition: 0.25s ease;
 }
 
 .category-pill:hover {
   background: var(--primary-dark); 
-  color: var(--accent);  /* slightly darker cream */
+  color: var(--accent);
 }
 
 
@@ -198,17 +202,60 @@
   justify-content: flex-end;
 }
 
-/* Mobile */
 @media (max-width: 600px) {
+
+  .products-page {
+    padding: 25px 15px;
+  }
+
+  .page-title {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
   .products-toolbar {
     flex-direction: column;
+    align-items: stretch;
+    gap: 18px;
+  }
+
+  .toolbar-right {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .search-input {
+    width: 100%;
+    padding-left: 45px;
+  }
+
+  .category-pills {
+    justify-content: center;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr !important;
+    gap: 25px;
+  }
+
+  .page-number {
+    width: 32px;
+    height: 32px;
+    font-size: 0.85rem;
   }
 }
 
-@media (max-width: 768px) {
+
+
+/* ---------- Tablets (600px to 1023px) ---------- */
+@media (min-width: 600px) and (max-width: 1023px) {
+
   .products-toolbar {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .toolbar-left {
+    width: 100%;
   }
 
   .toolbar-right {
@@ -218,5 +265,24 @@
   .search-input {
     width: 100%;
   }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 35px;
+  }
 }
 
+@media (min-width: 1024px) and (max-width: 1300px) {
+
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 40px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .products-page {
+    max-width: 1300px;
+    margin: auto;
+  }
+}

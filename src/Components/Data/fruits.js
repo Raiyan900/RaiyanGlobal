@@ -1,316 +1,646 @@
-import APPLEBER from "../../assets/images/products/fruits/APPLEBER.jpg";
-import BIGGUAVA from "../../assets/images/products/fruits/BIGGUAVA.jpg";
-import CHAMELIBER from "../../assets/images/products/fruits/CHAMELIBER.jpg";
-import CURRYBANANA from "../../assets/images/products/fruits/CURRYBANANA.jpg";
-import CUSTURDAPPLE from "../../assets/images/products/fruits/CUSTURDAPPLE.jpg";
-import ELAICHIBANANA from "../../assets/images/products/fruits/ELAICHIBANANA.jpg";
-import GRAPES from "../../assets/images/products/fruits/GRAPES.jpg";
-import GUAVA from "../../assets/images/products/fruits/GUAVA.jpg";
-import JALEBIIMLI from "../../assets/images/products/fruits/JALEBIIMLI.jpg";
-import KHATUMDA from "../../assets/images/products/fruits/KHATUMDA.jpg";
-import PAPAYA from "../../assets/images/products/fruits/PAPAYA.jpg";
-import PINKGUAVA from "../../assets/images/products/fruits/PINKGUAVA.jpg";
-import POMEGRANATE from "../../assets/images/products/fruits/POMEGRANATE.jpg";
-import RAYNA from "../../assets/images/products/fruits/RAYNA.jpg";
-import SAPOTACHIKU from "../../assets/images/products/fruits/SAPOTACHIKU.jpg";
-import TADGOLA from "../../assets/images/products/fruits/TADGOLA.jpg";
-import WATERMALON from "../../assets/images/products/fruits/WATERMALON.jpg";
-
-const fruits = [
+const Fruits = [
   {
-    id: 301,
-    name: "Fresh Apple Ber",
-    image: APPLEBER,
+    id: "FR001",
+    name: "White Guava",
+    //image: WHITE_GUAVA,
     category: "Fruits",
-    shortDescription: "Sweet and juicy apple ber sourced from premium orchards.",
+    shortDescription: "Fresh, mildly sweet white guavas with soft texture.",
     fullDescription:
-      "Our Apple Ber is handpicked for superior taste and freshness. These crunchy and sweet fruits are graded to meet export quality standards.",
+      "Our White Guavas are known for their soft flesh, mild sweetness, and rich nutritional value. They are selected carefully to ensure optimal ripeness and freshness.",
     features: [
-      "Crisp texture",
-      "Naturally sweet",
-      "Handpicked quality",
-      "High export demand",
+      "Rich in vitamin C",
+      "Soft and juicy texture",
+      "Mild natural sweetness",
+      "Farm-fresh quality"
     ],
     specifications: {
-      Origin: "Gujarat, India",
-      Season: "December – March",
-      Grade: "A-Grade Export",
-      Packaging: "5kg / 10kg cartons",
+      Origin: "India",
+      Season: "August – February",
+      Grade: "Premium Grade",
+      Packaging: "5kg / 10kg crates"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 302,
-    name: "Fresh Big Guava",
-    image: BIGGUAVA,
+    id: "FR002",
+    name: "Pink Guava",
+    //image: PINK_GUAVA,
     category: "Fruits",
-    shortDescription: "Large, firm and sweet guavas ideal for export.",
+    shortDescription: "Bright pink guavas with strong aroma and sweetness.",
     fullDescription:
-      "Big Guava is known for its crunchy texture and rich aroma. Each fruit is selected for size and firmness to ensure long shelf life.",
-    features: ["Large size", "Crunchy", "Aromatic", "Perfect for export"],
-    specifications: {
-      Origin: "Maharashtra, India",
-      Season: "All Year",
-      Grade: "Premium Export",
-      Packaging: "Individual wrapping + cartons",
-    },
-  },
-
-  {
-    id: 303,
-    name: "Fresh Chameliber",
-    image: CHAMELIBER,
-    category: "Fruits",
-    shortDescription: "Traditional Indian fruit with a rich sweet-tangy profile.",
-    fullDescription:
-      "Chameliber is widely loved for its unique flavor and medicinal benefits. Cleaned and sorted carefully for export.",
-    features: ["Sweet-tangy taste", "Fresh aroma", "Rich nutrients"],
+      "Pink Guavas are known for their vibrant pink flesh, high sweetness level, and intense tropical aroma. Ideal for juices, salads, and fresh consumption.",
+    features: [
+      "Vibrant pink color",
+      "High sweetness",
+      "Rich aroma",
+      "Packed with antioxidants"
+    ],
     specifications: {
       Origin: "India",
-      Season: "Seasonal",
-      Grade: "Export",
-      Packaging: "Food-grade pouches",
-    },
-  },
-
-  {
-    id: 304,
-    name: "Curry Banana",
-    image: CURRYBANANA,
-    category: "Fruits",
-    shortDescription: "Fresh raw curry bananas perfect for cooking and export.",
-    fullDescription:
-      "Curry bananas are harvested early and packed securely to maintain firmness during long transportation.",
-    features: ["Firm texture", "Ideal for cooking", "High shelf life"],
-    specifications: {
-      Origin: "Tamil Nadu",
-      Season: "All Year",
+      Season: "July – March",
       Grade: "A-Grade",
-      Packaging: "Banana export cartons",
+      Packaging: "5kg boxes"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 305,
-    name: "Fresh Custard Apple",
-    image: CUSTURDAPPLE,
+    id: "FR003",
+    name: "Custard Apple Golden",
+    //image: CUSTARD_APPLE_GOLDEN,
     category: "Fruits",
-    shortDescription: "Soft, creamy and sweet custard apples.",
+    shortDescription: "Golden variety of custard apple with creamy pulp.",
     fullDescription:
-      "Sourced from premium farms, these custard apples are known for their rich pulp, sweetness, and export-worthy quality.",
-    features: ["Creamy pulp", "High sweetness", "Premium selection"],
+      "Golden Custard Apples offer extra sweetness and rich creamy pulp, making them ideal for desserts and fresh eating. Carefully selected to ensure quality.",
+    features: [
+      "Golden skin variety",
+      "Creamy white pulp",
+      "High sweetness",
+      "Premium-grade quality"
+    ],
     specifications: {
       Origin: "Maharashtra, India",
-      Season: "August – December",
-      Grade: "Export",
-      Packaging: "Foam net + cartons",
+      Season: "September – December",
+      Grade: "Export Grade",
+      Packaging: "4kg cartons"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 306,
-    name: "Elaichi Banana",
-    image: ELAICHIBANANA,
+    id: "FR004",
+    name: "Custard Apple Desi",
+    //image: CUSTARD_APPLE_DESI,
     category: "Fruits",
-    shortDescription: "Small, sweet, aromatic elaichi bananas.",
+    shortDescription: "Classic desi custard apples with rich pulp.",
     fullDescription:
-      "Elaichi bananas are soft, flavorful and high-demand fruits for premium export markets.",
-    features: ["Sweet & soft", "Small size", "Aromatic"],
+      "Desi Custard Apples are known for their traditional flavor profile, rich, grainy pulp, and natural sweetness. Perfect for juices and desserts.",
+    features: [
+      "Classic desi flavor",
+      "Natural sweetness",
+      "Soft, grainy pulp",
+      "High demand fruit"
+    ],
     specifications: {
-      Origin: "Kerala, India",
-      Season: "All Year",
-      Grade: "Premium",
-      Packaging: "Banana boxes",
+      Origin: "India",
+      Season: "August – December",
+      Grade: "Standard / Premium",
+      Packaging: "4kg / 8kg boxes"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 307,
-    name: "Fresh Grapes",
-    image: GRAPES,
+    id: "FR005",
+    name: "Chickoo",
+    //image: CHICKOO,
     category: "Fruits",
-    shortDescription: "Juicy, seedless export-quality grapes.",
+    shortDescription: "Sweet and smooth-textured sapota fruit.",
     fullDescription:
-      "Our grapes are harvested carefully, sorted for firmness, sweetness, and packed using global export standards.",
-    features: ["Seedless", "Sweet & juicy", "Cold-chain packed"],
+      "Chickoos are naturally sweet, soft fruits enjoyed for their smooth texture and pleasant caramel-like flavor. Ideal for milkshakes and fresh eating.",
+    features: [
+      "Caramel-like sweetness",
+      "Smooth texture",
+      "Rich in fiber",
+      "Highly nutritious"
+    ],
+    specifications: {
+      Origin: "Gujarat/Maharashtra",
+      Season: "All year",
+      Grade: "Premium",
+      Packaging: "5kg bags"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR006",
+    name: "Dragon Fruit",
+    //image: DRAGON_FRUIT,
+    category: "Fruits",
+    shortDescription: "Vibrant tropical fruit with mild sweetness.",
+    fullDescription:
+      "Dragon Fruit is known for its unique look and mildly sweet refreshing taste. Rich in antioxidants, it's loved in smoothies and salads.",
+    features: [
+      "Exotic fruit",
+      "Rich in iron & antioxidants",
+      "Refreshing mild taste",
+      "Premium freshness"
+    ],
+    specifications: {
+      Origin: "India / Vietnam",
+      Season: "June – November",
+      Grade: "Export Quality",
+      Packaging: "3kg / 6kg boxes"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR007",
+    name: "Papaya",
+    //image: PAPAYA,
+    category: "Fruits",
+    shortDescription: "Rich, sweet papayas with soft orange flesh.",
+    fullDescription:
+      "Our Papayas are naturally ripened and selected for their sweetness and high nutrient content. Ideal for salads, juices, and daily consumption.",
+    features: [
+      "Soft orange pulp",
+      "Rich in vitamins",
+      "Boosts digestion",
+      "Farm fresh"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "All year",
+      Grade: "A-Grade",
+      Packaging: "10kg boxes"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR008",
+    name: "Banana",
+    //image: BANANA,
+    category: "Fruits",
+    shortDescription: "Naturally sweet bananas rich in potassium.",
+    fullDescription:
+      "These bananas are carefully harvested for perfect ripeness. They are nutritious, soft, and ideal for snacking and smoothies.",
+    features: [
+      "High potassium",
+      "Naturally sweet",
+      "Soft texture",
+      "Good for daily energy"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "All year",
+      Grade: "Premium",
+      Packaging: "12kg cartons"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR009",
+    name: "Ellichi Banana",
+    //image: ELLICHI_BANANA,
+    category: "Fruits",
+    shortDescription: "Small-sized premium bananas with rich aroma.",
+    fullDescription:
+      "Ellichi Bananas are known for their small size, strong aroma, and sweet creamy taste. Popular as a premium banana variety.",
+    features: [
+      "Highly aromatic",
+      "Creamy texture",
+      "Small bite-sized",
+      "Premium quality"
+    ],
+    specifications: {
+      Origin: "South India",
+      Season: "All year",
+      Grade: "Premium",
+      Packaging: "10kg boxes"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR010",
+    name: "Pomegranate",
+    //image: POMEGRANATE,
+    category: "Fruits",
+    shortDescription: "Fresh red pomegranates rich in antioxidants.",
+    fullDescription:
+      "Our Pomegranates are bright red, juicy, and packed with antioxidant-rich seeds. Perfect for juice extraction and fresh consumption.",
+    features: [
+      "Juicy seeds",
+      "High antioxidant value",
+      "Bright red color",
+      "Long shelf life"
+    ],
+    specifications: {
+      Origin: "Maharashtra",
+      Season: "September – February",
+      Grade: "Export Grade",
+      Packaging: "3kg / 5kg boxes"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR011",
+    name: "Jamun",
+    //image: JAMUN,
+    category: "Fruits",
+    shortDescription: "Deep-purple jamun fruit with tangy-sweet taste.",
+    fullDescription:
+      "Jamun is a seasonal fruit known for its deep color, tangy-sweet taste, and medicinal benefits. Popular for juices and fresh eating.",
+    features: [
+      "Medicinal properties",
+      "Deep purple color",
+      "Strong flavor",
+      "Refreshing fruit"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "May – July",
+      Grade: "Premium",
+      Packaging: "1kg / 2kg packs"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR012",
+    name: "Apple Bore",
+    //image: APPLE_BORE,
+    category: "Fruits",
+    shortDescription: "Juicy bore fruit with apple-like crunch.",
+    fullDescription:
+      "Apple Bore is a crunchy, juicy fruit popular for its refreshing taste. Harvested at peak maturity for best flavor.",
+    features: [
+      "Crunchy texture",
+      "Mild sweetness",
+      "Rich in fiber",
+      "Fresh from farms"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "December – March",
+      Grade: "A Grade",
+      Packaging: "5kg bags"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR013",
+    name: "Chameli Bore",
+    //image: CHAMELI_BORE,
+    category: "Fruits",
+    shortDescription: "Soft-textured bore variety with sweet taste.",
+    fullDescription:
+      "Chameli Bore is known for its soft pulp and pronounced sweetness. Ideal for fresh consumption and juices.",
+    features: [
+      "Soft pulp",
+      "Naturally sweet",
+      "Seasonal delicacy",
+      "Nutritious fruit"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "December – March",
+      Grade: "Premium",
+      Packaging: "5kg baskets"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR014",
+    name: "Red Bore",
+    //image: RED_BORE,
+    category: "Fruits",
+    shortDescription: "Red-skinned bore fruit with strong sweetness.",
+    fullDescription:
+      "Red Bore is preferred for its attractive red skin and naturally strong sweetness. Handpicked for freshness.",
+    features: [
+      "Bright red skin",
+      "High sweetness",
+      "Crisp and juicy",
+      "Farm fresh"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "December – March",
+      Grade: "Premium",
+      Packaging: "5kg bags"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR015",
+    name: "Coconut",
+    //image: COCONUT,
+    category: "Fruits",
+    shortDescription: "Fresh coconuts with sweet water and soft malai.",
+    fullDescription:
+      "Our coconuts are filled with sweet, refreshing water and soft white flesh. Ideal for hydration and culinary use.",
+    features: [
+      "Sweet coconut water",
+      "Soft white malai",
+      "High freshness",
+      "Rich electrolytes"
+    ],
+    specifications: {
+      Origin: "South India",
+      Season: "All year",
+      Grade: "Premium",
+      Packaging: "Single / 6pcs bags"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR016",
+    name: "Ice Apple (Tadgola)",
+    //image: ICE_APPLE,
+    category: "Fruits",
+    shortDescription: "Tender ice apples with cooling natural sweetness.",
+    fullDescription:
+      "Ice Apple, also known as Tadgola, is a hydrating summer fruit with jelly-like flesh and subtle sweetness. Perfect for heat relief.",
+    features: [
+      "Cooling summer fruit",
+      "Soft jelly texture",
+      "Hydrating",
+      "Mild sweetness"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "April – June",
+      Grade: "Fresh Harvest",
+      Packaging: "1kg / 2kg packs"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR017",
+    name: "Singoda",
+    //image: SINGODA,
+    category: "Fruits",
+    shortDescription: "Fresh water chestnuts with crisp texture.",
+    fullDescription:
+      "Singoda (water chestnut) is a seasonal aquatic fruit known for its crunchy texture and mild sweetness. Great for snacks and fasting foods.",
+    features: [
+      "Crisp and crunchy",
+      "Hydrating fruit",
+      "Seasonal delicacy",
+      "Fasting-friendly"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "October – January",
+      Grade: "Premium",
+      Packaging: "1kg / 5kg packs"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR018",
+    name: "Jackfruit",
+    //image: JACKFRUIT,
+    category: "Fruits",
+    shortDescription: "Large jackfruit with sweet aromatic bulbs.",
+    fullDescription:
+      "Jackfruit is loved for its sweet yellow bulbs and strong aroma. Highly nutritious and versatile for desserts and dishes.",
+    features: [
+      "Sweet yellow flesh",
+      "Thick aroma",
+      "Highly nutritious",
+      "Large fruit"
+    ],
+    specifications: {
+      Origin: "South India",
+      Season: "March – July",
+      Grade: "A Grade",
+      Packaging: "Whole / Cut pieces"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR019",
+    name: "Green Grapes",
+    //image: GREEN_GRAPES,
+    category: "Fruits",
+    shortDescription: "Crisp green grapes with juicy sweetness.",
+    fullDescription:
+      "Our Green Grapes are handpicked for firmness, sweetness, and freshness. Perfect for snacking and juice making.",
+    features: [
+      "Crisp texture",
+      "Mild to high sweetness",
+      "Seedless options available",
+      "Farm fresh"
+    ],
     specifications: {
       Origin: "Nashik, India",
       Season: "December – April",
-      Grade: "Super Export",
-      Packaging: "Punnets + Master Carton",
+      Grade: "Export Quality",
+      Packaging: "4kg / 9kg boxes"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 308,
-    name: "Fresh Guava",
-    image: GUAVA,
+    id: "FR020",
+    name: "Black Grapes",
+    //image: BLACK_GRAPES,
     category: "Fruits",
-    shortDescription: "Crisp, juicy and aromatic fresh guavas.",
+    shortDescription: "Dark black grapes rich in antioxidants.",
     fullDescription:
-      "Perfectly ripe guavas sorted for color, texture, and aroma, suitable for international markets.",
-    features: ["Sweet", "Crispy", "Aromatic"],
+      "Black Grapes offer a rich flavor, deep color, and high antioxidant content. Ideal for eating fresh or juicing.",
+    features: [
+      "Deep black color",
+      "Rich flavor",
+      "High antioxidants",
+      "Premium quality"
+    ],
+    specifications: {
+      Origin: "Nashik, India",
+      Season: "January – May",
+      Grade: "A Grade",
+      Packaging: "4kg / 9kg boxes"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR021",
+    name: "Musk Melon",
+    //image: MUSK_MELON,
+    category: "Fruits",
+    shortDescription: "Sweet muskmelon with aromatic orange flesh.",
+    fullDescription:
+      "Musk Melons are juicy, aromatic fruits rich in hydration. Their sweet orange pulp is perfect for summer refreshment.",
+    features: [
+      "Aromatic flesh",
+      "Hydrating fruit",
+      "Sweet taste",
+      "Rich in vitamins"
+    ],
     specifications: {
       Origin: "India",
-      Season: "All Year",
-      Grade: "A-Grade",
-      Packaging: "Shrink-wrap + cartons",
+      Season: "March – July",
+      Grade: "Premium",
+      Packaging: "Single / 5kg packs"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 309,
-    name: "Fresh Jalebi Imli",
-    image: JALEBIIMLI,
+    id: "FR022",
+    name: "Litchi",
+    //image: LITCHI,
     category: "Fruits",
-    shortDescription: "Sweet tamarind variety known for jalebi-like texture.",
+    shortDescription: "Juicy and aromatic litchi fruit.",
     fullDescription:
-      "Jalebi Imli is popular for its sweet and tangy flavor, perfect for consumption and export.",
-    features: ["Sweet", "Tangy", "Soft texture"],
+      "Litchis are prized for their sweet juicy pulp and floral aroma. Perfect for eating fresh during the summer season.",
+    features: [
+      "Sweet juicy pulp",
+      "Floral aroma",
+      "Seasonal delicacy",
+      "Rich in vitamin C"
+    ],
+    specifications: {
+      Origin: "Bihar / West Bengal",
+      Season: "May – June",
+      Grade: "Premium",
+      Packaging: "1kg boxes"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+
+  {
+    id: "FR023",
+    name: "Amla",
+    //image: AMLA,
+    category: "Fruits",
+    shortDescription: "Highly nutritious amla rich in vitamin C.",
+    fullDescription:
+      "Amla is a powerful superfood known for its sour taste and extreme health benefits. Used for juices, pickles, and medicines.",
+    features: [
+      "Rich vitamin C content",
+      "Boosts immunity",
+      "Sour flavor",
+      "Superfood fruit"
+    ],
     specifications: {
       Origin: "India",
-      Season: "Seasonal",
-      Grade: "Export",
-      Packaging: "Pouches / Cartons",
+      Season: "October – February",
+      Grade: "A Grade",
+      Packaging: "1kg / 5kg bags"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 310,
-    name: "Fresh Khatta Umda",
-    image: KHATUMDA,
+    id: "FR024",
+    name: "Tamarind",
+    //image: TAMARIND,
     category: "Fruits",
-    shortDescription: "Sour, tangy and fresh umda fruit.",
+    shortDescription: "Tangy tamarind pods full of natural flavor.",
     fullDescription:
-      "Khatta Umda is rich in flavor and used for juices, pickles and cooking. Cleaned and sorted for export.",
-    features: ["Tangy", "Fresh", "High demand"],
+      "Tamarind is known for its strong tangy flavor and culinary uses. Used extensively in chutneys, curries, and drinks.",
+    features: [
+      "Strong tangy taste",
+      "High culinary use",
+      "Long shelf life",
+      "Rich in antioxidants"
+    ],
     specifications: {
       Origin: "India",
-      Season: "Seasonal",
-      Grade: "Standard Export",
-      Packaging: "Pouches / Boxes",
+      Season: "January – June",
+      Grade: "Premium",
+      Packaging: "1kg / 5kg bags"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 311,
-    name: "Fresh Papaya",
-    image: PAPAYA,
+    id: "FR025",
+    name: "Wood Apple",
+    //image: WOOD_APPLE,
     category: "Fruits",
-    shortDescription: "Sweet, orange-fleshed export papayas.",
+    shortDescription: "Aromatic wood apples with strong flavor.",
     fullDescription:
-      "Handpicked and graded papayas offering sweetness, nutrition, and perfect firmness for export.",
-    features: ["Sweet pulp", "Rich in vitamins", "Long shelf life"],
+      "Wood Apples have a hard shell and strong aromatic pulp used in drinks and traditional recipes. Known for digestive benefits.",
+    features: [
+      "Strong aromatic pulp",
+      "Traditional fruit",
+      "Supports digestion",
+      "Rich flavor"
+    ],
     specifications: {
       Origin: "India",
-      Season: "All Year",
-      Grade: "Premium Export",
-      Packaging: "Foam net + cartons",
+      Season: "October – April",
+      Grade: "Standard / Premium",
+      Packaging: "Single / 5kg packs"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 312,
-    name: "Fresh Pink Guava",
-    image: PINKGUAVA,
+    id: "FR026",
+    name: "Mango Steem",
+    //image: MANGO_STEEM,
     category: "Fruits",
-    shortDescription: "Pink-fleshed guava with natural aroma.",
+    shortDescription: "Aromatic mango variety known for sweetness.",
     fullDescription:
-      "Pink guava is known for its color, aroma and strong nutritional value. Sorted and packed carefully.",
-    features: ["Pink flesh", "Sweet", "Aromatic"],
+      "Mango Steem is a fragrant mango type known for its sweet flavor and soft texture. Perfect for fresh eating and juices.",
+    features: [
+      "Highly aromatic",
+      "Sweet taste",
+      "Soft texture",
+      "Seasonal fruit"
+    ],
     specifications: {
       Origin: "India",
-      Season: "All Year",
-      Grade: "Export",
-      Packaging: "Shrink wrap + cartons",
+      Season: "April – July",
+      Grade: "Premium",
+      Packaging: "2kg / 5kg boxes"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 313,
-    name: "Fresh Pomegranate",
-    image: POMEGRANATE,
+    id: "FR027",
+    name: "Rambutan",
+    //image: RAMBUTAN,
     category: "Fruits",
-    shortDescription: "Bright red arils with premium sweetness.",
+    shortDescription: "Exotic rambutan with juicy translucent pulp.",
     fullDescription:
-      "Our pomegranates are selected for color, firmness, and sweetness. Packed using export-quality methods.",
-    features: ["Juicy arils", "Bright red color", "High sweetness"],
+      "Rambutan is an exotic fruit with hairy skin and sweet juicy flesh. Rich in nutrients and loved worldwide.",
+    features: [
+      "Exotic hairy fruit",
+      "Sweet juicy pulp",
+      "Rich in iron",
+      "Premium imported quality"
+    ],
     specifications: {
-      Origin: "Maharashtra",
-      Season: "All Year",
-      Grade: "Super Export",
-      Packaging: "5kg cartons",
+      Origin: "Thailand / Vietnam",
+      Season: "June – October",
+      Grade: "Imported Premium",
+      Packaging: "500g / 1kg packs"
     },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
-    id: 314,
-    name: "Fresh Rayna Fruit",
-    image: RAYNA,
+    id: "FR028",
+    name: "Vilvam Fruits",
+    //image: VILVAM_FRUITS,
     category: "Fruits",
-    shortDescription: "Seasonal fruit with natural freshness.",
+    shortDescription: "Traditional Vilvam fruit with medicinal benefits.",
     fullDescription:
-      "Rayna fruit is handpicked and packed fresh to maintain taste and nutritional value.",
-    features: ["Seasonal taste", "Fresh aroma"],
+      "Vilvam, also known as Bael Fruit, is a medicinal fruit used in Ayurvedic preparations. Known for digestive and cooling benefits.",
+    features: [
+      "Medicinal properties",
+      "Cooling effect",
+      "Rich in nutrients",
+      "Traditional Ayurvedic fruit"
+    ],
     specifications: {
       Origin: "India",
-      Season: "Seasonal",
-      Grade: "Standard",
-      Packaging: "Custom cartons",
-    },
-  },
-
-  {
-    id: 315,
-    name: "Fresh Sapota (Chikoo)",
-    image: SAPOTACHIKU,
-    category: "Fruits",
-    shortDescription: "Naturally sweet chikoo with soft texture.",
-    fullDescription:
-      "Sapota is harvested carefully and sorted for export size and sweetness. Each fruit is cleaned and packed hygienically.",
-    features: ["Soft pulp", "Sweet", "High demand"],
-    specifications: {
-      Origin: "Gujarat, India",
-      Season: "All Year",
-      Grade: "Export",
-      Packaging: "Foam net + cartons",
-    },
-  },
-
-  {
-    id: 316,
-    name: "Fresh Tadgola (Ice Apple)",
-    image: TADGOLA,
-    category: "Fruits",
-    shortDescription:
-      "Cooling, hydrating and refreshing ice apple sourced fresh.",
-    fullDescription:
-      "Tadgola is known for its extreme hydration benefits. Carefully cleaned and packed in temperature-controlled conditions.",
-    features: ["Hydrating", "Cooling", "Soft pulp"],
-    specifications: {
-      Origin: "South India",
       Season: "March – June",
       Grade: "Premium",
-      Packaging: "Cold-chain boxes",
+      Packaging: "Single / 5kg packs"
     },
-  },
-
-  {
-    id: 317,
-    name: "Fresh Watermelon",
-    image: WATERMALON,
-    category: "Fruits",
-    shortDescription: "Juicy, red-fleshed watermelon ideal for export.",
-    fullDescription:
-      "Large, sweet and hydrating watermelons selected by size and sweetness, perfect for international markets.",
-    features: ["Sweet", "Refreshing", "Large size"],
-    specifications: {
-      Origin: "India",
-      Season: "Summer",
-      Grade: "A-Grade Export",
-      Packaging: "Mesh bags / cartons",
-    },
-  },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  }
 ];
-
-export default fruits;
+export default Fruits;

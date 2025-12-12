@@ -1,110 +1,124 @@
 .product-wrapper {
   width: 100%;
-  min-height: 100vh;
-  background: var(--primary) ;
   padding: 40px 0;
-}
-
-
-.product-detail-page {
-  background: var(--primary-dark);
-  max-width: 1150px;
-  margin: auto;
-  padding: 0px 20px;
-  padding-bottom: 20px;
-  border-radius: 30px;
-}
-
-.detail-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.detail-header h1 {
-  color: var(--accent);
-  font-size: 2rem;
-}
-
-.back-link {
-  color: var(--accent);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.detail-hero {
-  display: grid;
-  grid-template-columns: 380px 1fr;
-  gap: 35px;
-  margin-top: 35px;
-}
-
-.detail-media {
-  background: transparent;
-  padding: 20px;
-  border-radius: 16px;
+  background: var(--primary);
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 360px;
 }
 
-.detail-media img {
-  width: 100%;
-  height: 320px;         
-  object-fit: contain; 
-  object-position: center;
-  background: transparent; 
-  padding: 10px;
+.product-detail-page {
+  width: 90%;
+  max-width: 1400px;
 }
 
+.back-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--accent);
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 20px;
+}
 
-.detail-info {
+.detail-container {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 520px);
+  gap: 40px;
+}
+
+.left-section {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
 }
 
-.detail-badge {
-  background: var(--mint);
-  color: var(--accent);
-  padding: 6px 14px;
-  border-radius: 100px;
-  font-weight: 600;
-  width: fit-content;
+.main-img-box {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.detail-short {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--accent);
+.main-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.detail-full {
-  color: var(--mint) ;
-  line-height: 1.5;
+.thumb-row {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 5px;
+  scrollbar-width: thin;
 }
 
-h3{
-  color: var(--accent);
+.thumb-img {
+  width: 150px;
+  height: auto;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  background: white;
+  flex-shrink: 0;
 }
 
-.detail-list li {
-  margin-bottom: 6px;
+
+.thumb-img:hover {
+  transform: scale(1.05);
+}
+
+
+.right-section {
+  background: var(--primary-dark);
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.category-label {
   color: var(--mint);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-top: -15px;
+}
+
+.detail-short,
+.detail-full {
+  color: var(--mint);
+  line-height: 1.6;
+  margin-top: -15px;
 }
 
 .spec-grid {
-  border: 1px solid #e1ebe7;
-  border-radius: 14px;
+  border: 1px solid #e1e8e3;
+  border-radius: 12px;
   overflow: hidden;
 }
 
 .spec-row {
   display: grid;
-  grid-template-columns: 160px 1fr;
-  border-bottom: 1px solid #e7eeeb;
+  grid-template-columns: 180px 1fr;
+  border-bottom: 1px solid #e8edea;
+  font-family: 'Roboto', sans-serif;
 }
 
 .spec-row:last-child {
@@ -113,34 +127,168 @@ h3{
 
 .spec-key {
   background: transparent;
-  padding: 10px;
+  padding: 12px;
   font-weight: 600;
-  color: var(--mint) ;
+  color: var(--mint);
+  font-family: 'Roboto', sans-serif;
+}
+
+.specification_h3 {
+  color: var(--accent);
+  margin-bottom: 10px;
 }
 
 .spec-val {
-  padding: 10px;
+  padding: 12px;
   color: var(--accent);
 }
 
-@media (max-width: 900px) {
-  .detail-hero {
+/* TABLETS */
+@media (max-width: 1000px) {
+  .detail-container {
+    grid-template-columns: 1fr;
+  }
+
+  .right-section {
+    margin-top: 20px;
+  }
+
+  .product-title {
+    font-size: 1.7rem;
+  }
+
+  .thumb-img {
+    width: 140px;
+  }
+}
+
+/* LARGE PHONES */
+@media (max-width: 700px) {
+  .main-img-box {
+    aspect-ratio: 4 / 3;
+  }
+
+  .thumb-row {
+    justify-content: center;
+  }
+
+  .right-section {
+    padding: 25px;
+  }
+
+  .product-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* SMALL PHONES */
+@media (max-width: 500px) {
+  
+  .detail-container {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .right-section {
+    padding: 16px !important;
+    border-radius: 10px;
+  }
+
+  .spec-row {
+    grid-template-columns: 120px 1fr;
+  }
+
+  .product-title {
+    font-size: 1.35rem !important;
+  }
+
+  .main-img-box {
+    aspect-ratio: 4 / 3;
+  }
+
+  .thumb-img {
+    width: 110px !important;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .right-section {
+    padding: 12px !important;
+  }
+
+  .spec-row {
+    grid-template-columns: 100px 1fr;
+  }
+
+  .thumb-img {
+    width: 95px !important;
+  }
+
+  .product-title {
+    font-size: 1.25rem !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .right-section {
+    padding: 25px;
+  }
+
+  .product-title {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .detail-container {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 900px) {
-  .detail-header h1 {
-    font-size: 1.6rem;
+@media (max-width: 600px) {
+  .thumb-img {
+    width: 120px;
+  }
+}
+
+
+/* EXTRA SMALL MOBILE (360px - 400px) */
+@media (max-width: 400px) {
+
+  .main-img-box {
+    aspect-ratio: 4 / 3;
+    border-radius: 12px;
   }
 
-  .detail-header h1 {
-    font-size: 1.6rem;
-    text-align: left;
-    width: 100%;
+  .thumb-img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+    border-radius: 10px;
+    flex-shrink: 0;
   }
 
-  .back-link {
-    font-size: 1rem;
+  .thumb-row {
+    gap: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .right-section {
+    padding: 18px;
+  }
+
+  .product-title {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
+  .detail-container {
+    gap: 20px;
+  }
+
+  .left-section {
+    gap: 15px;
   }
 }
