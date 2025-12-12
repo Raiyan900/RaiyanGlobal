@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RaiyanGlobal/static/css/main.06b36dfb.css",
+    "main.css": "/RaiyanGlobal/static/css/main.06b3d78b.css",
     "main.js": "/RaiyanGlobal/static/js/main.53e3e514.js",
     "static/js/453.d6ad4dea.chunk.js": "/RaiyanGlobal/static/js/453.d6ad4dea.chunk.js",
     "static/media/fruits_video.mp4": "/RaiyanGlobal/static/media/fruits_video.b3b8a2d7fdf59009a678.mp4",
@@ -48,12 +48,12 @@
     "static/media/JALEBIIMLI.jpg": "/RaiyanGlobal/static/media/JALEBIIMLI.62c33f0f09c6ee3ff6dc.jpg",
     "static/media/CURRYBANANA.jpg": "/RaiyanGlobal/static/media/CURRYBANANA.b6e9ae4b8f41e6b11599.jpg",
     "index.html": "/RaiyanGlobal/index.html",
-    "main.06b36dfb.css.map": "/RaiyanGlobal/static/css/main.06b36dfb.css.map",
+    "main.06b3d78b.css.map": "/RaiyanGlobal/static/css/main.06b3d78b.css.map",
     "main.53e3e514.js.map": "/RaiyanGlobal/static/js/main.53e3e514.js.map",
     "453.d6ad4dea.chunk.js.map": "/RaiyanGlobal/static/js/453.d6ad4dea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06b36dfb.css",
+    "static/css/main.06b3d78b.css",
     "static/js/main.53e3e514.js"
   ]
 }
