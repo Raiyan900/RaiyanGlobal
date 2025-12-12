@@ -1,8 +1,8 @@
 import "../Components/style/About.css";
 import "../Components/style/Home.css";
-import logo from "../assets/logo/logo.jpg";
-import supplychainDesktop from "../assets/images/aboutimg.svg";
-import supplychainMobile from "../assets/images/offerings-m-1.svg";
+import logo from "../assets/logo/Heroimage.gif";
+import supplychainDesktop from "../assets/images/supplychainDesktop.svg";
+import supplychainMobile from "../assets/images/supplychainMobile.svg";
 
 export default function About() {
   return (
@@ -12,7 +12,8 @@ export default function About() {
           <div className="about-container">
 
             <div className="about-text">
-              <h1>About Raiyan Global</h1>
+              <h1 className="h1_aboutus">About</h1>
+              <h2>Raiyan Global</h2>
 
               <p>The main goal of this organization from the beginning has been to deliver high-quality food goods including fruits, vegetables, and other edible items to every corner of the globe.</p>
 
@@ -38,7 +39,10 @@ export default function About() {
 
         <section className="quality-section">
           <div className="quality-box">
-            <h1>Our Commitment to Quality</h1>
+            <div className="commitments-title_box">
+              <h1 className="h1_commitments_title_box">Our</h1>
+              <h1 className="h1_commitments_title_boxs">Commitment's</h1>
+            </div>
 
             <p>
               All of our fresh fruits and vegetables are hand-selected and cultivated
@@ -68,9 +72,9 @@ export default function About() {
         </section>
 
 
-<h2 className="supply-title">
-            <span className="orange-text">Our</span> Supply Chain
-          </h2>
+        <h2 className="supply-title">
+          <span >Our</span> <span className="orange-text">Supply Chain</span>
+        </h2>
         <div className="supplychain">
           <div className="supplychain-card-img">
             <picture>

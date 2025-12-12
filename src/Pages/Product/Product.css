@@ -5,10 +5,8 @@
 }
 
 .page-title {
-  text-align: center;
   font-size: 2.1rem;
   font-weight: 700;
-  color: var(--accent);
   margin-bottom: 25px;
 }
 
@@ -58,6 +56,11 @@
   padding: 10px;
 }
 
+.category-pill.active {
+  background: var(--primary-dark);
+  color: var(--accent);
+}
+
 /* Product Grid */
 .products-grid {
   display: grid;
@@ -73,34 +76,126 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
-  margin-top: 30px;
+  gap: 14px;
+  margin-top: 40px;
+  user-select: none;
 }
 
 .page-btn {
-  background: var(--primary-dark);
-  color: var(--accent);
+  background: transparent;
   border: none;
-  padding: 9px 18px;
-  border-radius: 8px;
-  font-weight: 600;
+  font-size: 2rem;
   cursor: pointer;
-  transition: 0.2s;
+  color: var(--accent);
+  padding: 4px 10px;
 }
 
-.page-btn:hover {
+.page-number.active {
   background: var(--mint);
+  color: var(--accent);
+
 }
 
 .page-btn:disabled {
-  opacity: 0.4;
+  opacity: 0.3;
   cursor: not-allowed;
 }
 
 .page-status {
-  font-size: 0.95rem;
+  display: flex;
+  gap: 12px;
+}
+
+.page-number {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: var(--primary-dark);
   color: var(--accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 600;
+  cursor: pointer;
+}
+
+
+/* Category Pills */
+.category-select {
+  display: none; /* Hide dropdown – we replace it with pills */
+}
+
+/* Create container for pills */
+.products-toolbar::after {
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.category-pills {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.category-pill {
+  padding: 10px 22px;
+  border-radius: 40px;
+  background: var(--mint);
+  color: var(--primary-dark);
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Hover effect for category pills */
+.category-pill {
+  transition: 0.25s ease;
+}
+
+.category-pill:hover {
+  background: var(--primary-dark); 
+  color: var(--accent);  /* slightly darker cream */
+}
+
+
+/* Modern Search Bar */
+.search-input {
+  flex: 1;
+  padding: 14px 45px;
+  border-radius: 40px;
+  border: 1.5px solid #dfe3e8;
+  font-size: 1rem;
+  background: var(--mint);
+  color: var(--primary-dark);
+  background-image: url("https://cdn-icons-png.flaticon.com/512/149/149852.png");
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+}
+
+.search-input::placeholder {
+  color: var(--primary-dark);
+}
+
+
+.products-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.toolbar-left {
+  flex: 1;
+}
+
+.toolbar-right {
+  min-width: 350px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Mobile */
@@ -109,3 +204,19 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 768px) {
+  .products-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toolbar-right {
+    width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+}
+

@@ -14,10 +14,17 @@
 }
 
 .about-text h1 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   line-height: 1.2;
   font-weight: 800;
   color: var(--accent);
+}
+
+.about-text h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--mint);
+  margin-bottom: 20px;
 }
 
 .about-text p {
@@ -45,8 +52,7 @@
 }
 
 .about-img-wrapper img {
-  width: 100%;
-  max-width: 480px;
+  width: 100%;  
   border-radius: 20px;
   object-fit: cover;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
@@ -119,7 +125,6 @@
 .quality-box h1 {
   font-size: 2.4rem;
   font-weight: 800;
-  color: var(--accent);
   margin-bottom: 25px;
 }
 
@@ -131,6 +136,19 @@
 }
 
 .quality-box .highlight {
+  color: var(--accent);
+}
+
+.commitments-title_box{
+  display: flex;
+  gap: 10px;
+}
+
+.h1_commitments_title_box{
+  color: var(--mint);
+}
+
+.h1_commitments_title_boxs{
   color: var(--accent);
 }
 
@@ -181,14 +199,14 @@
 
 .supply-title {
   text-align: center;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 800;
   color: var(--mint);
   margin-bottom: 40px;
-  font-family: 'Poppins', sans-serif;
-      font-size: clamp(2rem, 5vw, 3rem);
-    font-weight: 800;
-    margin: 0;
+  font-family: 'Dela Gothic One';
+  font-size: 2.5;
+  font-weight: 800;
+  margin: 0;
 }
 
 .orange-text {

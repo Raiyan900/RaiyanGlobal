@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Mail, Phone, MapPin, Check, AlertCircle } from "lucide-react";
 import "../Components/style/contact.css"
+import "../Components/style/About.css"
 
 const API_URL = process.env.REACT_APP_API_URL;
 
@@ -79,12 +80,16 @@ export default function Contact() {
 
   return (
     <div className="contact-container">
-      <h2 className="title">Contact Us</h2>
+      <h2 className="title">
+        <span className="mint-text_title">Conatct</span> <span className="orange-text_title">Us</span>
+      </h2>
 
       <div className="contact-grid">
         {/* LEFT SIDE */}
         <div>
-          <h3 className="subtitle">Get in Touch</h3>
+          <h2 className="conatact-title">
+          <span className="mint-text">Stay In</span> <span className="orange-text">Touch</span>
+        </h2>
 
           {serverStatus === "offline" && !status.submitted && (
             <div className="alert alert-warning">
@@ -208,7 +213,9 @@ export default function Contact() {
 
         {/* RIGHT SIDE */}
         <div>
-          <h3 className="subtitle">Contact Information</h3>
+          <h2 className="conatact-title">
+          <span className="mint-text">Contact</span> <span className="orange-text">Information</span>
+        </h2>
 
           <div className="info-block">
             <MapPin className="icons" />
@@ -233,22 +240,6 @@ export default function Contact() {
             <div>
               <h4>Email</h4>
               <p>sales.raiyanglobal@gmail.com</p>
-            </div>
-          </div>
-
-          <div className="hours-box">
-            <h3 className="subtitle">Business Hours</h3>
-            <div className="hours-row">
-              <span className="titles1">Mon–Fri:</span>
-              <span>9:00 AM – 6:00 PM</span>
-            </div>
-            <div className="hours-row">
-              <span className="titles1">Saturday:</span>
-              <span>10:00 AM – 4:00 PM</span>
-            </div>
-            <div className="hours-row">
-              <span className="titles1">Sunday:</span>
-              <span>Closed</span>
             </div>
           </div>
         </div>

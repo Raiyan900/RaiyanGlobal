@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="Navbar">
       <div className="rightside">
-        <a href="#/">
+        <a href="#/" onClick={() => setIsOpen(false)}>
           <img src={navbar_logo} alt="Logo" />
         </a>
       </div>

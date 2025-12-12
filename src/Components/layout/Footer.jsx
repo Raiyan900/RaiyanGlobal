@@ -30,7 +30,9 @@ export default function Footer() {
 
                 {/* QUICK LINKS */}
                 <div className="footer-col quick-links">
-                    <h2>Quick Links</h2>
+                    <h2>
+                        <span className="mint-text">Quick</span> <span className="orange-text">Links</span>
+                    </h2>
 
                     <div className="link-column">
                         <a href="#/">Home</a>
@@ -38,14 +40,16 @@ export default function Footer() {
                         <a href="#/products">Product</a>
                         <a href="#/contact">Contact</a>
                     </div>
-                </div>
+                </div>  
 
                 {/* VERTICAL DIVIDER */}
                 <div className="vertical-divider"></div>
 
                 {/* ADDRESS */}
                 <div className="footer-col address">
-                    <h2>Stay in Touch!</h2>
+                    <h2>
+                        <span className="mint-text">Stay In</span> <span className="orange-text">Touch</span>
+                    </h2>
 
                     <div className="social-icons">
                         <a href="#"><i className="fa-brands fa-instagram"></i></a>

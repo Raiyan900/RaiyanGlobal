@@ -6,7 +6,7 @@ import PoiBhaji from "../assets/images/products/vegetables/PoiBhaji.jpg";
 import bhindi from "../assets/images/products/vegetables/Bhindi.jpg";
 import carrot from "../assets/images/products/vegetables/carrot.jpg";
 import background from "../assets/background.png";
-import logo from "../assets/abc.png";
+import logo from "../assets/logo/Heroimage.gif";
 import { Link } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -206,6 +206,7 @@ const Body = () => {
             >
               <SwiperSlide>
                 <div className="prdts-fd-cards fruits">
+                  <Link to="/product/401" className="onclick_full_product_details">
                   <img src={Mango} alt="Mango" />
                   <div className="prdts-content">
                     <h3>Mango</h3>
@@ -215,11 +216,13 @@ const Body = () => {
                       View More
                     </Link>
                   </div>
+                  </Link>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
+                  <Link to="/Product/307" className="onclick_full_product_details">
                   <img src={grapes} alt="Fruits" />
                   <div className="prdts-content">
                     <h3>Fruits</h3>
@@ -229,11 +232,13 @@ const Body = () => {
                       View More
                     </Link>
                   </div>
+                  </Link>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
+                  <Link to="/Product/202" className="onclick_full_product_details">
                   <img src={carrot} alt="Vegetables" />
                   <div className="prdts-content">
                     <h3>Vegetables</h3>
@@ -243,11 +248,13 @@ const Body = () => {
                       View More
                     </Link>
                   </div>
+                  </Link>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
+                  <Link to="/Product/208" className="onclick_full_product_details">
                   <img src={PoiBhaji} alt="Vegetables" />
                   <div className="prdts-content">
                     <h3>Vegetables</h3>
@@ -257,11 +264,13 @@ const Body = () => {
                       View More
                     </Link>
                   </div>
+                  </Link>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
+                  <Link to="/Product/201" className="onclick_full_product_details">
                   <img src={bhindi} alt="Vegetables" />
                   <div className="prdts-content">
                     <h3>Vegetables</h3>
@@ -271,11 +280,13 @@ const Body = () => {
                       View More
                     </Link>
                   </div>
+                  </Link>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="prdts-fd-cards rice">
+                  <Link to="/products" className="onclick_full_product_details">
                   <img src={background} alt="All Products" />
                   <div className="prdts-content">
                     <h3>View More</h3>
@@ -285,6 +296,7 @@ const Body = () => {
                       View Products
                     </Link>
                   </div>
+                  </Link>
                 </div>
               </SwiperSlide>
             </Swiper>

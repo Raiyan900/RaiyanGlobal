@@ -13,7 +13,6 @@
   font-weight: bold;
   text-align: center;
   margin-bottom: 50px;
-  color: var(--accent);
 }
 
 .contact-grid {
@@ -28,7 +27,6 @@
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: var(--accent);
 }
 
 .alert {
@@ -65,6 +63,7 @@
   font-size: 14px;
   margin-bottom: 5px;
   color: var(--accent);
+  font-family: 'Roboto', sans-serif;
 }
 
 .input-group input,
@@ -98,57 +97,54 @@
 .info-block {
   display: flex;
   gap: 12px;
-  margin-bottom: 20px;
 }
 
 .info-block h4 {
   color: var(--accent);
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
+  font-family: 'Dela Gothic One', sans-serif;
 }
 
 .info-block p {
   color: var(--mint);
-  font-weight: 700;
+  font-weight: 400;
   font-size: 16px;
-  margin-top: 20px;
+  margin: 5px;
 }
 
 .icons {
   color: var(--accent);
-  padding-top: 20px;
-}
-
-
-.hours-box {
-  background: transparent;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-.hours-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 5px;
-}
-
-.titles1 {
-  color: var(--accent);
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.hours-box span {
-  color: var(--mint);
-  font-size: 16px;
-  font-weight: 700;
+  padding-top: 26px;
 }
 
 .info-note {
   margin-top: 20px;
   font-size: 14px;
   color: var(--mint);
+}
+
+.conatact-title{
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.mint-text{
+  color: var(--mint);
+}
+
+.mint-text_title{
+  color: var(--mint);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.orange-text_title{
+  color: var(--accent);
+  font-size: 40px;
+  font-weight: bold;
 }
 
 
