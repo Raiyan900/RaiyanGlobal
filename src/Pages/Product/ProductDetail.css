@@ -67,7 +67,6 @@
   object-fit: cover;
   border-radius: 10px;
   cursor: pointer;
-  background: white;
   flex-shrink: 0;
 }
 

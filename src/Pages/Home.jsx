@@ -7,6 +7,7 @@ import video from "../assets/MiscImages/fruits_video.mp4";
 // import carrot from "../assets/images/products/vegetables/carrot.jpg";
 import background from "../assets/MiscImages/background.png";
 import logo from "../assets/logo/Heroimage.gif";
+import Certifications from "../Components/Certifications/Certifications";
 import { Link } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -331,6 +332,9 @@ const Body = () => {
             </div>
           </div>
         </section>
+
+        {/* ===== Certificated SECTION ===== */}
+        <Certifications />
       </div>
     </>
   );

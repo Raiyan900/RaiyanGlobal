@@ -2,7 +2,7 @@ const Pann = [
     {
     id: "PN001",
     name: "Culcutta Paan",
-    //image: CULCUTTA_PAAN,
+    image: "/RaiyanGlobal/Products/Paan/CULCUTTA_PAAN.jpg",
     category: "Paan",
     shortDescription: "Fresh Culcutta paan known for its smooth texture and mild sweetness.",
     fullDescription:
@@ -25,7 +25,7 @@ const Pann = [
 {
     id: "PN002",
     name: "Bangla Paan",
-    //image: BANGLA_PAAN,
+    image: "/RaiyanGlobal/Products/Paan/BANGLA_PAAN.jpg",
     category: "Paan",
     shortDescription: "Traditional Bangla paan with bold flavor and strong fragrance.",
     fullDescription:
@@ -48,7 +48,7 @@ const Pann = [
 {
     id: "PN003",
     name: "Kapoori Paan",
-    //image: KAPOORI_PAAN,
+    image: "/RaiyanGlobal/Products/Paan/CULCUTTA_PAAN.jpg",
     category: "Paan",
     shortDescription: "Aromatic Kapoori paan prized for its soft, delicate leaves.",
     fullDescription:
@@ -66,7 +66,6 @@ const Pann = [
       Packaging: "Bundles of 20 / 50 / 100 leaves"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-}
-];
+}];
 
 export default Pann;

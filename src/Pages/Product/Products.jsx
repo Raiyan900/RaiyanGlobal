@@ -8,22 +8,38 @@ export default function Products() {
   const [category, setCategory] = useState("All");
   const [page, setPage] = useState(1);
 
+  function shuffleArray(array) {
+    return array
+      .map((item) => ({ item, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map((obj) => obj.item);
+  }
+
   const pageSize = 12;
 
   // All categories
   const categories = ["All", ...new Set(productsData.map((p) => p.category))];
 
   // Filter + search logic
-  const filteredProducts = productsData.filter((p) => {
+  let filteredProducts = productsData.filter((p) => {
     const q = query.toLowerCase();
     const matchesSearch =
       p.name.toLowerCase().includes(q) ||
       p.shortDescription.toLowerCase().includes(q);
 
-    const matchesCategory = category === "All" || p.category === category;
+    const matchesCategory =
+      category.toLowerCase() === "all" ||
+      p.category.toLowerCase() === category.toLowerCase();
 
     return matchesSearch && matchesCategory;
   });
+
+  // If ALL selected → shuffle results
+  if (category.toLowerCase() === "all") {
+    filteredProducts = shuffleArray(filteredProducts);
+  }
+
+
 
   // Pagination logic
   const totalPages = Math.ceil(filteredProducts.length / pageSize);
