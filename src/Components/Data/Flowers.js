@@ -2,7 +2,7 @@ const Flowers = [
     {
     id: "FL001",
     name: "Lotus Flower",
-    //image: LOTUS_FLOWER,
+    image: "/RaiyanGlobal/Products/Flowers/LotusFlower.svg",
     category: "Flowers",
     shortDescription: "Fresh lotus flowers known for purity and spiritual significance.",
     fullDescription:
@@ -25,7 +25,7 @@ const Flowers = [
 {
     id: "FL002",
     name: "Red Rose",
-    //image: RED_ROSE,
+    image: "/RaiyanGlobal/Products/Flowers/RedRose.svg",
     category: "Flowers",
     shortDescription: "Premium red roses with vibrant color and strong fragrance.",
     fullDescription:
@@ -48,7 +48,7 @@ const Flowers = [
 {
     id: "FL003",
     name: "Mogra",
-    //image: MOGRA,
+    image: "/RaiyanGlobal/Products/Flowers/Mogra.svg",
     category: "Flowers",
     shortDescription: "Aromatic mogra flowers known for intense fragrance.",
     fullDescription:
@@ -71,7 +71,7 @@ const Flowers = [
 {
     id: "FL004",
     name: "Jasmine",
-    //image: JASMINE,
+    image: "/RaiyanGlobal/Products/Flowers/Jasmine.svg",
     category: "Flowers",
     shortDescription: "Fresh jasmine flowers with sweet and calming aroma.",
     fullDescription:
@@ -94,7 +94,7 @@ const Flowers = [
 {
     id: "FL005",
     name: "Yellow Marigold",
-    //image: YELLOW_MARIGOLD,
+    image: "/RaiyanGlobal/Products/Flowers/YellowMarigold.svg",
     category: "Flowers",
     shortDescription: "Bright yellow marigold ideal for decoration and festivals.",
     fullDescription:
@@ -117,7 +117,7 @@ const Flowers = [
 {
     id: "FL006",
     name: "Orange Marigold",
-    //image: ORANGE_MARIGOLD,
+    image: "/RaiyanGlobal/Products/Flowers/OrangeMarigold.svg",
     category: "Flowers",
     shortDescription: "Vibrant orange marigold used widely in celebrations.",
     fullDescription:
@@ -136,29 +136,51 @@ const Flowers = [
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-
 {
-    id: "FL007",
-    name: "Mixed Flowers",
-    //image: MIXED_FLOWERS,
-    category: "Flowers",
-    shortDescription: "A colorful mix of fresh flowers for decoration.",
-    fullDescription:
-      "Mixed Flowers bundles include a variety of seasonal blooms, offering color, fragrance, and beauty for events, home décor, and ceremonies.",
-    features: [
-      "Multiple flower varieties",
-      "Colorful and vibrant",
-      "Perfect for décor",
-      "Freshly harvested"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "All year",
-      Grade: "Assorted Premium",
-      Packaging: "500g / 1kg assortments"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  id: "FL007",
+  name: "White Rose",
+  image: "/RaiyanGlobal/Products/Flowers/WhiteRose.svg",
+  category: "Flowers",
+  shortDescription: "Fresh white roses known for their purity and fragrance.",
+  fullDescription:
+    "White roses are elegant flowers known for their gentle fragrance and symbolic purity. They are commonly used in decorations, rituals, and floral arrangements.",
+  features: [
+    "Soft and fragrant petals",
+    "Symbol of purity",
+    "Perfect for decoration",
+    "Fresh and long-lasting"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "All year",
+    Grade: "Premium",
+    Packaging: "Bunch / Loose"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+{
+  id: "FL008",
+  name: "Yellow Rose",
+  image: "/RaiyanGlobal/Products/Flowers/YellowRose.svg",
+  category: "Flowers",
+  shortDescription: "Bright yellow roses symbolizing joy and friendship.",
+  fullDescription:
+    "Yellow roses are popular for their vibrant color and pleasant fragrance. They are widely used for gifting, celebrations, and decorative arrangements.",
+  features: [
+    "Vibrant yellow color",
+    "Mild fragrance",
+    "Symbol of friendship",
+    "Ideal for gifting"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "All year",
+    Grade: "A Grade",
+    Packaging: "Bunch / Loose"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 }
+
 
 ];
 export default Flowers;

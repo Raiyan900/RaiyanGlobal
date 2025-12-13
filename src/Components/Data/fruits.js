@@ -42,7 +42,7 @@ const Fruits = [
       Grade: "A-Grade",
       Packaging: "5kg boxes"
     },
-    gallery: ["/RaiyanGlobal/Products/Fruits/PINK_GUAVA_1.svg",, "///images/rice3.jpg"]
+    gallery: ["/RaiyanGlobal/Products/Fruits/PINK_GUAVA_1.svg", , "///images/rice3.jpg"]
   },
 
   {
@@ -619,5 +619,28 @@ const Fruits = [
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
+  {
+    id: "FR028",
+    name: "Red Chaniya Ber",
+    image: "/RaiyanGlobal/Products/Fruits/RedChaniyaBer.svg",
+    category: "Fruits",
+    shortDescription: "Fresh red chaniya ber with sweet and tangy flavor.",
+    fullDescription:
+      "Red Chaniya Ber is a seasonal fruit known for its juicy texture and balanced sweet-tangy taste. It is enjoyed fresh, used in chutneys, and also added to traditional snacks.",
+    features: [
+      "Sweet and tangy taste",
+      "Juicy and fresh",
+      "Seasonal delicacy",
+      "Rich in vitamins"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "December – March",
+      Grade: "Premium",
+      Packaging: "250g / 500g packs"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  }
+
 ];
 export default Fruits;

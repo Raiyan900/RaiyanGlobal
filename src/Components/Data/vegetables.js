@@ -1,10 +1,10 @@
-
+import { Banana } from "lucide-react";
 
 const vegetables = [
   {
     id: "VG001",
     name: "Karela",
-    //image: KARELA,
+    image: "/RaiyanGlobal/Products/Vegetables/Karela.svg",
     category: "Vegetables",
     shortDescription: "Fresh bitter gourd rich in nutrients and medicinal value.",
     fullDescription:
@@ -26,8 +26,8 @@ const vegetables = [
 
 {
     id: "VG002",
-    name: "Guvar",
-    //image: GUVAR,
+    name: "Guwar",
+    image: "/RaiyanGlobal/Products/Vegetables/Guwar.svg",
     category: "Vegetables",
     shortDescription: "Tender guvar beans ideal for sabzis and traditional dishes.",
     fullDescription:
@@ -50,7 +50,7 @@ const vegetables = [
 {
     id: "VG003",
     name: "Drumstick",
-    //image: DRUMSTICK,
+    image: "/RaiyanGlobal/Products/Vegetables/Drumstick.svg",
     category: "Vegetables",
     shortDescription: "Fresh drumsticks packed with nutrition and flavor.",
     fullDescription:
@@ -73,7 +73,7 @@ const vegetables = [
 {
     id: "VG004",
     name: "Okra",
-    //image: OKRA,
+    image: "/RaiyanGlobal/Products/Vegetables/Okra.svg",
     category: "Vegetables",
     shortDescription: "Tender okra perfect for crispy sabzis and curries.",
     fullDescription:
@@ -95,8 +95,8 @@ const vegetables = [
 
 {
     id: "VG005",
-    name: "V Papdi",
-    //image: V_PAPDI,
+    name: "Valor Papdi",
+    image: "/RaiyanGlobal/Products/Vegetables/ValorPapdi.svg",
     category: "Vegetables",
     shortDescription: "Fresh V Papdi ideal for Gujarati-style sabzis.",
     fullDescription:
@@ -115,34 +115,10 @@ const vegetables = [
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-
 {
     id: "VG006",
-    name: "Surati Papdi",
-    //image: SURATI_PAPDI,
-    category: "Vegetables",
-    shortDescription: "Authentic Surati papdi used in winter dishes.",
-    fullDescription:
-      "Surati Papdi is a winter special vegetable known for its use in Undhiyu. It has a soft texture and mild flavor, making it a seasonal favorite.",
-    features: [
-      "Winter-special vegetable",
-      "Mild pleasant taste",
-      "Soft seeds and pods",
-      "Essential for Undhiyu"
-    ],
-    specifications: {
-      Origin: "Surat, Gujarat",
-      Season: "November – February",
-      Grade: "Premium",
-      Packaging: "1kg / 2kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG007",
     name: "Suran",
-    //image: SURAN,
+    image: "/RaiyanGlobal/Products/Vegetables/Suran.svg",
     category: "Vegetables",
     shortDescription: "Rich and dense suran ideal for curries and fry dishes.",
     fullDescription:
@@ -163,9 +139,9 @@ const vegetables = [
 },
 
 {
-    id: "VG008",
-    name: "Desi Papdi",
-    //image: DESI_PAPDI,
+    id: "VG007",
+    name: "Desi Parwal",
+    image: "/RaiyanGlobal/Products/Vegetables/DesiParwal.svg",
     category: "Vegetables",
     shortDescription: "Local desi papdi with classic taste and texture.",
     fullDescription:
@@ -186,9 +162,9 @@ const vegetables = [
 },
 
 {
-    id: "VG009",
-    name: "Culcutta Papdi",
-    //image: CULCUTTA_PAPDI,
+    id: "VG008",
+    name: "Culcutta parwal",
+    image: "/RaiyanGlobal/Products/Vegetables/CulcuttaParwal.svg",
     category: "Vegetables",
     shortDescription: "Culcutta papdi with crisp texture and rich taste.",
     fullDescription:
@@ -209,9 +185,9 @@ const vegetables = [
 },
 
 {
-    id: "VG010",
+    id: "VG09",
     name: "Tinda",
-    //image: TINDA,
+    image: "/RaiyanGlobal/Products/Vegetables/Tinda.svg",
     category: "Vegetables",
     shortDescription: "Fresh tinda perfect for light and healthy sabzis.",
     fullDescription:
@@ -232,9 +208,9 @@ const vegetables = [
 },
 
 {
-    id: "VG011",
+    id: "VG010",
     name: "Galka",
-    //image: GALKA,
+    image: "/RaiyanGlobal/Products/Vegetables/Galka.svg",
     category: "Vegetables",
     shortDescription: "Fresh galka with soft flesh and mild sweetness.",
     fullDescription:
@@ -254,33 +230,11 @@ const vegetables = [
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
 
-{
-    id: "VG012",
-    name: "Carrot",
-    //image: CARROT,
-    category: "Vegetables",
-    shortDescription: "Sweet and crunchy carrots rich in beta-carotene.",
-    fullDescription:
-      "Fresh carrots are packed with vitamins and fiber. Ideal for salads, sabzis, juice, and garnishing.",
-    features: [
-      "Rich in vitamin A",
-      "Crunchy texture",
-      "Sweet natural taste",
-      "Highly nutritious"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "November – March",
-      Grade: "Premium",
-      Packaging: "1kg bags"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
 {
-    id: "VG013",
+    id: "VG011",
     name: "Red Carrot",
-    //image: RED_CARROT,
+    image: "/RaiyanGlobal/Products/Vegetables/Carrot.svg",
     category: "Vegetables",
     shortDescription: "Sweet red carrots ideal for halwa and salads.",
     fullDescription:
@@ -301,9 +255,9 @@ const vegetables = [
 },
 
 {
-    id: "VG014",
+    id: "VG012",
     name: "Green Peas",
-    //image: GREEN_PEAS,
+    image: "/RaiyanGlobal/Products/Vegetables/GreenPeas.svg",
     category: "Vegetables",
     shortDescription: "Fresh green peas with natural sweetness.",
     fullDescription:
@@ -324,9 +278,9 @@ const vegetables = [
 },
 
 {
-    id: "VG015",
-    name: "Tuver",
-    //image: TUVER,
+    id: "VG013",
+    name: "Tuwer",
+    image: "/RaiyanGlobal/Products/Vegetables/TuwerPapdi.svg",
     category: "Vegetables",
     shortDescription: "Tender tuver beans used in traditional dishes.",
     fullDescription:
@@ -347,9 +301,9 @@ const vegetables = [
 },
 
 {
-    id: "VG016",
+    id: "VG014",
     name: "Yellow Haldi",
-    //image: YELLOW_HALDI,
+    image: "/RaiyanGlobal/Products/Vegetables/YellowHaldi.svg",
     category: "Vegetables",
     shortDescription: "Fresh yellow turmeric root used for cooking and health.",
     fullDescription:
@@ -370,9 +324,9 @@ const vegetables = [
 },
 
 {
-    id: "VG017",
+    id: "VG015",
     name: "Amba Haldi",
-    //image: AMBA_HALDI,
+    image: "/RaiyanGlobal/Products/Vegetables/AmbaHaldi.svg",
     category: "Vegetables",
     shortDescription: "Aromatic amba haldi with mango-like flavor.",
     fullDescription:
@@ -393,9 +347,9 @@ const vegetables = [
 },
 
 {
-    id: "VG018",
+    id: "VG016",
     name: "Bombay Onion",
-    //image: BOMBAY_ONION,
+    image: "/RaiyanGlobal/Products/Vegetables/BombayOnion.svg",
     category: "Vegetables",
     shortDescription: "Fresh Bombay onions with rich flavor and crispness.",
     fullDescription:
@@ -416,9 +370,9 @@ const vegetables = [
 },
 
 {
-    id: "VG019",
+    id: "VG017",
     name: "Madras Onion",
-    //image: MADRAS_ONION,
+    image: "/RaiyanGlobal/Products/Vegetables/MadrasOnion.svg",
     category: "Vegetables",
     shortDescription: "Small Madras onions ideal for sambhar and traditional dishes.",
     fullDescription:
@@ -439,9 +393,9 @@ const vegetables = [
 },
 
 {
-    id: "VG020",
+    id: "VG018",
     name: "Dudhi",
-    //image: DUDHI,
+    image: "/RaiyanGlobal/Products/Vegetables/Dudhi.svg",
     category: "Vegetables",
     shortDescription: "Soft and fresh bottle gourd ideal for healthy dishes.",
     fullDescription:
@@ -461,9 +415,9 @@ const vegetables = [
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
 {
-    id: "VG021",
-    name: "Arbi",
-    //image: ARBI,
+    id: "VG019",
+    name: "Arvi",
+    image: "/RaiyanGlobal/Products/Vegetables/Arvi.svg",
     category: "Vegetables",
     shortDescription: "Fresh arbi roots ideal for fry, curry, and snacks.",
     fullDescription:
@@ -484,9 +438,9 @@ const vegetables = [
 },
 
 {
-    id: "VG022",
+    id: "VG020",
     name: "Ghevda Papdi",
-    //image: GHEVDA_PAPDI,
+    image: "/RaiyanGlobal/Products/Vegetables/GhevdaPapdi.svg",
     category: "Vegetables",
     shortDescription: "Tender ghevda papdi used in traditional Gujarati dishes.",
     fullDescription:
@@ -507,9 +461,9 @@ const vegetables = [
 },
 
 {
-    id: "VG023",
+    id: "VG021",
     name: "Ash Gourd",
-    //image: ASH_GOURD,
+    image: "/RaiyanGlobal/Products/Vegetables/AshGourd.svg",
     category: "Vegetables",
     shortDescription: "Fresh ash gourd ideal for curries, juices, and soups.",
     fullDescription:
@@ -530,9 +484,9 @@ const vegetables = [
 },
 
 {
-    id: "VG024",
-    name: "Alu Patta",
-    //image: ALU_PATTA,
+    id: "VG022",
+    name: "Allu Patta",
+    image: "/RaiyanGlobal/Products/Vegetables/AlluPatta.svg",
     category: "Vegetables",
     shortDescription: "Fresh alu leaves used for patra and traditional dishes.",
     fullDescription:
@@ -553,9 +507,9 @@ const vegetables = [
 },
 
 {
-    id: "VG025",
+    id: "VG023",
     name: "Curry Leaves",
-    //image: CURRY_LEAVES,
+    image: "/RaiyanGlobal/Products/Vegetables/CurryLeaves.svg",
     category: "Vegetables",
     shortDescription: "Aromatic curry leaves used for seasoning.",
     fullDescription:
@@ -576,9 +530,9 @@ const vegetables = [
 },
 
 {
-    id: "VG026",
+    id: "VG024",
     name: "Long Bean",
-    //image: LONG_BEAN,
+    image: "/RaiyanGlobal/Products/Vegetables/LongBeans.svg",
     category: "Vegetables",
     shortDescription: "Fresh long beans with crisp texture.",
     fullDescription:
@@ -599,9 +553,9 @@ const vegetables = [
 },
 
 {
-    id: "VG027",
+    id: "VG025",
     name: "Coriander",
-    //image: CORIANDER,
+    image: "/RaiyanGlobal/Products/Vegetables/Coriander.svg",
     category: "Vegetables",
     shortDescription: "Fresh aromatic coriander leaves for garnishing.",
     fullDescription:
@@ -618,13 +572,13 @@ const vegetables = [
       Grade: "Premium Fresh",
       Packaging: "100g / 250g bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"] 
 },
 
 {
-    id: "VG028",
+    id: "VG026",
     name: "Surti Papdi",
-    //image: SURTI_PAPDI,
+    image: "/RaiyanGlobal/Products/Vegetables/SurtiPapdi.svg",
     category: "Vegetables",
     shortDescription: "Popular surti papdi used in undhiyu and winter dishes.",
     fullDescription:
@@ -645,9 +599,32 @@ const vegetables = [
 },
 
 {
-    id: "VG029",
-    name: "Poi Bhaji",
-    //image: POI_BHAJI,
+    id: "VG027",
+    name: "Surti Raviya",
+    image: "/RaiyanGlobal/Products/Vegetables/SurtiPapdi.svg",
+    category: "Vegetables",
+    shortDescription: "Popular surti papdi used in undhiyu and winter dishes.",
+    fullDescription:
+      "Surti Papdi is a classic winter vegetable essential for making undhiyu. It has a sweet taste and soft seeds.",
+    features: [
+      "Winter special",
+      "Soft seeds",
+      "Mild flavor",
+      "Perfect for Gujarati dishes"
+    ],
+    specifications: {
+      Origin: "Surat, Gujarat",
+      Season: "November – February",
+      Grade: "Premium",
+      Packaging: "1kg packs"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+    id: "VG028",
+    name: "Poi Saag",
+    image: "/RaiyanGlobal/Products/Vegetables/PoiBhaji.svg",
     category: "Vegetables",
     shortDescription: "Fresh poi leaves ideal for bhaji and healthy dishes.",
     fullDescription:
@@ -668,9 +645,9 @@ const vegetables = [
 },
 
 {
-    id: "VG030",
+    id: "VG029",
     name: "Pakoda Chilli",
-    //image: PAKODA_CHILLI,
+    image: "/RaiyanGlobal/Products/Vegetables/PakodaChilli.svg",
     category: "Vegetables",
     shortDescription: "Large pakoda chilli used for stuffing and bhajiyas.",
     fullDescription:
@@ -691,9 +668,9 @@ const vegetables = [
 },
 
 {
-    id: "VG031",
+    id: "VG030",
     name: "G4 Chilli",
-    //image: G4_CHILLI,
+    image: "/RaiyanGlobal/Products/Vegetables/G4Chilli.svg",
     category: "Vegetables",
     shortDescription: "Spicy G4 green chillies used in everyday cooking.",
     fullDescription:
@@ -714,9 +691,9 @@ const vegetables = [
 },
 
 {
-    id: "VG032",
+    id: "VG031",
     name: "Gangora Leaves",
-    //image: GANGORA_LEAVES,
+    image: "/RaiyanGlobal/Products/Vegetables/GangoraLeaves.svg",
     category: "Vegetables",
     shortDescription: "Fresh gangora leaves used in tangy traditional dishes.",
     fullDescription:
@@ -737,9 +714,9 @@ const vegetables = [
 },
 
 {
-    id: "VG033",
+    id: "VG032",
     name: "Pawta Papdi",
-    //image: PAWTA_PAPDI,
+    image: "/RaiyanGlobal/Products/Vegetables/PawtaPapdi.svg",
     category: "Vegetables",
     shortDescription: "Fresh pawta papdi commonly used in Gujarati dishes.",
     fullDescription:
@@ -760,9 +737,9 @@ const vegetables = [
 },
 
 {
-    id: "VG034",
+    id: "VG033",
     name: "Banana Flower",
-    //image: BANANA_FLOWER,
+    image: "/RaiyanGlobal/Products/Vegetables/BananaFlower.svg",
     category: "Vegetables",
     shortDescription: "Fresh banana flower used in nutritious regional dishes.",
     fullDescription:
@@ -783,9 +760,9 @@ const vegetables = [
 },
 
 {
-    id: "VG035",
+    id: "VG034",
     name: "Lemon",
-    //image: LEMON,
+    image: "/RaiyanGlobal/Products/Vegetables/Lemon.svg",
     category: "Vegetables",
     shortDescription: "Fresh juicy lemons perfect for cooking and drinks.",
     fullDescription:
@@ -806,9 +783,9 @@ const vegetables = [
 },
 
 {
-    id: "VG036",
+    id: "VG035",
     name: "Banana Leaf",
-    //image: BANANA_LEAF,
+    image: "/RaiyanGlobal/Products/Vegetables/BananaLeaf.svg",
     category: "Vegetables",
     shortDescription: "Fresh banana leaves used for traditional serving and steaming.",
     fullDescription:
@@ -829,9 +806,9 @@ const vegetables = [
 },
 
 {
-    id: "VG037",
+    id: "VG036",
     name: "Drumstick Leaves",
-    //image: DRUMSTICK_LEAVES,
+    image: "/RaiyanGlobal/Products/Vegetables/DrumstickLeaves.svg",
     category: "Vegetables",
     shortDescription: "Highly nutritious drumstick leaves packed with vitamins.",
     fullDescription:
@@ -852,32 +829,9 @@ const vegetables = [
 },
 
 {
-    id: "VG038",
-    name: "Kola",
-    //image: KOLA,
-    category: "Vegetables",
-    shortDescription: "Fresh kola vegetable used in traditional Bengali cooking.",
-    fullDescription:
-      "Kola is a regional vegetable popular in Bengali cuisine. It has a subtle taste and is usually cooked in curries and stir-fries.",
-    features: [
-      "Traditional Bengal ingredient",
-      "Mild natural taste",
-      "Soft texture",
-      "Rich in nutrients"
-    ],
-    specifications: {
-      Origin: "West Bengal",
-      Season: "All year",
-      Grade: "A Grade",
-      Packaging: "1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG039",
+    id: "VG037",
     name: "Vellerrica",
-    //image: VELLERRICA,
+    image: "/RaiyanGlobal/Products/Vegetables/Vellirica.svg",
     category: "Vegetables",
     shortDescription: "Fresh vellerrica with crisp texture and mild flavor.",
     fullDescription:
@@ -898,9 +852,9 @@ const vegetables = [
 },
 
 {
-    id: "VG040",
+    id: "VG038",
     name: "Brinjal",
-    //image: BRINJAL,
+    image: "/RaiyanGlobal/Products/Vegetables/Bringal.svg",
     category: "Vegetables",
     shortDescription: "Fresh brinjal ideal for roasting, curries, and fry dishes.",
     fullDescription:
@@ -920,9 +874,9 @@ const vegetables = [
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
 {
-    id: "VG041",
+    id: "VG039",
     name: "Radish",
-    //image: RADISH,
+    image: "/RaiyanGlobal/Products/Vegetables/Raddish.svg",
     category: "Vegetables",
     shortDescription: "Fresh radish with crisp texture and sharp flavor.",
     fullDescription:
@@ -943,9 +897,9 @@ const vegetables = [
 },
 
 {
-    id: "VG042",
+    id: "VG040",
     name: "Cabbage",
-    //image: CABBAGE,
+    image: "/RaiyanGlobal/Products/Vegetables/Cabbage.svg",
     category: "Vegetables",
     shortDescription: "Fresh cabbage with crisp leaves and mild taste.",
     fullDescription:
@@ -966,9 +920,9 @@ const vegetables = [
 },
 
 {
-    id: "VG043",
+    id: "VG041",
     name: "Turai",
-    //image: TURAI,
+    image: "/RaiyanGlobal/Products/Vegetables/Turai.svg",
     category: "Vegetables",
     shortDescription: "Soft textured turai ideal for everyday cooking.",
     fullDescription:
@@ -989,32 +943,9 @@ const vegetables = [
 },
 
 {
-    id: "VG044",
-    name: "Chaulai",
-    //image: CHAULAI,
-    category: "Vegetables",
-    shortDescription: "Nutritious chaulai leaves rich in minerals.",
-    fullDescription:
-      "Chaulai leaves are a popular leafy vegetable rich in iron and calcium. They are used in stir-fries, dals, and healthy recipes.",
-    features: [
-      "Iron-rich leaves",
-      "Soft leafy texture",
-      "Traditional Indian vegetable",
-      "Highly nutritious"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "August – February",
-      Grade: "Premium",
-      Packaging: "250g / 500g bunches"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG045",
+    id: "VG042",
     name: "Cauliflower",
-    //image: CAULIFLOWER,
+    image: "/RaiyanGlobal/Products/Vegetables/CauliFlower.svg",
     category: "Vegetables",
     shortDescription: "Fresh cauliflower with tender white florets.",
     fullDescription:
@@ -1035,9 +966,9 @@ const vegetables = [
 },
 
 {
-    id: "VG046",
+    id: "VG043",
     name: "French Beans",
-    //image: FRENCH_BEANS,
+    image: "/RaiyanGlobal/Products/Vegetables/FrenchBeans.svg",
     category: "Vegetables",
     shortDescription: "Fresh french beans with a crisp bite.",
     fullDescription:
@@ -1058,9 +989,9 @@ const vegetables = [
 },
 
 {
-    id: "VG047",
+    id: "VG044",
     name: "Green Chilli",
-    //image: GREEN_CHILLI,
+    image: "/RaiyanGlobal/Products/Vegetables/GreenChilli.svg",
     category: "Vegetables",
     shortDescription: "Spicy green chillies used daily for seasoning.",
     fullDescription:
@@ -1081,32 +1012,9 @@ const vegetables = [
 },
 
 {
-    id: "VG048",
-    name: "Poi Saag",
-    //image: POI_SAAG,
-    category: "Vegetables",
-    shortDescription: "Nutritious poi saag ideal for leafy sabzis.",
-    fullDescription:
-      "Poi Saag, also known as Malabar spinach, is rich in vitamins and commonly used for making nutritious leafy sabzis.",
-    features: [
-      "Soft leafy texture",
-      "Rich in iron",
-      "Used in healthy dishes",
-      "Green fresh leaves"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "July – January",
-      Grade: "A Grade",
-      Packaging: "250g / 500g bunches"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG049",
-    name: "Sarsoka Saag",
-    //image: SARSOKA_SAAG,
+    id: "VG045",
+    name: "Sarso Saag",
+    image: "/RaiyanGlobal/Products/Vegetables/SarsooSaag.svg",
     category: "Vegetables",
     shortDescription: "Traditional mustard saag used in Punjabi cuisine.",
     fullDescription:
@@ -1125,34 +1033,10 @@ const vegetables = [
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-
 {
-    id: "VG050",
-    name: "Simla Mirch",
-    //image: SIMLA_MIRCH,
-    category: "Vegetables",
-    shortDescription: "Fresh capsicum with crisp texture and mild taste.",
-    fullDescription:
-      "Simla Mirch, or capsicum, is used in stir-fries, curries, and Chinese dishes. It has a crunchy texture and mild sweetness.",
-    features: [
-      "Fresh crunchy skin",
-      "Mild flavor",
-      "Rich in vitamins",
-      "Perfect for stir-fries"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "All year",
-      Grade: "A Grade",
-      Packaging: "500g / 1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG051",
+    id: "VG046",
     name: "Big Kantola",
-    //image: BIG_KANTOLA,
+    image: "/RaiyanGlobal/Products/Vegetables/BigKantola.svg",
     category: "Vegetables",
     shortDescription: "Fresh big kantola with firm texture and unique flavor.",
     fullDescription:
@@ -1171,11 +1055,10 @@ const vegetables = [
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-
 {
-    id: "VG052",
+    id: "VG047",
     name: "Lotus Stem",
-    //image: LOTUS_STEM,
+    image: "/RaiyanGlobal/Products/Vegetables/LotusStem.svg",
     category: "Vegetables",
     shortDescription: "Fresh lotus stem with crunchy ridged slices.",
     fullDescription:
@@ -1196,9 +1079,9 @@ const vegetables = [
 },
 
 {
-    id: "VG053",
+    id: "VG048",
     name: "Ginger",
-    //image: GINGER,
+    image: "/RaiyanGlobal/Products/Vegetables/Ginger.svg",
     category: "Vegetables",
     shortDescription: "Aromatic ginger root used for flavor & health.",
     fullDescription:
@@ -1219,9 +1102,9 @@ const vegetables = [
 },
 
 {
-    id: "VG054",
-    name: "Garlic",
-    //image: GARLIC,
+    id: "VG049",
+    name: "Garlic Cloves",
+    image: "/RaiyanGlobal/Products/Vegetables/Garlic.svg",
     category: "Vegetables",
     shortDescription: "Fresh garlic cloves rich in aroma and flavor.",
     fullDescription:
@@ -1240,9 +1123,8 @@ const vegetables = [
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-
 {
-    id: "VG055",
+    id: "VG050",
     name: "Palm Roots",
     //image: PALM_ROOTS,
     category: "Vegetables",
@@ -1265,9 +1147,9 @@ const vegetables = [
 },
 
 {
-    id: "VG056",
+    id: "VG051",
     name: "Gunda",
-    //image: GUNDA,
+    image: "/RaiyanGlobal/Products/Vegetables/Gunda.svg",
     category: "Vegetables",
     shortDescription: "Seasonal gunda perfect for pickles and curries.",
     fullDescription:
@@ -1288,9 +1170,9 @@ const vegetables = [
 },
 
 {
-    id: "VG057",
-    name: "Duri Grass",
-    //image: DURI_GRASS,
+    id: "VG052",
+    name: "Durva Grass",
+    image: "/RaiyanGlobal/Products/Vegetables/DruvaGrass.svg",
     category: "Vegetables",
     shortDescription: "Fresh duri grass used in traditional culinary recipes.",
     fullDescription:
@@ -1311,8 +1193,8 @@ const vegetables = [
 },
 
 {
-    id: "VG058",
-    name: "Amaranthus Leaves",
+    id: "VG053",
+    name: " Red Amaranth Leaves",
     //image: AMARANTHUS_LEAVES,
     category: "Vegetables",
     shortDescription: "Nutritious amaranthus leaves rich in minerals.",
@@ -1334,9 +1216,9 @@ const vegetables = [
 },
 
 {
-    id: "VG059",
+    id: "VG054",
     name: "Kand",
-    //image: KAND,
+    image: "/RaiyanGlobal/Products/Vegetables/Kand.svg",
     category: "Vegetables",
     shortDescription: "Fresh purple kand ideal for frying and sabzis.",
     fullDescription:
@@ -1355,11 +1237,10 @@ const vegetables = [
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-
 {
-    id: "VG060",
+    id: "VG055",
     name: "Green Tea",
-    //image: GREEN_TEA,
+    image: "/RaiyanGlobal/Products/Vegetables/GreenTea.svg",
     category: "Vegetables",
     shortDescription: "Fresh green tea leaves ideal for brewing healthy tea.",
     fullDescription:
@@ -1378,148 +1259,11 @@ const vegetables = [
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-{
-    id: "VG061",
-    name: "Cherry Tomato",
-    //image: CHERRY_TOMATO,
-    category: "Vegetables",
-    shortDescription: "Sweet and juicy cherry tomatoes perfect for salads.",
-    fullDescription:
-      "Cherry Tomatoes are tiny, sweet, and juicy. They are widely used in salads, pastas, garnishing, and snacking due to their vibrant flavor.",
-    features: [
-      "Sweet natural flavor",
-      "Juicy bite-size tomatoes",
-      "Rich in antioxidants",
-      "Perfect for salads"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "November – April",
-      Grade: "Premium",
-      Packaging: "200g / 500g packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
 {
-    id: "VG062",
-    name: "Sweet Corn",
-    //image: SWEET_CORN,
-    category: "Vegetables",
-    shortDescription: "Tender sweet corn kernels full of natural sweetness.",
-    fullDescription:
-      "Sweet Corn is loved for its juicy kernels and mild sweetness. It is used for soups, salads, snacks, and boiling.",
-    features: [
-      "Juicy kernels",
-      "Mild sweetness",
-      "Versatile use",
-      "Rich in fiber"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "All year",
-      Grade: "A Grade",
-      Packaging: "1 piece / 2 piece packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG063",
-    name: "Cucumber",
-    //image: CUCUMBER,
-    category: "Vegetables",
-    shortDescription: "Fresh hydrating cucumbers ideal for salads.",
-    fullDescription:
-      "Cucumber is a refreshing vegetable with high water content. Commonly used in salads, raita, and detox drinks.",
-    features: [
-      "High water content",
-      "Refreshing taste",
-      "Crisp texture",
-      "Perfect for salads"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "March – September",
-      Grade: "Premium",
-      Packaging: "500g / 1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG064",
-    name: "Red Pumpkin",
-    //image: RED_PUMPKIN,
-    category: "Vegetables",
-    shortDescription: "Sweet red pumpkin perfect for gravies and soups.",
-    fullDescription:
-      "Red Pumpkin is naturally sweet and soft when cooked. It is used in soups, curries, and traditional sweet dishes.",
-    features: [
-      "Soft texture",
-      "Sweet flavor",
-      "Highly nutritious",
-      "Good for soups"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "All year",
-      Grade: "A Grade",
-      Packaging: "Cut pieces / Whole"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG065",
-    name: "White Pumpkin",
-    //image: WHITE_PUMPKIN,
-    category: "Vegetables",
-    shortDescription: "Cooling white pumpkin ideal for curries and juices.",
-    fullDescription:
-      "White Pumpkin is rich in water and nutrients. It's widely used in curries, chutneys, and health drinks.",
-    features: [
-      "Cooling vegetable",
-      "Soft white flesh",
-      "Rich in water",
-      "Traditional Ayurvedic ingredient"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "March – October",
-      Grade: "Premium",
-      Packaging: "Cut pieces / Whole"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG066",
-    name: "Brinjal Bharta",
-    //image: BRINJAL_BHARTA,
-    category: "Vegetables",
-    shortDescription: "Large smoky brinjal perfect for bharta preparation.",
-    fullDescription:
-      "Bharta Brinjal is ideal for roasting due to its soft flesh. Once roasted, it delivers a smoky, rich flavor.",
-    features: [
-      "Soft interior",
-      "Roasts perfectly",
-      "Rich smoky taste",
-      "Ideal for bharta"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "October – March",
-      Grade: "A Grade",
-      Packaging: "1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG067",
+    id: "VG056",
     name: "Snake Gourd",
-    //image: SNAKE_GOURD,
+    image: "/RaiyanGlobal/Products/Vegetables/SnakeGourd.svg",
     category: "Vegetables",
     shortDescription: "Fresh snake gourd perfect for healthy curries.",
     fullDescription:
@@ -1538,218 +1282,10 @@ const vegetables = [
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-
 {
-    id: "VG068",
-    name: "Red Banana",
-    //image: RED_BANANA,
-    category: "Vegetables",
-    shortDescription: "Fresh red banana used for cooking and traditional dishes.",
-    fullDescription:
-      "Red Banana is used in various regional cuisines. It has a firm texture and mild flavor, perfect for curries.",
-    features: [
-      "Firm texture",
-      "Rich in nutrients",
-      "Traditional ingredient",
-      "Mild flavor"
-    ],
-    specifications: {
-      Origin: "South India",
-      Season: "All year",
-      Grade: "Premium",
-      Packaging: "1kg bundles"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG069",
-    name: "Taushi",
-    //image: TAUSHI,
-    category: "Vegetables",
-    shortDescription: "Fresh taushi used in stir-fries and sabzis.",
-    fullDescription:
-      "Taushi is a regional vegetable with soft flesh and a mild taste, commonly used in everyday cooking.",
-    features: [
-      "Soft and tender",
-      "Mild natural taste",
-      "Easy to cook",
-      "Good for everyday meals"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "July – January",
-      Grade: "A Grade",
-      Packaging: "1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG070",
-    name: "Cauliflower Leaves",
-    //image: CAULIFLOWER_LEAVES,
-    category: "Vegetables",
-    shortDescription: "Fresh cauliflower leaves high in nutrients.",
-    fullDescription:
-      "Cauliflower Leaves are highly nutritious and often used in saag, stir-fries, and parathas. They are rich in vitamins and fiber.",
-    features: [
-      "Nutrient dense",
-      "Leafy green vegetable",
-      "Soft texture",
-      "Perfect for saag"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "October – April",
-      Grade: "Fresh Premium",
-      Packaging: "500g bunches"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG071",
-    name: "Mint Leaves",
-    //image: MINT_LEAVES,
-    category: "Vegetables",
-    shortDescription: "Fresh aromatic mint ideal for chutneys and garnishing.",
-    fullDescription:
-      "Mint Leaves provide freshness and aroma to dishes. They are widely used in chutneys, drinks, biryanis, and garnishing.",
-    features: [
-      "Strong refreshing aroma",
-      "Bright green leaves",
-      "Used in drinks & chutneys",
-      "Cool natural taste"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "All year",
-      Grade: "Premium Fresh",
-      Packaging: "50g / 100g bunches"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG072",
-    name: "Spinach",
-    //image: SPINACH,
-    category: "Vegetables",
-    shortDescription: "Fresh spinach leaves rich in iron and vitamins.",
-    fullDescription:
-      "Spinach is a nutrient-rich green leafy vegetable used in curries, soups, and smoothies. It has a soft texture and mild taste.",
-    features: [
-      "Rich in iron",
-      "Soft leafy greens",
-      "High vitamins",
-      "Perfect for soups & curries"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "All year",
-      Grade: "Premium Fresh",
-      Packaging: "250g / 500g bunches"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG073",
-    name: "Purple Yam",
-    //image: PURPLE_YAM,
-    category: "Vegetables",
-    shortDescription: "Fresh purple yam rich in starch and fiber.",
-    fullDescription:
-      "Purple Yam is a winter root vegetable used in Undhiyu and other Gujarati dishes. It has a mildly sweet flavor and firm texture.",
-    features: [
-      "Purple starchy root",
-      "Firm texture",
-      "Perfect for Undhiyu",
-      "Rich in fiber"
-    ],
-    specifications: {
-      Origin: "Gujarat",
-      Season: "November – February",
-      Grade: "A Grade",
-      Packaging: "1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG074",
-    name: "Red Beetroot",
-    //image: RED_BEETROOT,
-    category: "Vegetables",
-    shortDescription: "Sweet red beetroot rich in iron and antioxidants.",
-    fullDescription:
-      "Red Beetroot is known for its earthy sweetness and vibrant color. It is used in salads, juices, and healthy dishes.",
-    features: [
-      "Bright red color",
-      "Earthy sweetness",
-      "Rich in iron",
-      "Great for salads & juices"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "October – March",
-      Grade: "Premium",
-      Packaging: "500g / 1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG075",
-    name: "Potato",
-    //image: POTATO,
-    category: "Vegetables",
-    shortDescription: "Fresh potatoes ideal for daily cooking.",
-    fullDescription:
-      "Potatoes are one of the most versatile vegetables used in almost all cuisines. They are firm, starchy, and perfect for frying, boiling, and curries.",
-    features: [
-      "Firm texture",
-      "Starchy and versatile",
-      "Long shelf life",
-      "Daily-use vegetable"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "All year",
-      Grade: "A Grade",
-      Packaging: "1kg / 5kg / 10kg"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG076",
-    name: "Sweet Potato",
-    //image: SWEET_POTATO,
-    category: "Vegetables",
-    shortDescription: "Naturally sweet potatoes perfect for roasting.",
-    fullDescription:
-      "Sweet Potatoes are rich in nutrients and natural sweetness. They are ideal for roasting, boiling, and snacks.",
-    features: [
-      "Naturally sweet",
-      "Soft when cooked",
-      "Rich in nutrients",
-      "Good for snacks"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "October – March",
-      Grade: "A Grade",
-      Packaging: "1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG077",
+    id: "VG057",
     name: "Coconut Leaves",
-    //image: COCONUT_LEAVES,
+    image: "/RaiyanGlobal/Products/Vegetables/CoconutLeaves.svg",
     category: "Vegetables",
     shortDescription: "Fresh coconut leaves used for decoration & rituals.",
     fullDescription:
@@ -1768,376 +1304,438 @@ const vegetables = [
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-
 {
-    id: "VG078",
-    name: "Baby Potato",
-    //image: BABY_POTATO,
+    id: "VG058",
+    name: "Green Garlic",
+    image: "/RaiyanGlobal/Products/Vegetables/GreenGarlic.svg",
     category: "Vegetables",
-    shortDescription: "Small tender baby potatoes ideal for roasting.",
+    shortDescription: "Fresh garlic cloves rich in aroma and flavor.",
     fullDescription:
-      "Baby Potatoes have a soft texture and mild sweetness. They are great for roasting, frying, and gravy dishes.",
+      "Garlic is a powerful flavor enhancer used in almost every Indian dish. It is known for its aroma and health benefits.",
     features: [
-      "Tender mini potatoes",
-      "Soft texture",
-      "Quick to cook",
-      "Perfect for roasting"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "October – March",
-      Grade: "Premium",
-      Packaging: "500g / 1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG079",
-    name: "Raw Banana",
-    //image: RAW_BANANA,
-    category: "Vegetables",
-    shortDescription: "Firm raw bananas ideal for fries and curries.",
-    fullDescription:
-      "Raw Bananas are used widely in Indian cooking for their firm texture. They are excellent for chips, fries, and curries.",
-    features: [
-      "Firm green flesh",
-      "Rich in starch",
-      "Perfect for frying",
-      "Popular in South Indian dishes"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "All year",
-      Grade: "A Grade",
-      Packaging: "1kg bunches"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG080",
-    name: "Matar",
-    //image: MATAR,
-    category: "Vegetables",
-    shortDescription: "Fresh green matar ideal for winter dishes.",
-    fullDescription:
-      "Matar, or green peas, are sweet and tender. They are widely used in pulao, sabzis, curries, and snacks.",
-    features: [
-      "Tender sweet peas",
-      "Winter special vegetable",
-      "High protein",
-      "Great for curries & pulao"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "November – March",
-      Grade: "Premium",
-      Packaging: "500g / 1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
-    id: "VG081",
-    name: "Yellow Brinjal",
-    //image: YELLOW_BRINJAL,
-    category: "Vegetables",
-    shortDescription: "Fresh yellow brinjal with mild sweetness.",
-    fullDescription:
-      "Yellow Brinjal is a unique variety with a gentle sweetness and soft texture. It is commonly used in curry dishes and traditional recipes.",
-    features: [
-      "Soft and tender flesh",
-      "Naturally mild sweetness",
-      "Rich in antioxidants",
-      "Good for curries"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "October – March",
-      Grade: "A Grade",
-      Packaging: "500g / 1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG082",
-    name: "Aloo Cabbage",
-    //image: ALOO_CABBAGE,
-    category: "Vegetables",
-    shortDescription: "Fresh aloo cabbage mix for daily cooking.",
-    fullDescription:
-      "Aloo Cabbage is a convenient mix used to prepare quick sabzis. It combines the flavors of cabbage with the softness of potato slices.",
-    features: [
-      "Ready mix combination",
-      "Soft texture",
-      "Easy to cook",
-      "Ideal for daily meals"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "All year",
-      Grade: "Premium Cut",
-      Packaging: "1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG083",
-    name: "Fresh Haldi",
-    //image: FRESH_HALDI,
-    category: "Vegetables",
-    shortDescription: "Aromatic fresh haldi used for cooking & health.",
-    fullDescription:
-      "Fresh Haldi is highly valued for its natural aroma and medicinal properties. It is used in pickles, curries, and Ayurvedic remedies.",
-    features: [
-      "Rich in curcumin",
-      "Strong natural aroma",
-      "Medicinal benefits",
-      "Used in pickles"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "December – March",
-      Grade: "Premium",
-      Packaging: "250g / 500g packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG084",
-    name: "Chilli Kismis",
-    //image: CHILLI_KISMIS,
-    category: "Vegetables",
-    shortDescription: "Mild spicy chilli variety used in pickles and cooking.",
-    fullDescription:
-      "Chilli Kismis is a long, thin chilli variety with mild heat. It is commonly used for pickles and enhances everyday cooking.",
-    features: [
-      "Mild spiciness",
-      "Long thin pods",
-      "Ideal for pickles",
-      "Flavor-enhancing"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "August – February",
-      Grade: "A Grade",
-      Packaging: "250g / 500g packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG085",
-    name: "Gawar",
-    //image: GAWAR,
-    category: "Vegetables",
-    shortDescription: "Tender gawar beans ideal for Gujarati sabzis.",
-    fullDescription:
-      "Gawar is a fiber-rich vegetable with a mild taste. It is widely used in Gujarati-style stir-fry sabzis and dal preparations.",
-    features: [
-      "Tender green pods",
-      "Rich in fiber",
-      "Mild flavor",
-      "Perfect for dry sabzis"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "September – March",
-      Grade: "Premium",
-      Packaging: "1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG086",
-    name: "Padwal",
-    //image: PADWAL,
-    category: "Vegetables",
-    shortDescription: "Soft and fresh padwal used in everyday dishes.",
-    fullDescription:
-      "Padwal, or snake gourd, is a soft vegetable commonly used in light Indian curries. It is low in calories and easy to digest.",
-    features: [
-      "Soft texture",
-      "Hydrating vegetable",
-      "Mild flavor",
-      "Great for curries"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "June – December",
-      Grade: "A Grade",
-      Packaging: "500g / 1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG087",
-    name: "Brinjal Long",
-    //image: BRINJAL_LONG,
-    category: "Vegetables",
-    shortDescription: "Fresh long brinjal ideal for frying and curries.",
-    fullDescription:
-      "Long Brinjal has a slender shape and soft flesh. It cooks quickly and absorbs spices perfectly, making it ideal for fry dishes and curries.",
-    features: [
-      "Slender shape",
-      "Soft flesh",
-      "Absorbs spices well",
-      "Versatile use"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "All year",
-      Grade: "A Grade",
-      Packaging: "500g / 1kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG088",
-    name: "Ginger Green",
-    //image: GINGER_GREEN,
-    category: "Vegetables",
-    shortDescription: "Tender green ginger with mild aroma.",
-    fullDescription:
-      "Green Ginger is a fresh variant of ginger with a milder taste and higher juiciness. It is used in chutneys and daily cooking.",
-    features: [
-      "Tender and juicy",
-      "Mild aromatic flavor",
-      "Easy to grate",
-      "Great for chutneys"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "June – December",
-      Grade: "Premium Fresh",
-      Packaging: "250g / 500g packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-
-{
-    id: "VG089",
-    name: "Crushed Garlic",
-    //image: CRUSHED_GARLIC,
-    category: "Vegetables",
-    shortDescription: "Ready-to-use crushed garlic for quick cooking.",
-    fullDescription:
-      "Crushed Garlic is a convenient cooking ingredient that saves time while providing the same strong aroma and flavor as fresh garlic.",
-    features: [
-      "Ready to use",
-      "Saves cooking time",
       "Strong aroma",
-      "Perfect for gravies"
+      "Rich in antioxidants",
+      "Essential spice",
+      "Enhances flavor"
     ],
     specifications: {
       Origin: "India",
       Season: "All year",
-      Grade: "Processed Premium",
-      Packaging: "200g / 500g jars"
+      Grade: "Premium",
+      Packaging: "250g / 500g packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-
 {
-    id: "VG090",
-    name: "Muli Patta",
-    //image: MULI_PATTA,
+    id: "VG059",
+    name: "Small Kantola",
+    image: "/RaiyanGlobal/Products/Vegetables/SmallKantola.svg",
     category: "Vegetables",
-    shortDescription: "Fresh muli patta used in saag and nutritious dishes.",
+    shortDescription: "Fresh big kantola with firm texture and unique flavor.",
     fullDescription:
-      "Muli Patta (radish leaves) are rich in nutrients and widely used for making saag, stir-fries, and parathas.",
+      "Big Kantola is a seasonal vegetable known for its crunchy flesh and unique taste. It is great for frying and curry dishes.",
     features: [
-      "Highly nutritious",
-      "Leafy and tender",
-      "Traditional Indian green",
-      "Rich in minerals"
+      "Crunchy texture",
+      "Unique taste",
+      "Seasonal delight",
+      "Used in fry dishes"
     ],
     specifications: {
       Origin: "India",
-      Season: "October – February",
-      Grade: "Premium Fresh",
-      Packaging: "250g / 500g bunches"
+      Season: "July – October",
+      Grade: "Premium",
+      Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
-
 {
-    id: "VG091",
-    name: "Fenugreek Leaves",
-    //image: FENUGREEK_LEAVES,
-    category: "Vegetables",
-    shortDescription: "Fresh methi leaves full of aroma and nutrients.",
-    fullDescription:
-      "Fenugreek Leaves (Methi) are aromatic greens used in parathas, curries, and sabzis. They have a distinct flavor and many health benefits.",
-    features: [
-      "Rich aromatic flavor",
-      "Leafy and green",
-      "Highly nutritious",
-      "Perfect for methi paratha"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "October – March",
-      Grade: "Premium Fresh",
-      Packaging: "250g bunches"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  id: "VG060",
+  name: "Patha",
+  image: "/RaiyanGlobal/Products/Vegetables/PathaLeaves.svg",
+  category: "Vegetables",
+  shortDescription: "Fresh patha leaves used for traditional dishes.",
+  fullDescription:
+    "Patha leaves are widely used in Indian cuisine for making steamed and fried delicacies. They have a mild taste and smooth texture.",
+  features: [
+    "Soft and fresh leaves",
+    "Ideal for steamed dishes",
+    "Traditional Indian ingredient",
+    "Rich in nutrients"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "All year",
+    Grade: "A Grade",
+    Packaging: "Bundles / Loose"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
 
 {
-    id: "VG092",
-    name: "Raw Sweet Corn",
-    //image: RAW_SWEET_CORN,
-    category: "Vegetables",
-    shortDescription: "Fresh raw sweet corn used for boiling and soups.",
-    fullDescription:
-      "Raw Sweet Corn has tender kernels with a natural sweetness. It is great for soups, boiling, salad mixes, and snacks.",
-    features: [
-      "Juicy sweet kernels",
-      "Soft texture",
-      "Rich in fiber",
-      "Perfect for boiling"
-    ],
-    specifications: {
-      Origin: "India",
-      Season: "July – February",
-      Grade: "A Grade",
-      Packaging: "1 piece / 2 piece"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  id: "VG061",
+  name: "Lotus Root",
+  image: "/RaiyanGlobal/Products/Vegetables/LotusRoots.svg",
+  category: "Vegetables",
+  shortDescription: "Crispy lotus root with a lightly sweet flavor.",
+  fullDescription:
+    "Lotus root is a crunchy and nutritious vegetable used in stir-fries, curries, and soups. Known for its unique texture and health benefits.",
+  features: [
+    "Crunchy texture",
+    "Rich in vitamins",
+    "Mild sweet flavor",
+    "Great for stir-fries"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "August – February",
+    Grade: "Premium",
+    Packaging: "500g / 1kg"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 },
 
 {
-    id: "VG093",
-    name: "Tapioca",
-    //image: TAPIOCA,
-    category: "Vegetables",
-    shortDescription: "Fresh tapioca roots perfect for boiling and chips.",
-    fullDescription:
-      "Tapioca (cassava) is a starchy root vegetable used in Indian and international cuisines. It is ideal for boiling, chips, and fry dishes.",
-    features: [
-      "Starchy white flesh",
-      "High energy source",
-      "Soft when boiled",
-      "Used for chips & snacks"
-    ],
-    specifications: {
-      Origin: "South India",
-      Season: "October – March",
-      Grade: "A Grade",
-      Packaging: "1kg / 2kg packs"
-    },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  id: "VG062",
+  name: "Surti Kand",
+  //image: "/RaiyanGlobal/Products/Vegetables/Surti Kand.svg",
+  category: "Vegetables",
+  shortDescription: "Purple yam with creamy and rich taste.",
+  fullDescription:
+    "Surti Kand is a nutritious tuber known for its deep purple color and unique flavor. Commonly used in Gujarati dishes and snacks.",
+  features: [
+    "Rich purple color",
+    "Creamy texture",
+    "Highly nutritious",
+    "Popular in winter dishes"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "November – February",
+    Grade: "Premium",
+    Packaging: "1kg / Loose"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG063",
+  name: "Yellow Dates",
+  image: "/RaiyanGlobal/Products/Vegetables/YellowDates.svg",
+  category: "Vegetables",
+  shortDescription: "Fresh crunchy yellow dates with natural sweetness.",
+  fullDescription:
+    "Yellow dates are seasonal fruits known for their crunchy texture and mildly sweet taste. Enjoyed fresh during their short season.",
+  features: [
+    "Natural sweetness",
+    "Crunchy texture",
+    "Seasonal delicacy",
+    "Rich in fiber"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "August – October",
+    Grade: "A Grade",
+    Packaging: "250g / 500g"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG064",
+  name: "Red Dates",
+  image: "/RaiyanGlobal/Products/Vegetables/RedDates.svg",
+  category: "Vegetables",
+  shortDescription: "Soft and sweet red dates full of nutrients.",
+  fullDescription:
+    "Red dates, also called jujube, are sweet and chewy fruits used in desserts, snacks, and herbal preparations.",
+  features: [
+    "Soft texture",
+    "Rich in antioxidants",
+    "Naturally sweet",
+    "Energy-boosting"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "September – December",
+    Grade: "Premium",
+    Packaging: "250g / 500g packs"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+{
+  id: "VG065",
+  name: "Lemon Grass",
+  image: "/RaiyanGlobal/Products/Vegetables/LemonGrass.svg",
+  category: "Vegetables",
+  shortDescription: "Aromatic lemongrass used in teas and curries.",
+  fullDescription:
+    "Lemongrass is a fragrant herb widely used in Asian cooking, teas, and herbal remedies. Known for its citrusy aroma.",
+  features: [
+    "Strong citrus aroma",
+    "Used in teas and soups",
+    "Medicinal benefits",
+    "Fresh and aromatic"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "All year",
+    Grade: "A Grade",
+    Packaging: "Bundles"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+{
+  id: "VG066",
+  name: "Bilva Leaves",
+  image: "/RaiyanGlobal/Products/Vegetables/BilvaLeaves.svg",
+  category: "Vegetables",
+  shortDescription: "Sacred bilva leaves used for rituals and remedies.",
+  fullDescription:
+    "Bilva leaves hold religious importance and are also used in traditional medicine. Known for their refreshing aroma.",
+  features: [
+    "Aromatic leaves",
+    "Religious significance",
+    "Fresh and green",
+    "Used in Ayurveda"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "All year",
+    Grade: "Premium",
+    Packaging: "Bundles"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG067",
+  name: "Pudina Leaves",
+  image: "/RaiyanGlobal/Products/Vegetables/Pudina.svg",
+  category: "Vegetables",
+  shortDescription: "Fresh mint leaves with strong aroma.",
+  fullDescription:
+    "Pudina leaves are widely used in chutneys, teas, and beverages. They have a refreshing taste and cooling properties.",
+  features: [
+    "Strong aroma",
+    "Cooling effect",
+    "Great for chutneys",
+    "Rich in antioxidants"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "All year",
+    Grade: "A Grade",
+    Packaging: "50g / 100g bunches"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG068",
+  name: "Jalpai",
+  image: "/RaiyanGlobal/Products/Vegetables/Jalpai.svg",
+  category: "Vegetables",
+  shortDescription: "Tangy jalpai fruit used for pickles.",
+  fullDescription:
+    "Jalpai is a tangy fruit commonly used to prepare pickles and chutneys. Known for its firm texture and sharp taste.",
+  features: [
+    "Tangy flavor",
+    "Ideal for pickles",
+    "Firm texture",
+    "Seasonal fruit"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "September – January",
+    Grade: "Premium",
+    Packaging: "250g / Loose"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG069",
+  name: "Green Big Pumpkin",
+  image: "/RaiyanGlobal/Products/Vegetables/GreenBigPumpkin.svg",
+  category: "Vegetables",
+  shortDescription: "Fresh green pumpkin with dense flesh.",
+  fullDescription:
+    "Green pumpkin is known for its mildly sweet flavor and soft texture, ideal for curries, soups, and stews.",
+  features: [
+    "Soft and dense flesh",
+    "Mildly sweet taste",
+    "Rich in fiber",
+    "Good for curries"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "All year",
+    Grade: "A Grade",
+    Packaging: "Cut pieces / Whole"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG070",
+  name: "Tindora",
+  image: "/RaiyanGlobal/Products/Vegetables/Tindora.svg",
+  category: "Vegetables",
+  shortDescription: "Fresh tindora ideal for fry dishes.",
+  fullDescription:
+    "Tindora is a small green vegetable popular for its crunchy texture. Used in stir-fries, curries, and stuffing preparations.",
+  features: [
+    "Crunchy texture",
+    "Easy to cook",
+    "Rich in fiber",
+    "Popular in Indian households"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "All year",
+    Grade: "Premium",
+    Packaging: "250g / 500g"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG071",
+  name: "Bathua Leaves",
+  image: "/RaiyanGlobal/Products/Vegetables/BathuaLeaves.svg",
+  category: "Vegetables",
+  shortDescription: "Nutritious bathua leaves for winter dishes.",
+  fullDescription:
+    "Bathua leaves are a winter green used in saag, paratha stuffing, and soups. Known for their earthy flavor and high nutrition.",
+  features: [
+    "Winter special",
+    "Earthy flavor",
+    "Rich in vitamins",
+    "Great for saag"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "November – February",
+    Grade: "A Grade",
+    Packaging: "Bundles"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG072",
+  name: "Neem Flowers",
+  image: "/RaiyanGlobal/Products/Vegetables/NeemLeaves.svg",
+  category: "Vegetables",
+  shortDescription: "Fresh edible neem flowers used in herbal recipes.",
+  fullDescription:
+    "Neem flowers are used in traditional dishes and Ayurvedic preparations. They have a bitter taste and strong medicinal value.",
+  features: [
+    "Detoxifying properties",
+    "Used in herbal dishes",
+    "Fresh aroma",
+    "High medicinal value"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "March – May",
+    Grade: "Premium",
+    Packaging: "100g packs"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG073",
+  name: "Haldi Leaves",
+  image: "/RaiyanGlobal/Products/Vegetables/HaldiLeaves.svg",
+  category: "Vegetables",
+  shortDescription: "Aromatic turmeric leaves used for steaming sweets.",
+  fullDescription:
+    "Haldi leaves are widely used in festive sweets like patoli. Their aroma infuses into dishes, making them flavorful and unique.",
+  features: [
+    "Strong aroma",
+    "Used in sweets",
+    "Rich herbal properties",
+    "Fresh and green"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "July – December",
+    Grade: "A Grade",
+    Packaging: "Bundles"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG074",
+  name: "Curry Banana",
+  image: "/RaiyanGlobal/Products/Vegetables/CurryBanana.svg",
+  category: "Vegetables",
+  shortDescription: "Raw banana ideal for curry dishes.",
+  fullDescription:
+    "Curry bananas are raw green bananas used in various savoury dishes. They have firm texture and absorb spices well.",
+  features: [
+    "Firm texture",
+    "Perfect for curries",
+    "Rich in fiber",
+    "Easy to cook"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "All year",
+    Grade: "Premium",
+    Packaging: "500g / 1kg"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG075",
+  name: "Jalbi Embly",
+  image: "/RaiyanGlobal/Products/Vegetables/JalebiImli.svg",
+  category: "Vegetables",
+  shortDescription: "Sour jalbi embly used in pickles and curries.",
+  fullDescription:
+    "Jalbi embly is a sour fruit commonly used in Indian pickles and tangy curries. Known for its sharp and refreshing acidity.",
+  features: [
+    "Sour and refreshing",
+    "Great for pickles",
+    "Natural acidity",
+    "Seasonal item"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "September – March",
+    Grade: "A Grade",
+    Packaging: "250g packs"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+},
+
+{
+  id: "VG076",
+  name: "Green Amaranth Leaves",
+  image: "/RaiyanGlobal/Products/Vegetables/GreenAmaranthLaves.svg",
+  category: "Vegetables",
+  shortDescription: "Fresh green amaranth leaves full of nutrients.",
+  fullDescription:
+    "Green amaranth is a healthy leafy vegetable used in curries and sautés. Known for its soft texture and high iron content.",
+  features: [
+    "Nutrient-rich greens",
+    "Soft texture",
+    "High in iron",
+    "Great for curries"
+  ],
+  specifications: {
+    Origin: "India",
+    Season: "All year",
+    Grade: "A Grade",
+    Packaging: "Bundles"
+  },
+  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
 }
-
-
-
 ];
 
 export default vegetables;
