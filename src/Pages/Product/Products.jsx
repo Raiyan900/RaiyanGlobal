@@ -1,12 +1,20 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import ProductCard from "../../Components/ProductCard/ProductCard";
 import productsData from "../../Components/Data/ProductData";
+import Pagination from "../../Components/pagination/pagination";
 import "./Product.css";
 
 export default function Products() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("All");
   const [page, setPage] = useState(1);
+
+  const itemsPerPage = 9;
+
+useEffect(() => {
+  setPage(1);
+}, [category]);
+
 
   function shuffleArray(array) {
     return array
@@ -99,40 +107,15 @@ export default function Products() {
           ))}
         </div>
 
-        {/* PAGINATION UI LIKE REFERENCE */}
-        <div className="pagination">
+        {/* PAGINATION */}
+        <Pagination
+          page={page}
+          totalPages={totalPages}
+          setPage={setPage}
+        />
 
-          {/* Prev Arrow */}
-          <button
-            className="page-btn"
-            disabled={page === 1}
-            onClick={() => setPage(page - 1)}
-          >
-            ‹
-          </button>
 
-          {/* Page Numbers */}
-          <div className="page-status">
-            {Array.from({ length: totalPages }, (_, i) => (
-              <div
-                key={i}
-                className={`page-number ${page === i + 1 ? "active" : ""}`}
-                onClick={() => setPage(i + 1)}
-              >
-                {i + 1}
-              </div>
-            ))}
-          </div>
 
-          {/* Next Arrow */}
-          <button
-            className="page-btn"
-            disabled={page === totalPages}
-            onClick={() => setPage(page + 1)}
-          >
-            ›
-          </button>
-        </div>
       </div>
     </main>
   );

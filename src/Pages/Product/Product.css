@@ -76,56 +76,6 @@ main.product-wrapper {
   margin-bottom: 60px;
 }
 
-
-/* Pagination */
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 14px;
-  margin-top: 40px;
-  user-select: none;
-}
-
-.page-btn {
-  background: transparent;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  color: var(--accent);
-  padding: 4px 10px;
-}
-
-.page-number.active {
-  background: var(--mint);
-  color: var(--accent);
-
-}
-
-.page-btn:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-}
-
-.page-status {
-  display: flex;
-  gap: 12px;
-}
-
-.page-number {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background: var(--primary-dark);
-  color: var(--accent);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-
 /* Category Pills */
 .category-select {
   display: none;
@@ -286,3 +236,5 @@ main.product-wrapper {
     margin: auto;
   }
 }
+
+

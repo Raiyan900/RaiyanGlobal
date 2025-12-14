@@ -1195,7 +1195,7 @@ const vegetables = [
 {
     id: "VG053",
     name: " Red Amaranth Leaves",
-    //image: AMARANTHUS_LEAVES,
+    image: "/RaiyanGlobal/Products/Vegetables/RedAmaranthLeaves.svg",
     category: "Vegetables",
     shortDescription: "Nutritious amaranthus leaves rich in minerals.",
     fullDescription:
@@ -1397,7 +1397,7 @@ const vegetables = [
 {
   id: "VG062",
   name: "Surti Kand",
-  //image: "/RaiyanGlobal/Products/Vegetables/Surti Kand.svg",
+  image: "/RaiyanGlobal/Products/Vegetables/SurtiKand.svg",
   category: "Vegetables",
   shortDescription: "Purple yam with creamy and rich taste.",
   fullDescription:
