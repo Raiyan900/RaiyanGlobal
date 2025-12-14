@@ -2,7 +2,7 @@ const Fruits = [
   {
     id: "FR001",
     name: "White Guava",
-    image: "RaiyanGlobal/Products/Fruits/WhiteGuava.svg",
+    image: "/RaiyanGlobal/Products/Fruits/WhiteGuava.svg",
     category: "Fruits",
     shortDescription: "Fresh, mildly sweet white guavas with soft texture.",
     fullDescription:
