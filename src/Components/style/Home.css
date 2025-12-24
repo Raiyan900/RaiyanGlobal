@@ -36,14 +36,14 @@
 }
 
 .hero-content h1 {
-  font-size: var(--h1-size);
+  font-size: 53px;
   font-weight: 800;
   margin: 0 0 0.25rem 0;
   color: var(--lightgreen);
 }
 
 .hero-content h2 {
-  font-size: var(--h2-size);
+  font-size: 39px;
   font-weight: 800;
   margin: 0 0 0.75rem 0;
   color: var(--accent);
@@ -193,7 +193,7 @@
 .wy-choose-us {
   font-weight: 800;
   margin: 0;
-  font-size: 30px
+  font-size: 40px
 }
 
 .wy-choose-uss {

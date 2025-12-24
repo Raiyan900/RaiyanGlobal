@@ -27,6 +27,7 @@ export default function Navbar() {
           <li onClick={() => setIsOpen(false)}><a href="#/about">About</a></li>
           <li onClick={() => setIsOpen(false)}><a href="#/products">Product</a></li>
           <li onClick={() => setIsOpen(false)}><a href="#/contact">Contact Us</a></li>
+          {/* <li onClick={() => setIsOpen(false)}><a href="#/WorldMap">WorldMap</a></li> */}
         </ul>
       </div>
     </nav>

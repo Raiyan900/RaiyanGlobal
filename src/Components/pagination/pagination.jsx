@@ -34,24 +34,28 @@ export default function Pagination({ page, totalPages, setPage }) {
         {totalPages === 2 && page === 1 && Page(2, false)}
 
         {/* If MORE than 2 pages, use advanced logic */}
-        {totalPages > 2 && (
+        {totalPages > 1 && (
           <>
             {/* DOTS after page 1 */}
             {page > 3 && <span className="dots">…</span>}
 
-            {/* PAGE 2 (only when page = 2) */}
-            {page === 2 && Page(2, true)}
+            {/* PREVIOUS PAGE */}
+            {page > 2 && Page(page - 1)}
 
-            {/* MIDDLE PAGE */}
-            {page > 2 && page < totalPages - 1 && Page(page, true)}
+            {/* CURRENT PAGE */}
+            {page !== 1 && page !== totalPages && Page(page, true)}
 
-            {/* DOTS before last page */}
+            {/* NEXT PAGE */}
+            {page < totalPages - 1 && Page(page + 1)}
+
+            {/* DOTS before last */}
             {page < totalPages - 2 && <span className="dots">…</span>}
 
             {/* LAST PAGE */}
-            {Page(totalPages, page === totalPages)}
+            {totalPages > 1 && Page(totalPages, page === totalPages)}
           </>
         )}
+
 
       </div>
 

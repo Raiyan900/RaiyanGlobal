@@ -22,9 +22,9 @@ const vegetables = [
       Packaging: "1kg / 5kg bags"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG002",
     name: "Guwar",
     image: "/RaiyanGlobal/Products/Vegetables/Guwar.svg",
@@ -45,9 +45,9 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG003",
     name: "Drumstick",
     image: "/RaiyanGlobal/Products/Vegetables/Drumstick.svg",
@@ -68,9 +68,9 @@ const vegetables = [
       Packaging: "500g / 1kg bundles"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG004",
     name: "Okra",
     image: "/RaiyanGlobal/Products/Vegetables/Okra.svg",
@@ -91,9 +91,9 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG005",
     name: "Valor Papdi",
     image: "/RaiyanGlobal/Products/Vegetables/ValorPapdi.svg",
@@ -114,8 +114,8 @@ const vegetables = [
       Packaging: "1kg bags"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
+  },
+  {
     id: "VG006",
     name: "Suran",
     image: "/RaiyanGlobal/Products/Vegetables/Suran.svg",
@@ -136,9 +136,9 @@ const vegetables = [
       Packaging: "1kg / 3kg cuts"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG007",
     name: "Desi Parwal",
     image: "/RaiyanGlobal/Products/Vegetables/DesiParwal.svg",
@@ -159,9 +159,9 @@ const vegetables = [
       Packaging: "1kg bags"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG008",
     name: "Culcutta parwal",
     image: "/RaiyanGlobal/Products/Vegetables/CulcuttaParwal.svg",
@@ -182,9 +182,9 @@ const vegetables = [
       Packaging: "1kg bags"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG09",
     name: "Tinda",
     image: "/RaiyanGlobal/Products/Vegetables/Tinda.svg",
@@ -205,9 +205,9 @@ const vegetables = [
       Packaging: "1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG010",
     name: "Galka",
     image: "/RaiyanGlobal/Products/Vegetables/Galka.svg",
@@ -228,10 +228,10 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
 
-{
+  {
     id: "VG011",
     name: "Red Carrot",
     image: "/RaiyanGlobal/Products/Vegetables/Carrot.svg",
@@ -252,9 +252,9 @@ const vegetables = [
       Packaging: "1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG012",
     name: "Green Peas",
     image: "/RaiyanGlobal/Products/Vegetables/GreenPeas.svg",
@@ -275,9 +275,9 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG013",
     name: "Tuwer",
     image: "/RaiyanGlobal/Products/Vegetables/TuwerPapdi.svg",
@@ -298,9 +298,9 @@ const vegetables = [
       Packaging: "1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG014",
     name: "Yellow Haldi",
     image: "/RaiyanGlobal/Products/Vegetables/YellowHaldi.svg",
@@ -321,9 +321,9 @@ const vegetables = [
       Packaging: "250g / 500g packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG015",
     name: "Amba Haldi",
     image: "/RaiyanGlobal/Products/Vegetables/AmbaHaldi.svg",
@@ -343,10 +343,13 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "250g / 500g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+    gallery: [
+      // "/RaiyanGlobal/Products/Vegetables/AmbaHaldi.svg",
+      // "/RaiyanGlobal/gallery/Vegetables/AmbaHaldi.svg"
+    ]
+  },
 
-{
+  {
     id: "VG016",
     name: "Bombay Onion",
     image: "/RaiyanGlobal/Products/Vegetables/BombayOnion.svg",
@@ -367,9 +370,9 @@ const vegetables = [
       Packaging: "1kg / 5kg / 10kg"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG017",
     name: "Madras Onion",
     image: "/RaiyanGlobal/Products/Vegetables/MadrasOnion.svg",
@@ -390,9 +393,9 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG018",
     name: "Dudhi",
     image: "/RaiyanGlobal/Products/Vegetables/Dudhi.svg",
@@ -413,8 +416,8 @@ const vegetables = [
       Packaging: "1kg / 2kg pieces"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
+  },
+  {
     id: "VG019",
     name: "Arvi",
     image: "/RaiyanGlobal/Products/Vegetables/Arvi.svg",
@@ -435,9 +438,9 @@ const vegetables = [
       Packaging: "1kg / 3kg bags"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG020",
     name: "Ghevda Papdi",
     image: "/RaiyanGlobal/Products/Vegetables/GhevdaPapdi.svg",
@@ -458,9 +461,9 @@ const vegetables = [
       Packaging: "1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG021",
     name: "Ash Gourd",
     image: "/RaiyanGlobal/Products/Vegetables/AshGourd.svg",
@@ -481,9 +484,9 @@ const vegetables = [
       Packaging: "Whole / Cut pieces"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG022",
     name: "Allu Patta",
     image: "/RaiyanGlobal/Products/Vegetables/AlluPatta.svg",
@@ -504,9 +507,9 @@ const vegetables = [
       Packaging: "Bunches of 20–40 leaves"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG023",
     name: "Curry Leaves",
     image: "/RaiyanGlobal/Products/Vegetables/CurryLeaves.svg",
@@ -527,9 +530,9 @@ const vegetables = [
       Packaging: "50g / 100g bunches"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG024",
     name: "Long Bean",
     image: "/RaiyanGlobal/Products/Vegetables/LongBeans.svg",
@@ -550,9 +553,9 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG025",
     name: "Coriander",
     image: "/RaiyanGlobal/Products/Vegetables/Coriander.svg",
@@ -572,10 +575,10 @@ const vegetables = [
       Grade: "Premium Fresh",
       Packaging: "100g / 250g bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"] 
-},
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
 
-{
+  {
     id: "VG026",
     name: "Surti Papdi",
     image: "/RaiyanGlobal/Products/Vegetables/SurtiPapdi.svg",
@@ -595,13 +598,16 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+    gallery: [
+      "/RaiyanGlobal/gallery/Vegetables/SurtiPapdi.svg", 
+     "///images/rice3.jpg"
+      ]
+  },
 
-{
+  {
     id: "VG027",
     name: "Surti Raviya",
-    image: "/RaiyanGlobal/Products/Vegetables/SurtiPapdi.svg",
+    image: "/RaiyanGlobal/Products/Vegetables/SurtiRaviya.svg",
     category: "Vegetables",
     shortDescription: "Popular surti papdi used in undhiyu and winter dishes.",
     fullDescription:
@@ -618,10 +624,13 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+    gallery: [
+      "/RaiyanGlobal/Products/Vegetables/SurtiPapdi.svg", 
+      // "/RaiyanGlobal/gallery/Vegetables/SurtiRaviya.svg"
+     ]
+  },
 
-{
+  {
     id: "VG028",
     name: "Poi Saag",
     image: "/RaiyanGlobal/Products/Vegetables/PoiBhaji.svg",
@@ -642,9 +651,9 @@ const vegetables = [
       Packaging: "250g / 500g bunches"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG029",
     name: "Pakoda Chilli",
     image: "/RaiyanGlobal/Products/Vegetables/PakodaChilli.svg",
@@ -665,9 +674,9 @@ const vegetables = [
       Packaging: "250g / 500g packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG030",
     name: "G4 Chilli",
     image: "/RaiyanGlobal/Products/Vegetables/G4Chilli.svg",
@@ -688,9 +697,9 @@ const vegetables = [
       Packaging: "250g / 500g packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG031",
     name: "Gangora Leaves",
     image: "/RaiyanGlobal/Products/Vegetables/GangoraLeaves.svg",
@@ -711,9 +720,9 @@ const vegetables = [
       Packaging: "250g / 500g bunches"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG032",
     name: "Pawta Papdi",
     image: "/RaiyanGlobal/Products/Vegetables/PawtaPapdi.svg",
@@ -734,9 +743,9 @@ const vegetables = [
       Packaging: "1kg bags"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG033",
     name: "Banana Flower",
     image: "/RaiyanGlobal/Products/Vegetables/BananaFlower.svg",
@@ -757,9 +766,9 @@ const vegetables = [
       Packaging: "Whole / Cut pieces"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG034",
     name: "Lemon",
     image: "/RaiyanGlobal/Products/Vegetables/Lemon.svg",
@@ -780,9 +789,9 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG035",
     name: "Banana Leaf",
     image: "/RaiyanGlobal/Products/Vegetables/BananaLeaf.svg",
@@ -803,9 +812,9 @@ const vegetables = [
       Packaging: "5 / 10 / 20 leaf bundles"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG036",
     name: "Drumstick Leaves",
     image: "/RaiyanGlobal/Products/Vegetables/DrumstickLeaves.svg",
@@ -826,9 +835,9 @@ const vegetables = [
       Packaging: "250g / 500g bunches"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG037",
     name: "Vellerrica",
     image: "/RaiyanGlobal/Products/Vegetables/Vellirica.svg",
@@ -849,9 +858,9 @@ const vegetables = [
       Packaging: "1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG038",
     name: "Brinjal",
     image: "/RaiyanGlobal/Products/Vegetables/Bringal.svg",
@@ -871,9 +880,12 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
+    gallery: [
+      "/RaiyanGlobal/gallery/Vegetables/Brinjal.svg", 
+      "///images/rice3.jpg"
+     ]
+  },
+  {
     id: "VG039",
     name: "Radish",
     image: "/RaiyanGlobal/Products/Vegetables/Raddish.svg",
@@ -894,9 +906,9 @@ const vegetables = [
       Packaging: "1kg bunches"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG040",
     name: "Cabbage",
     image: "/RaiyanGlobal/Products/Vegetables/Cabbage.svg",
@@ -917,9 +929,9 @@ const vegetables = [
       Packaging: "1 piece / 2 pieces"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG041",
     name: "Turai",
     image: "/RaiyanGlobal/Products/Vegetables/Turai.svg",
@@ -940,9 +952,9 @@ const vegetables = [
       Packaging: "1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG042",
     name: "Cauliflower",
     image: "/RaiyanGlobal/Products/Vegetables/CauliFlower.svg",
@@ -963,9 +975,9 @@ const vegetables = [
       Packaging: "1 piece"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG043",
     name: "French Beans",
     image: "/RaiyanGlobal/Products/Vegetables/FrenchBeans.svg",
@@ -986,9 +998,9 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG044",
     name: "Green Chilli",
     image: "/RaiyanGlobal/Products/Vegetables/GreenChilli.svg",
@@ -1009,9 +1021,9 @@ const vegetables = [
       Packaging: "250g / 500g packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG045",
     name: "Sarso Saag",
     image: "/RaiyanGlobal/Products/Vegetables/SarsooSaag.svg",
@@ -1032,8 +1044,8 @@ const vegetables = [
       Packaging: "500g bunches"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
+  },
+  {
     id: "VG046",
     name: "Big Kantola",
     image: "/RaiyanGlobal/Products/Vegetables/BigKantola.svg",
@@ -1054,8 +1066,8 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
+  },
+  {
     id: "VG047",
     name: "Lotus Stem",
     image: "/RaiyanGlobal/Products/Vegetables/LotusStem.svg",
@@ -1076,9 +1088,9 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG048",
     name: "Ginger",
     image: "/RaiyanGlobal/Products/Vegetables/Ginger.svg",
@@ -1099,9 +1111,9 @@ const vegetables = [
       Packaging: "250g / 500g packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG049",
     name: "Garlic Cloves",
     image: "/RaiyanGlobal/Products/Vegetables/Garlic.svg",
@@ -1122,8 +1134,8 @@ const vegetables = [
       Packaging: "250g / 500g packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
+  },
+  {
     id: "VG050",
     name: "Palm Roots",
     //image: PALM_ROOTS,
@@ -1144,9 +1156,9 @@ const vegetables = [
       Packaging: "1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG051",
     name: "Gunda",
     image: "/RaiyanGlobal/Products/Vegetables/Gunda.svg",
@@ -1167,9 +1179,9 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG052",
     name: "Durva Grass",
     image: "/RaiyanGlobal/Products/Vegetables/DruvaGrass.svg",
@@ -1190,9 +1202,9 @@ const vegetables = [
       Packaging: "Bunches"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG053",
     name: " Red Amaranth Leaves",
     image: "/RaiyanGlobal/Products/Vegetables/RedAmaranthLeaves.svg",
@@ -1213,9 +1225,9 @@ const vegetables = [
       Packaging: "250g / 500g bunches"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG054",
     name: "Kand",
     image: "/RaiyanGlobal/Products/Vegetables/Kand.svg",
@@ -1236,8 +1248,8 @@ const vegetables = [
       Packaging: "1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
+  },
+  {
     id: "VG055",
     name: "Green Tea",
     image: "/RaiyanGlobal/Products/Vegetables/GreenTea.svg",
@@ -1258,9 +1270,9 @@ const vegetables = [
       Packaging: "100g / 250g packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  },
 
-{
+  {
     id: "VG056",
     name: "Snake Gourd",
     image: "/RaiyanGlobal/Products/Vegetables/SnakeGourd.svg",
@@ -1281,8 +1293,8 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
+  },
+  {
     id: "VG057",
     name: "Coconut Leaves",
     image: "/RaiyanGlobal/Products/Vegetables/CoconutLeaves.svg",
@@ -1303,8 +1315,8 @@ const vegetables = [
       Packaging: "Bundles of 10 / 20"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
+  },
+  {
     id: "VG058",
     name: "Green Garlic",
     image: "/RaiyanGlobal/Products/Vegetables/GreenGarlic.svg",
@@ -1325,8 +1337,8 @@ const vegetables = [
       Packaging: "250g / 500g packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
+  },
+  {
     id: "VG059",
     name: "Small Kantola",
     image: "/RaiyanGlobal/Products/Vegetables/SmallKantola.svg",
@@ -1347,395 +1359,395 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
-  id: "VG060",
-  name: "Patha",
-  image: "/RaiyanGlobal/Products/Vegetables/PathaLeaves.svg",
-  category: "Vegetables",
-  shortDescription: "Fresh patha leaves used for traditional dishes.",
-  fullDescription:
-    "Patha leaves are widely used in Indian cuisine for making steamed and fried delicacies. They have a mild taste and smooth texture.",
-  features: [
-    "Soft and fresh leaves",
-    "Ideal for steamed dishes",
-    "Traditional Indian ingredient",
-    "Rich in nutrients"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "All year",
-    Grade: "A Grade",
-    Packaging: "Bundles / Loose"
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
+  {
+    id: "VG060",
+    name: "Patha",
+    image: "/RaiyanGlobal/Products/Vegetables/PathaLeaves.svg",
+    category: "Vegetables",
+    shortDescription: "Fresh patha leaves used for traditional dishes.",
+    fullDescription:
+      "Patha leaves are widely used in Indian cuisine for making steamed and fried delicacies. They have a mild taste and smooth texture.",
+    features: [
+      "Soft and fresh leaves",
+      "Ideal for steamed dishes",
+      "Traditional Indian ingredient",
+      "Rich in nutrients"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "All year",
+      Grade: "A Grade",
+      Packaging: "Bundles / Loose"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
 
-{
-  id: "VG061",
-  name: "Lotus Root",
-  image: "/RaiyanGlobal/Products/Vegetables/LotusRoots.svg",
-  category: "Vegetables",
-  shortDescription: "Crispy lotus root with a lightly sweet flavor.",
-  fullDescription:
-    "Lotus root is a crunchy and nutritious vegetable used in stir-fries, curries, and soups. Known for its unique texture and health benefits.",
-  features: [
-    "Crunchy texture",
-    "Rich in vitamins",
-    "Mild sweet flavor",
-    "Great for stir-fries"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "August – February",
-    Grade: "Premium",
-    Packaging: "500g / 1kg"
+  {
+    id: "VG061",
+    name: "Lotus Root",
+    image: "/RaiyanGlobal/Products/Vegetables/LotusRoots.svg",
+    category: "Vegetables",
+    shortDescription: "Crispy lotus root with a lightly sweet flavor.",
+    fullDescription:
+      "Lotus root is a crunchy and nutritious vegetable used in stir-fries, curries, and soups. Known for its unique texture and health benefits.",
+    features: [
+      "Crunchy texture",
+      "Rich in vitamins",
+      "Mild sweet flavor",
+      "Great for stir-fries"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "August – February",
+      Grade: "Premium",
+      Packaging: "500g / 1kg"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG062",
-  name: "Surti Kand",
-  image: "/RaiyanGlobal/Products/Vegetables/SurtiKand.svg",
-  category: "Vegetables",
-  shortDescription: "Purple yam with creamy and rich taste.",
-  fullDescription:
-    "Surti Kand is a nutritious tuber known for its deep purple color and unique flavor. Commonly used in Gujarati dishes and snacks.",
-  features: [
-    "Rich purple color",
-    "Creamy texture",
-    "Highly nutritious",
-    "Popular in winter dishes"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "November – February",
-    Grade: "Premium",
-    Packaging: "1kg / Loose"
+  {
+    id: "VG062",
+    name: "Surti Kand",
+    image: "/RaiyanGlobal/Products/Vegetables/SurtiKand.svg",
+    category: "Vegetables",
+    shortDescription: "Purple yam with creamy and rich taste.",
+    fullDescription:
+      "Surti Kand is a nutritious tuber known for its deep purple color and unique flavor. Commonly used in Gujarati dishes and snacks.",
+    features: [
+      "Rich purple color",
+      "Creamy texture",
+      "Highly nutritious",
+      "Popular in winter dishes"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "November – February",
+      Grade: "Premium",
+      Packaging: "1kg / Loose"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG063",
-  name: "Yellow Dates",
-  image: "/RaiyanGlobal/Products/Vegetables/YellowDates.svg",
-  category: "Vegetables",
-  shortDescription: "Fresh crunchy yellow dates with natural sweetness.",
-  fullDescription:
-    "Yellow dates are seasonal fruits known for their crunchy texture and mildly sweet taste. Enjoyed fresh during their short season.",
-  features: [
-    "Natural sweetness",
-    "Crunchy texture",
-    "Seasonal delicacy",
-    "Rich in fiber"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "August – October",
-    Grade: "A Grade",
-    Packaging: "250g / 500g"
+  {
+    id: "VG063",
+    name: "Yellow Dates",
+    image: "/RaiyanGlobal/Products/Vegetables/YellowDates.svg",
+    category: "Vegetables",
+    shortDescription: "Fresh crunchy yellow dates with natural sweetness.",
+    fullDescription:
+      "Yellow dates are seasonal fruits known for their crunchy texture and mildly sweet taste. Enjoyed fresh during their short season.",
+    features: [
+      "Natural sweetness",
+      "Crunchy texture",
+      "Seasonal delicacy",
+      "Rich in fiber"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "August – October",
+      Grade: "A Grade",
+      Packaging: "250g / 500g"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG064",
-  name: "Red Dates",
-  image: "/RaiyanGlobal/Products/Vegetables/RedDates.svg",
-  category: "Vegetables",
-  shortDescription: "Soft and sweet red dates full of nutrients.",
-  fullDescription:
-    "Red dates, also called jujube, are sweet and chewy fruits used in desserts, snacks, and herbal preparations.",
-  features: [
-    "Soft texture",
-    "Rich in antioxidants",
-    "Naturally sweet",
-    "Energy-boosting"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "September – December",
-    Grade: "Premium",
-    Packaging: "250g / 500g packs"
+  {
+    id: "VG064",
+    name: "Red Dates",
+    image: "/RaiyanGlobal/Products/Vegetables/RedDates.svg",
+    category: "Vegetables",
+    shortDescription: "Soft and sweet red dates full of nutrients.",
+    fullDescription:
+      "Red dates, also called jujube, are sweet and chewy fruits used in desserts, snacks, and herbal preparations.",
+    features: [
+      "Soft texture",
+      "Rich in antioxidants",
+      "Naturally sweet",
+      "Energy-boosting"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "September – December",
+      Grade: "Premium",
+      Packaging: "250g / 500g packs"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
-  id: "VG065",
-  name: "Lemon Grass",
-  image: "/RaiyanGlobal/Products/Vegetables/LemonGrass.svg",
-  category: "Vegetables",
-  shortDescription: "Aromatic lemongrass used in teas and curries.",
-  fullDescription:
-    "Lemongrass is a fragrant herb widely used in Asian cooking, teas, and herbal remedies. Known for its citrusy aroma.",
-  features: [
-    "Strong citrus aroma",
-    "Used in teas and soups",
-    "Medicinal benefits",
-    "Fresh and aromatic"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "All year",
-    Grade: "A Grade",
-    Packaging: "Bundles"
+  {
+    id: "VG065",
+    name: "Lemon Grass",
+    image: "/RaiyanGlobal/Products/Vegetables/LemonGrass.svg",
+    category: "Vegetables",
+    shortDescription: "Aromatic lemongrass used in teas and curries.",
+    fullDescription:
+      "Lemongrass is a fragrant herb widely used in Asian cooking, teas, and herbal remedies. Known for its citrusy aroma.",
+    features: [
+      "Strong citrus aroma",
+      "Used in teas and soups",
+      "Medicinal benefits",
+      "Fresh and aromatic"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "All year",
+      Grade: "A Grade",
+      Packaging: "Bundles"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
-{
-  id: "VG066",
-  name: "Bilva Leaves",
-  image: "/RaiyanGlobal/Products/Vegetables/BilvaLeaves.svg",
-  category: "Vegetables",
-  shortDescription: "Sacred bilva leaves used for rituals and remedies.",
-  fullDescription:
-    "Bilva leaves hold religious importance and are also used in traditional medicine. Known for their refreshing aroma.",
-  features: [
-    "Aromatic leaves",
-    "Religious significance",
-    "Fresh and green",
-    "Used in Ayurveda"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "All year",
-    Grade: "Premium",
-    Packaging: "Bundles"
+  {
+    id: "VG066",
+    name: "Bilva Leaves",
+    image: "/RaiyanGlobal/Products/Vegetables/BilvaLeaves.svg",
+    category: "Vegetables",
+    shortDescription: "Sacred bilva leaves used for rituals and remedies.",
+    fullDescription:
+      "Bilva leaves hold religious importance and are also used in traditional medicine. Known for their refreshing aroma.",
+    features: [
+      "Aromatic leaves",
+      "Religious significance",
+      "Fresh and green",
+      "Used in Ayurveda"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "All year",
+      Grade: "Premium",
+      Packaging: "Bundles"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG067",
-  name: "Pudina Leaves",
-  image: "/RaiyanGlobal/Products/Vegetables/Pudina.svg",
-  category: "Vegetables",
-  shortDescription: "Fresh mint leaves with strong aroma.",
-  fullDescription:
-    "Pudina leaves are widely used in chutneys, teas, and beverages. They have a refreshing taste and cooling properties.",
-  features: [
-    "Strong aroma",
-    "Cooling effect",
-    "Great for chutneys",
-    "Rich in antioxidants"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "All year",
-    Grade: "A Grade",
-    Packaging: "50g / 100g bunches"
+  {
+    id: "VG067",
+    name: "Pudina Leaves",
+    image: "/RaiyanGlobal/Products/Vegetables/Pudina.svg",
+    category: "Vegetables",
+    shortDescription: "Fresh mint leaves with strong aroma.",
+    fullDescription:
+      "Pudina leaves are widely used in chutneys, teas, and beverages. They have a refreshing taste and cooling properties.",
+    features: [
+      "Strong aroma",
+      "Cooling effect",
+      "Great for chutneys",
+      "Rich in antioxidants"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "All year",
+      Grade: "A Grade",
+      Packaging: "50g / 100g bunches"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG068",
-  name: "Jalpai",
-  image: "/RaiyanGlobal/Products/Vegetables/Jalpai.svg",
-  category: "Vegetables",
-  shortDescription: "Tangy jalpai fruit used for pickles.",
-  fullDescription:
-    "Jalpai is a tangy fruit commonly used to prepare pickles and chutneys. Known for its firm texture and sharp taste.",
-  features: [
-    "Tangy flavor",
-    "Ideal for pickles",
-    "Firm texture",
-    "Seasonal fruit"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "September – January",
-    Grade: "Premium",
-    Packaging: "250g / Loose"
+  {
+    id: "VG068",
+    name: "Jalpai",
+    image: "/RaiyanGlobal/Products/Vegetables/Jalpai.svg",
+    category: "Vegetables",
+    shortDescription: "Tangy jalpai fruit used for pickles.",
+    fullDescription:
+      "Jalpai is a tangy fruit commonly used to prepare pickles and chutneys. Known for its firm texture and sharp taste.",
+    features: [
+      "Tangy flavor",
+      "Ideal for pickles",
+      "Firm texture",
+      "Seasonal fruit"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "September – January",
+      Grade: "Premium",
+      Packaging: "250g / Loose"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG069",
-  name: "Green Big Pumpkin",
-  image: "/RaiyanGlobal/Products/Vegetables/GreenBigPumpkin.svg",
-  category: "Vegetables",
-  shortDescription: "Fresh green pumpkin with dense flesh.",
-  fullDescription:
-    "Green pumpkin is known for its mildly sweet flavor and soft texture, ideal for curries, soups, and stews.",
-  features: [
-    "Soft and dense flesh",
-    "Mildly sweet taste",
-    "Rich in fiber",
-    "Good for curries"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "All year",
-    Grade: "A Grade",
-    Packaging: "Cut pieces / Whole"
+  {
+    id: "VG069",
+    name: "Green Big Pumpkin",
+    image: "/RaiyanGlobal/Products/Vegetables/GreenBigPumpkin.svg",
+    category: "Vegetables",
+    shortDescription: "Fresh green pumpkin with dense flesh.",
+    fullDescription:
+      "Green pumpkin is known for its mildly sweet flavor and soft texture, ideal for curries, soups, and stews.",
+    features: [
+      "Soft and dense flesh",
+      "Mildly sweet taste",
+      "Rich in fiber",
+      "Good for curries"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "All year",
+      Grade: "A Grade",
+      Packaging: "Cut pieces / Whole"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG070",
-  name: "Tindora",
-  image: "/RaiyanGlobal/Products/Vegetables/Tindora.svg",
-  category: "Vegetables",
-  shortDescription: "Fresh tindora ideal for fry dishes.",
-  fullDescription:
-    "Tindora is a small green vegetable popular for its crunchy texture. Used in stir-fries, curries, and stuffing preparations.",
-  features: [
-    "Crunchy texture",
-    "Easy to cook",
-    "Rich in fiber",
-    "Popular in Indian households"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "All year",
-    Grade: "Premium",
-    Packaging: "250g / 500g"
+  {
+    id: "VG070",
+    name: "Tindora",
+    image: "/RaiyanGlobal/Products/Vegetables/Tindora.svg",
+    category: "Vegetables",
+    shortDescription: "Fresh tindora ideal for fry dishes.",
+    fullDescription:
+      "Tindora is a small green vegetable popular for its crunchy texture. Used in stir-fries, curries, and stuffing preparations.",
+    features: [
+      "Crunchy texture",
+      "Easy to cook",
+      "Rich in fiber",
+      "Popular in Indian households"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "All year",
+      Grade: "Premium",
+      Packaging: "250g / 500g"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG071",
-  name: "Bathua Leaves",
-  image: "/RaiyanGlobal/Products/Vegetables/BathuaLeaves.svg",
-  category: "Vegetables",
-  shortDescription: "Nutritious bathua leaves for winter dishes.",
-  fullDescription:
-    "Bathua leaves are a winter green used in saag, paratha stuffing, and soups. Known for their earthy flavor and high nutrition.",
-  features: [
-    "Winter special",
-    "Earthy flavor",
-    "Rich in vitamins",
-    "Great for saag"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "November – February",
-    Grade: "A Grade",
-    Packaging: "Bundles"
+  {
+    id: "VG071",
+    name: "Bathua Leaves",
+    image: "/RaiyanGlobal/Products/Vegetables/BathuaLeaves.svg",
+    category: "Vegetables",
+    shortDescription: "Nutritious bathua leaves for winter dishes.",
+    fullDescription:
+      "Bathua leaves are a winter green used in saag, paratha stuffing, and soups. Known for their earthy flavor and high nutrition.",
+    features: [
+      "Winter special",
+      "Earthy flavor",
+      "Rich in vitamins",
+      "Great for saag"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "November – February",
+      Grade: "A Grade",
+      Packaging: "Bundles"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG072",
-  name: "Neem Flowers",
-  image: "/RaiyanGlobal/Products/Vegetables/NeemLeaves.svg",
-  category: "Vegetables",
-  shortDescription: "Fresh edible neem flowers used in herbal recipes.",
-  fullDescription:
-    "Neem flowers are used in traditional dishes and Ayurvedic preparations. They have a bitter taste and strong medicinal value.",
-  features: [
-    "Detoxifying properties",
-    "Used in herbal dishes",
-    "Fresh aroma",
-    "High medicinal value"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "March – May",
-    Grade: "Premium",
-    Packaging: "100g packs"
+  {
+    id: "VG072",
+    name: "Neem Flowers",
+    image: "/RaiyanGlobal/Products/Vegetables/NeemLeaves.svg",
+    category: "Vegetables",
+    shortDescription: "Fresh edible neem flowers used in herbal recipes.",
+    fullDescription:
+      "Neem flowers are used in traditional dishes and Ayurvedic preparations. They have a bitter taste and strong medicinal value.",
+    features: [
+      "Detoxifying properties",
+      "Used in herbal dishes",
+      "Fresh aroma",
+      "High medicinal value"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "March – May",
+      Grade: "Premium",
+      Packaging: "100g packs"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG073",
-  name: "Haldi Leaves",
-  image: "/RaiyanGlobal/Products/Vegetables/HaldiLeaves.svg",
-  category: "Vegetables",
-  shortDescription: "Aromatic turmeric leaves used for steaming sweets.",
-  fullDescription:
-    "Haldi leaves are widely used in festive sweets like patoli. Their aroma infuses into dishes, making them flavorful and unique.",
-  features: [
-    "Strong aroma",
-    "Used in sweets",
-    "Rich herbal properties",
-    "Fresh and green"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "July – December",
-    Grade: "A Grade",
-    Packaging: "Bundles"
+  {
+    id: "VG073",
+    name: "Haldi Leaves",
+    image: "/RaiyanGlobal/Products/Vegetables/HaldiLeaves.svg",
+    category: "Vegetables",
+    shortDescription: "Aromatic turmeric leaves used for steaming sweets.",
+    fullDescription:
+      "Haldi leaves are widely used in festive sweets like patoli. Their aroma infuses into dishes, making them flavorful and unique.",
+    features: [
+      "Strong aroma",
+      "Used in sweets",
+      "Rich herbal properties",
+      "Fresh and green"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "July – December",
+      Grade: "A Grade",
+      Packaging: "Bundles"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG074",
-  name: "Curry Banana",
-  image: "/RaiyanGlobal/Products/Vegetables/CurryBanana.svg",
-  category: "Vegetables",
-  shortDescription: "Raw banana ideal for curry dishes.",
-  fullDescription:
-    "Curry bananas are raw green bananas used in various savoury dishes. They have firm texture and absorb spices well.",
-  features: [
-    "Firm texture",
-    "Perfect for curries",
-    "Rich in fiber",
-    "Easy to cook"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "All year",
-    Grade: "Premium",
-    Packaging: "500g / 1kg"
+  {
+    id: "VG074",
+    name: "Curry Banana",
+    image: "/RaiyanGlobal/Products/Vegetables/CurryBanana.svg",
+    category: "Vegetables",
+    shortDescription: "Raw banana ideal for curry dishes.",
+    fullDescription:
+      "Curry bananas are raw green bananas used in various savoury dishes. They have firm texture and absorb spices well.",
+    features: [
+      "Firm texture",
+      "Perfect for curries",
+      "Rich in fiber",
+      "Easy to cook"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "All year",
+      Grade: "Premium",
+      Packaging: "500g / 1kg"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG075",
-  name: "Jalbi Embly",
-  image: "/RaiyanGlobal/Products/Vegetables/JalebiImli.svg",
-  category: "Vegetables",
-  shortDescription: "Sour jalbi embly used in pickles and curries.",
-  fullDescription:
-    "Jalbi embly is a sour fruit commonly used in Indian pickles and tangy curries. Known for its sharp and refreshing acidity.",
-  features: [
-    "Sour and refreshing",
-    "Great for pickles",
-    "Natural acidity",
-    "Seasonal item"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "September – March",
-    Grade: "A Grade",
-    Packaging: "250g packs"
+  {
+    id: "VG075",
+    name: "Jalbi Embly",
+    image: "/RaiyanGlobal/Products/Vegetables/JalebiImli.svg",
+    category: "Vegetables",
+    shortDescription: "Sour jalbi embly used in pickles and curries.",
+    fullDescription:
+      "Jalbi embly is a sour fruit commonly used in Indian pickles and tangy curries. Known for its sharp and refreshing acidity.",
+    features: [
+      "Sour and refreshing",
+      "Great for pickles",
+      "Natural acidity",
+      "Seasonal item"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "September – March",
+      Grade: "A Grade",
+      Packaging: "250g packs"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-},
 
-{
-  id: "VG076",
-  name: "Green Amaranth Leaves",
-  image: "/RaiyanGlobal/Products/Vegetables/GreenAmaranthLaves.svg",
-  category: "Vegetables",
-  shortDescription: "Fresh green amaranth leaves full of nutrients.",
-  fullDescription:
-    "Green amaranth is a healthy leafy vegetable used in curries and sautés. Known for its soft texture and high iron content.",
-  features: [
-    "Nutrient-rich greens",
-    "Soft texture",
-    "High in iron",
-    "Great for curries"
-  ],
-  specifications: {
-    Origin: "India",
-    Season: "All year",
-    Grade: "A Grade",
-    Packaging: "Bundles"
-  },
-  gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-}
+  {
+    id: "VG076",
+    name: "Green Amaranth Leaves",
+    image: "/RaiyanGlobal/Products/Vegetables/GreenAmaranthLaves.svg",
+    category: "Vegetables",
+    shortDescription: "Fresh green amaranth leaves full of nutrients.",
+    fullDescription:
+      "Green amaranth is a healthy leafy vegetable used in curries and sautés. Known for its soft texture and high iron content.",
+    features: [
+      "Nutrient-rich greens",
+      "Soft texture",
+      "High in iron",
+      "Great for curries"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "All year",
+      Grade: "A Grade",
+      Packaging: "Bundles"
+    },
+    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  }
 ];
 
 export default vegetables;

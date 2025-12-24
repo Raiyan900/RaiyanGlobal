@@ -39,7 +39,7 @@
 }
 
 .alert-warning { background: #fff3cd; color: #856404; }
-.alert-success { background: #d4edda; color: #155724; }
+.alert-success { background: var(--accent); color: var(--primary-dark); }
 .alert-error { background: #f8d7da; color: #721c24; }
 
 .form {
@@ -74,6 +74,15 @@
   background: #ffffff;
   width: 100%;
   box-sizing: border-box;
+}
+
+.link-btn{
+  background-color: var(--mint);
+  color: var(--primary-dark);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+  font-family: 'roboto', sans-serif;
 }
 
 .submit-btn {

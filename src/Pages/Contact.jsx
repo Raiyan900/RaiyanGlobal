@@ -53,7 +53,7 @@ export default function Contact() {
           message: data.message || "Message sent successfully!",
         });
       } else {
-        throw new Error(data.message || "Failed to send message");
+        throw new Error(data.message || "Failed to send message.");
       }
     } catch (error) {
       setStatus({
@@ -205,10 +205,6 @@ export default function Contact() {
               )}
             </form>
           )}
-
-          <p className="info-note">
-            We'll respond as soon as possible. For urgent requests, call us.
-          </p>
         </div>
 
         {/* RIGHT SIDE */}

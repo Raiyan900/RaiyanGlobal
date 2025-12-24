@@ -1,10 +1,5 @@
 import "../Components/style/Home.css";
 import video from "../assets/MiscImages/fruits_video.mp4";
-// import Mango from "../assets/images/products/mango/alphonsomango.png";
-// import grapes from "../assets/images/products/fruits/GRAPES.jpg";
-// import PoiBhaji from "../assets/images/products/vegetables/PoiBhaji.jpg";
-// import bhindi from "../assets/images/products/vegetables/Bhindi.jpg";
-// import carrot from "../assets/images/products/vegetables/carrot.jpg";
 import background from "../assets/MiscImages/background.png";
 import logo from "../assets/logo/Heroimage.gif";
 import Certifications from "../Components/Certifications/Certifications";
@@ -31,14 +26,11 @@ const Body = () => {
             className="hero-video"
           />
           <div className="hero-content">
-            <h1>Delivering Sustainable.</h1>
-            <h2 className="h1_p">Food Solutions</h2>
+            <h1>Fresh Produce.Global Trade.</h1>
+            <h2 className="h1_p">Exporting Fruits & Vegetables Worldwide</h2>
             <p>
-              We provide workplace dining that balances taste, nutrition and
-              operational discipline. With strong hygiene protocols and trained
-              manpower, we deliver reliability across industries. Sustainability
-              guides not just what we serve, but how we source, prepare, and
-              manage food services.
+              We connect farms to global markets with carefully sourced fruits and vegetables.
+              Our export process focuses on freshness, safety, and consistency—ensuring every shipment meets international expectations.
             </p>
             <a className="contact-btn" href="#/Contact" role="button">
               Contact us
@@ -208,31 +200,31 @@ const Body = () => {
               <SwiperSlide>
                 <div className="prdts-fd-cards fruits">
                   <Link to="/product/MG001" className="onclick_full_product_details">
-                  <img src="" alt="Mango" />
-                  <div className="prdts-content">
-                    <h3>Mango</h3>
-                    <h2>Premium Alphonso Mangoes</h2>
-                    <p>Sweet and juicy Alphonso mangoes</p>
-                    <Link to="/product/401" className="view-details">
-                      View More
-                    </Link>
-                  </div>
+                    <img src="/RaiyanGlobal/Products/Mangos/AlphansoMango.svg" alt="Mango" />
+                    <div className="prdts-content">
+                      <h3>Mango</h3>
+                      <h2>Premium Alphonso Mangoes</h2>
+                      <p>Naturally sweet, rich in flavor, and carefully selected for superior quality and freshness.</p>
+                      <Link to="/product/MG001" className="view-details">
+                        View More
+                      </Link>
+                    </div>
                   </Link>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
-                  <Link to="/Product/FR007" className="onclick_full_product_details">
-                  <img src="" alt="Fruits" />
-                  <div className="prdts-content">
-                    <h3>Fruits</h3>
-                    <h2>Fresh Premium Grapes</h2>
-                    <p>Fresh, export-grade Grapes.</p>
-                    <Link to="/Product/307" className="view-details">
-                      View More
-                    </Link>
-                  </div>
+                  <Link to="/Product/FR019" className="onclick_full_product_details">
+                    <img src="/RaiyanGlobal/Products/Fruits/GreenGrapes.svg" alt="Fruits" />
+                    <div className="prdts-content">
+                      <h3>Fruits</h3>
+                      <h2>Fresh Premium Grapes</h2>
+                      <p>Crisp, juicy grapes sourced from trusted farms and handled with strict quality standards.</p>
+                      <Link to="/Product/FR019" className="view-details">
+                        View More
+                      </Link>
+                    </div>
                   </Link>
                 </div>
               </SwiperSlide>
@@ -240,47 +232,63 @@ const Body = () => {
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
                   <Link to="/Product/VG002" className="onclick_full_product_details">
-                  <img src="" alt="Vegetables" />
-                  <div className="prdts-content">
-                    <h3>Vegetables</h3>
-                    <h2>Fresh Premium Vegetables</h2>
-                    <p>Fresh, export-grade vegetables.</p>
-                    <Link to="/Product/202" className="view-details">
-                      View More
-                    </Link>
-                  </div>
+                    <img src="/RaiyanGlobal/Products/Vegetables/Guwar.svg" alt="Vegetables" />
+                    <div className="prdts-content">
+                      <h3>Vegetables</h3>
+                      <h2>Fresh Premium Vegetables</h2>
+                      <p>Handpicked vegetables ensuring freshness, nutrition, and consistent quality.</p>
+                      <Link to="/Product/VG002" className="view-details">
+                        View More
+                      </Link>
+                    </div>
                   </Link>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
-                  <Link to="/Product/VG008" className="onclick_full_product_details">
-                  <img src="" alt="Vegetables" />
-                  <div className="prdts-content">
-                    <h3>Vegetables</h3>
-                    <h2>Fresh Premium Vegetables</h2>
-                    <p>Fresh, export-grade vegetables.</p>
-                    <Link to="/Product/208" className="view-details">
-                      View More
-                    </Link>
-                  </div>
+                  <Link to="/Product/PN001" className="onclick_full_product_details">
+                    <img src="/RaiyanGlobal/Products/Paan/CulcuttaPaan.svg" alt="Vegetables" />
+                    <div className="prdts-content">
+                      <h3>Paan</h3>
+                      <h2>Fresh Premium Quality Paan Leaf</h2>
+                      <p>Tender, aromatic paan leaves cultivated with care and delivered at peak freshness.</p>
+                      <Link to="/Product/PN001" className="view-details">
+                        View More
+                      </Link>
+                    </div>
                   </Link>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
-                  <Link to="/Product/VG001" className="onclick_full_product_details">
-                  <img src="" alt="Vegetables" />
-                  <div className="prdts-content">
-                    <h3>Vegetables</h3>
-                    <h2>Fresh Premium Vegetables</h2>
-                    <p>Fresh, export-grade vegetables.</p>
-                    <Link to="/Product/201" className="view-details">
-                      View More
-                    </Link>
-                  </div>
+                  <Link to="/Product/BV001" className="onclick_full_product_details">
+                    <img src="/RaiyanGlobal/Products/BanglaVegetables/KochurLothi.svg" alt="Vegetables" />
+                    <div className="prdts-content">
+                      <h3>Bangla Vegetables</h3>
+                      <h2>Fresh Premium Bangla Vegetables</h2>
+                      <p>Traditional Bangla vegetables selected for authentic taste, freshness, and quality.</p>
+                      <Link to="/Product/BV001" className="view-details">
+                        View More
+                      </Link>
+                    </div>
+                  </Link>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="prdts-fd-cards spices">
+                  <Link to="/Product/FL001" className="onclick_full_product_details">
+                    <img src="/RaiyanGlobal/Products/Flowers/LotusFlower.svg" alt="Vegetables" />
+                    <div className="prdts-content">
+                      <h3>Flowers</h3>
+                      <h2>Fresh Premium Qaulity Flowers</h2>
+                      <p>Vibrant, naturally fresh flowers handled delicately to preserve beauty and fragrance.</p>
+                      <Link to="/Product/FL001" className="view-details">
+                        View More
+                      </Link>
+                    </div>
                   </Link>
                 </div>
               </SwiperSlide>
@@ -288,15 +296,15 @@ const Body = () => {
               <SwiperSlide>
                 <div className="prdts-fd-cards rice">
                   <Link to="/products" className="onclick_full_product_details">
-                  <img src={background} alt="All Products" />
-                  <div className="prdts-content">
-                    <h3>View More</h3>
-                    <h2>Explore All Products</h2>
-                    <p>Explore our full range of export-quality items.</p>
-                    <Link to="/products" className="view-details">
-                      View Products
-                    </Link>
-                  </div>
+                    <img src={background} alt="All Products" />
+                    <div className="prdts-content">
+                      <h3>View More</h3>
+                      <h2>Explore All Products</h2>
+                      <p>Discover our wide selection of fresh fruits, vegetables, flowers, and more.</p>
+                      <Link to="/products" className="view-details">
+                        View Products
+                      </Link>
+                    </div>
                   </Link>
                 </div>
               </SwiperSlide>

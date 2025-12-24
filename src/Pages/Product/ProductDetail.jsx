@@ -1,24 +1,52 @@
-import { useParams, Link } from "react-router-dom";
-import { useState } from "react";
+import { useParams, useNavigate, Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import products from "../../Components/Data/ProductData";
 import "./ProductDetail.css";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/navigation";
+
 export default function ProductDetail() {
   const { id } = useParams();
+  const navigate = useNavigate();
 
-  // 1️⃣ Get product FIRST
-  const product = products.find((p) => String(p.id) === String(id));
+  const [product, setProduct] = useState(null);
+  const [activeImage, setActiveImage] = useState("");
 
-  // 2️⃣ Initialize hooks IMMEDIATELY after product is found
-  // If product is undefined → we use optional chaining to avoid crash
-  const [activeImage, setActiveImage] = useState(product?.image || "");
+  const shuffleArray = (array) => {
+    return [...array].sort(() => Math.random() - 0.5);
+  };
 
-  // 3️⃣ If product does not exist → return
+  const randomProducts = shuffleArray(
+    products.filter(
+      (p) => String(p.id) !== String(product?.id)
+    )
+  ).slice(0, 6);
+
+  // 🔁 Load product when ID changes
+  useEffect(() => {
+    const foundProduct = products.find(
+      (p) => String(p.id) === String(id)
+    );
+
+    if (!foundProduct) {
+      navigate("/products", { replace: true });
+      return;
+    }
+
+    setProduct(foundProduct);
+    setActiveImage(foundProduct.image);
+    window.scrollTo(0, 0);
+  }, [id, navigate]);
+
+
+  // ⏳ Loading state
   if (!product) {
     return (
       <main className="product-detail-page">
-        <h1>Product Not Found</h1>
-        <Link to="/products">← Back To Products</Link>
+        <h2>Loading product...</h2>
       </main>
     );
   }
@@ -27,29 +55,30 @@ export default function ProductDetail() {
     <main className="product-wrapper">
       <div className="product-detail-page">
 
-        <Link to="/products" className="back-btn">← Back To Products</Link>
+        <Link to="/products" className="back-btn">
+          ← Back To Products
+        </Link>
 
+        {/* ===== PRODUCT DETAILS ===== */}
         <section className="detail-container">
 
-          {/* LEFT SIDE */}
+          {/* LEFT */}
           <div className="left-section">
-
-            {/* Main Image */}
             <div className="main-img-box">
-              <img src={activeImage} alt={product.name} />
+              <img
+                key={product.id}
+                src={activeImage}
+                alt={product.name}
+              />
             </div>
 
-            {/* Gallery */}
             <div className="thumb-row">
-
-              {/* Product main image */}
               <img
                 src={product.image}
                 className="thumb-img"
                 onClick={() => setActiveImage(product.image)}
               />
 
-              {/* Gallery images */}
               {product.gallery?.map((img, i) => (
                 <img
                   key={i}
@@ -59,10 +88,9 @@ export default function ProductDetail() {
                 />
               ))}
             </div>
-
           </div>
 
-          {/* RIGHT INFO CARD */}
+          {/* RIGHT */}
           <div className="right-section">
             <p className="category-label">{product.category}</p>
             <h1 className="product-title">{product.name}</h1>
@@ -80,9 +108,53 @@ export default function ProductDetail() {
               ))}
             </div>
           </div>
-
         </section>
 
+        {/* ===== SIMILAR PRODUCTS ===== */}
+        <section className="similar-section">
+          <div className="titles">
+            <h1 className="h1_similar">See</h1>
+            <h1 className="h1_similars">Other Product</h1>
+          </div>
+          <div className="prtds-slider-wrapper">
+
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={20}
+              breakpoints={{
+                640: { slidesPerView: 2, spaceBetween: 24 },
+                1024: { slidesPerView: 3, spaceBetween: 28 },
+              }}
+              className="prtds-slider"
+            >
+              {randomProducts.map((item) => (
+                <SwiperSlide key={item.id}>
+                  <div
+                    className="stretched-card"
+                    onClick={() => navigate(`/product/${item.id}`)}
+                    style={{ cursor: "pointer" }}
+                  >
+                    <div className="stretched-img">
+                      <img src={item.image} alt={item.name} />
+                    </div>
+
+                    <div className="stretched-content">
+                      <p className="stretched-category">{item.category}</p>
+                      <h3 className="stretched-title">{item.name}</h3>
+                      <p className="stretched-short-desc">
+                        {item.shortDescription}
+                      </p>
+
+                      <button className="stretched-btn">
+                        View Details
+                      </button>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        </section>
       </div>
     </main>
   );

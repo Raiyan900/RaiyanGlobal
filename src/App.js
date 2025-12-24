@@ -32,6 +32,7 @@ function App() {
 
           {/* Single product */}
           <Route path="/product/:id" element={<ProductDetail />} />
+          
 
           <Route path="*" element={<h2 style={{ padding: 20 }}>Page Not Found</h2>} />
         </Routes>
