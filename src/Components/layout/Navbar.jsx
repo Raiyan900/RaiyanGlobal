@@ -1,6 +1,7 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../style/Navbar.css";
-import navbar_logo from "../../assets/logo/Raiyan_Global_Logos.svg"
+import navbar_logo from "../../assets/logo/Raiyan_Global_Logos.svg";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,12 +9,12 @@ export default function Navbar() {
   return (
     <nav className="Navbar">
       <div className="rightside">
-        <a href="#/" onClick={() => setIsOpen(false)}>
+        <Link to="/" onClick={() => setIsOpen(false)}>
           <img src={navbar_logo} alt="Logo" />
-        </a>
+        </Link>
       </div>
 
-      {/* HAMBURGER BUTTON (for mobile) */}
+      {/* HAMBURGER BUTTON */}
       <div className="menu-btn" onClick={() => setIsOpen(!isOpen)}>
         <span className={isOpen ? "open" : ""}></span>
         <span className={isOpen ? "open" : ""}></span>
@@ -23,11 +24,18 @@ export default function Navbar() {
       {/* NAV LINKS */}
       <div className={`leftside ${isOpen ? "active" : ""}`}>
         <ul>
-          <li onClick={() => setIsOpen(false)}><a href="#/">Home</a></li>
-          <li onClick={() => setIsOpen(false)}><a href="#/about">About</a></li>
-          <li onClick={() => setIsOpen(false)}><a href="#/products">Product</a></li>
-          <li onClick={() => setIsOpen(false)}><a href="#/contact">Contact Us</a></li>
-          {/* <li onClick={() => setIsOpen(false)}><a href="#/WorldMap">WorldMap</a></li> */}
+          <li onClick={() => setIsOpen(false)}>
+            <Link to="/">Home</Link>
+          </li>
+          <li onClick={() => setIsOpen(false)}>
+            <Link to="/about">About</Link>
+          </li>
+          <li onClick={() => setIsOpen(false)}>
+            <Link to="/products">Product</Link>
+          </li>
+          <li onClick={() => setIsOpen(false)}>
+            <Link to="/contact">Contact Us</Link>
+          </li>
         </ul>
       </div>
     </nav>

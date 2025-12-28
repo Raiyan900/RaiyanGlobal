@@ -1138,7 +1138,7 @@ const vegetables = [
   {
     id: "VG050",
     name: "Palm Roots",
-    //image: PALM_ROOTS,
+    image: "/RaiyanGlobal/Products/Vegetables/PlamRoot.svg",
     category: "Vegetables",
     shortDescription: "Fresh palm roots with unique earthy flavor.",
     fullDescription:
@@ -1747,7 +1747,8 @@ const vegetables = [
       Packaging: "Bundles"
     },
     gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-  }
+  },
+  
 ];
 
 export default vegetables;
