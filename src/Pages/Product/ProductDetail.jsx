@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import { Autoplay } from 'swiper/modules';
 
 export default function ProductDetail() {
   const { id } = useParams();
@@ -25,7 +26,6 @@ export default function ProductDetail() {
     )
   ).slice(0, 6);
 
-  // 🔁 Load product when ID changes
   useEffect(() => {
     const foundProduct = products.find(
       (p) => String(p.id) === String(id)
@@ -79,14 +79,14 @@ export default function ProductDetail() {
                 onClick={() => setActiveImage(product.image)}
               />
 
-              {product.gallery?.map((img, i) => (
+              {/* {product.gallery?.map((img, i) => (
                 <img
                   key={i}
                   src={img}
                   className="thumb-img"
                   onClick={() => setActiveImage(img)}
                 />
-              ))}
+              ))} */}
             </div>
           </div>
 
@@ -119,12 +119,20 @@ export default function ProductDetail() {
           <div className="prtds-slider-wrapper">
 
             <Swiper
+              loop={true}
+              speed={800}
               slidesPerView={1}
               spaceBetween={20}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+              }}
               breakpoints={{
                 640: { slidesPerView: 2, spaceBetween: 24 },
                 1024: { slidesPerView: 3, spaceBetween: 28 },
               }}
+              modules={[Autoplay]}
               className="prtds-slider"
             >
               {randomProducts.map((item) => (
@@ -145,14 +153,13 @@ export default function ProductDetail() {
                         {item.shortDescription}
                       </p>
 
-                      <button className="stretched-btn">
-                        View Details
-                      </button>
+                      <button className="stretched-btn">View Details</button>
                     </div>
                   </div>
                 </SwiperSlide>
               ))}
             </Swiper>
+
           </div>
         </section>
       </div>

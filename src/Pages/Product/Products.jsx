@@ -54,6 +54,7 @@ useEffect(() => {
   const paginatedProducts = filteredProducts.slice(
     (page - 1) * pageSize,
     page * pageSize
+
   );
 
   return (
@@ -113,9 +114,6 @@ useEffect(() => {
           totalPages={totalPages}
           setPage={setPage}
         />
-
-
-
       </div>
     </main>
   );

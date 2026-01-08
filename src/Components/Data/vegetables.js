@@ -21,7 +21,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg / 5kg bags"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -44,7 +44,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -67,7 +67,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "500g / 1kg bundles"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -90,7 +90,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -113,7 +113,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg bags"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG006",
@@ -135,7 +135,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg / 3kg cuts"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -158,7 +158,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1kg bags"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -181,7 +181,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg bags"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -204,7 +204,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -227,7 +227,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
 
@@ -251,7 +251,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -274,7 +274,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -297,7 +297,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -320,7 +320,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "250g / 500g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -343,10 +343,10 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "250g / 500g packs"
     },
-    gallery: [
-      // "/RaiyanGlobal/Products/Vegetables/AmbaHaldi.svg",
-      // "/RaiyanGlobal/gallery/Vegetables/AmbaHaldi.svg"
-    ]
+    // gallery: [
+    //   // "/RaiyanGlobal/Products/Vegetables/AmbaHaldi.svg",
+    //   // "/RaiyanGlobal/gallery/Vegetables/AmbaHaldi.svg"
+    // ]
   },
 
   {
@@ -369,7 +369,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg / 5kg / 10kg"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -392,7 +392,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -415,7 +415,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg / 2kg pieces"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG019",
@@ -437,7 +437,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg / 3kg bags"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -460,7 +460,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -483,7 +483,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "Whole / Cut pieces"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -506,7 +506,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "Bunches of 20–40 leaves"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -529,7 +529,7 @@ const vegetables = [
       Grade: "Fresh Premium",
       Packaging: "50g / 100g bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -552,7 +552,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -575,7 +575,7 @@ const vegetables = [
       Grade: "Premium Fresh",
       Packaging: "100g / 250g bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -598,10 +598,10 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1kg packs"
     },
-    gallery: [
-      "/RaiyanGlobal/gallery/Vegetables/SurtiPapdi.svg", 
-     "///images/rice3.jpg"
-      ]
+    // gallery: [
+    //   "/RaiyanGlobal/gallery/Vegetables/SurtiPapdi.svg", 
+    //  "///images/rice3.jpg"
+    //   ]
   },
 
   {
@@ -624,10 +624,10 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1kg packs"
     },
-    gallery: [
-      "/RaiyanGlobal/Products/Vegetables/SurtiPapdi.svg", 
-      // "/RaiyanGlobal/gallery/Vegetables/SurtiRaviya.svg"
-     ]
+    // gallery: [
+    //   "/RaiyanGlobal/Products/Vegetables/SurtiPapdi.svg", 
+    //   // "/RaiyanGlobal/gallery/Vegetables/SurtiRaviya.svg"
+    //  ]
   },
 
   {
@@ -650,7 +650,7 @@ const vegetables = [
       Grade: "Fresh Premium",
       Packaging: "250g / 500g bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -673,7 +673,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "250g / 500g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -696,7 +696,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "250g / 500g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    //gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -719,7 +719,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "250g / 500g bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    //gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -742,7 +742,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg bags"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    //gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -765,7 +765,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "Whole / Cut pieces"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    //gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -788,7 +788,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    //gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -811,7 +811,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "5 / 10 / 20 leaf bundles"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    //gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -834,7 +834,7 @@ const vegetables = [
       Grade: "Fresh Premium",
       Packaging: "250g / 500g bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    //gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -857,7 +857,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    //gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -880,10 +880,10 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "500g / 1kg packs"
     },
-    gallery: [
-      "/RaiyanGlobal/gallery/Vegetables/Brinjal.svg", 
-      "///images/rice3.jpg"
-     ]
+    //gallery: [
+    //  "/RaiyanGlobal/gallery/Vegetables/Brinjal.svg", 
+    //  "///images/rice3.jpg"
+     //]
   },
   {
     id: "VG039",
@@ -905,7 +905,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    //gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -928,7 +928,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1 piece / 2 pieces"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -951,7 +951,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -974,7 +974,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1 piece"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -997,7 +997,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1020,7 +1020,7 @@ const vegetables = [
       Grade: "Premium Hot",
       Packaging: "250g / 500g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1043,7 +1043,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG046",
@@ -1065,7 +1065,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG047",
@@ -1087,7 +1087,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1110,7 +1110,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "250g / 500g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1133,7 +1133,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "250g / 500g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG050",
@@ -1155,7 +1155,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1178,7 +1178,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1201,7 +1201,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "Bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1224,7 +1224,7 @@ const vegetables = [
       Grade: "Fresh Premium",
       Packaging: "250g / 500g bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1247,7 +1247,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG055",
@@ -1269,7 +1269,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "100g / 250g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1292,7 +1292,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG057",
@@ -1314,7 +1314,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "Bundles of 10 / 20"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG058",
@@ -1336,7 +1336,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "250g / 500g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG059",
@@ -1358,7 +1358,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG060",
@@ -1380,7 +1380,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "Bundles / Loose"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1403,7 +1403,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1426,7 +1426,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "1kg / Loose"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1449,7 +1449,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "250g / 500g"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1472,7 +1472,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "250g / 500g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG065",
@@ -1494,7 +1494,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "Bundles"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   {
     id: "VG066",
@@ -1516,7 +1516,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "Bundles"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1539,7 +1539,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "50g / 100g bunches"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1562,7 +1562,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "250g / Loose"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1585,7 +1585,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "Cut pieces / Whole"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1608,7 +1608,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "250g / 500g"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1631,7 +1631,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "Bundles"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1654,7 +1654,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "100g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1677,7 +1677,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "Bundles"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1700,7 +1700,7 @@ const vegetables = [
       Grade: "Premium",
       Packaging: "500g / 1kg"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1723,7 +1723,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "250g packs"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -1746,7 +1746,7 @@ const vegetables = [
       Grade: "A Grade",
       Packaging: "Bundles"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
   
 ];

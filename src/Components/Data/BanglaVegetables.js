@@ -19,7 +19,7 @@ const BanglaVegetables = [
       Grade: "Premium",
       Packaging: "1kg / 5kg bags"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
   },
 
   {
@@ -42,8 +42,30 @@ const BanglaVegetables = [
       Grade: "A Grade",
       Packaging: "1kg / 5kg bags"
     },
-    gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
-  }
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
+    {
+    id: "BV003",
+    name: "Snake Gourd",
+    image: "/RaiyanGlobal/Products/BanglaVegetables/SnakeGourdBG.svg",
+    category: "Bangla Vegetables",
+    shortDescription: "Fresh snake gourd perfect for healthy curries.",
+    fullDescription:
+      "Snake Gourd is a hydrating vegetable with a soft texture. It is commonly used in South Indian cooking and healthy sabzis.",
+    features: [
+      "Soft texture",
+      "Hydrating vegetable",
+      "Low calorie",
+      "Used in South Indian dishes"
+    ],
+    specifications: {
+      Origin: "India",
+      Season: "June – December",
+      Grade: "Premium",
+      Packaging: "500g / 1kg packs"
+    },
+    // gallery: ["///images/rice2.jpg", "///images/rice3.jpg"]
+  },
 ];
 
 export default BanglaVegetables;

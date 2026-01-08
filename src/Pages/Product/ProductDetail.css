@@ -290,6 +290,7 @@
   .left-section {
     gap: 15px;
   }
+  
 }
 
 .similar-section {
@@ -311,4 +312,12 @@
   color: var(--accent);
   font-size: 40px;
   font-weight: 800;
+}
+
+@media (max-width: 600px) {
+  .h1_similar,
+  .h1_similars {
+    font-size: 1.8rem !important;
+    text-align: left !important;
+  }
 }
