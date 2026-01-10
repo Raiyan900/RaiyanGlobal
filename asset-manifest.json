@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RaiyanGlobal/static/css/main.05c3a497.css",
+    "main.css": "/RaiyanGlobal/static/css/main.242bbf00.css",
     "main.js": "/RaiyanGlobal/static/js/main.10324b53.js",
     "static/js/453.1914582b.chunk.js": "/RaiyanGlobal/static/js/453.1914582b.chunk.js",
     "static/media/fruits_video.mp4": "/RaiyanGlobal/static/media/fruits_video.b3b8a2d7fdf59009a678.mp4",
@@ -15,12 +15,12 @@
     "static/media/shefexil.png": "/RaiyanGlobal/static/media/shefexil.3a384aa385c27a673fb3.png",
     "static/media/coconut.png": "/RaiyanGlobal/static/media/coconut.814887594734b00953ba.png",
     "index.html": "/RaiyanGlobal/index.html",
-    "main.05c3a497.css.map": "/RaiyanGlobal/static/css/main.05c3a497.css.map",
+    "main.242bbf00.css.map": "/RaiyanGlobal/static/css/main.242bbf00.css.map",
     "main.10324b53.js.map": "/RaiyanGlobal/static/js/main.10324b53.js.map",
     "453.1914582b.chunk.js.map": "/RaiyanGlobal/static/js/453.1914582b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05c3a497.css",
+    "static/css/main.242bbf00.css",
     "static/js/main.10324b53.js"
   ]
 }
