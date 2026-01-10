@@ -44,7 +44,23 @@
 
 @media (max-width:400px) {
   .hero-content h1 {
-    font-size: 2.3rem;
+    font-size: 1.9rem;
+  }
+
+  .hero-content .h1_p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:300px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:500px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
   }
 }
 
@@ -208,6 +224,15 @@
 
 .wy-choose-us {
   color: var(--accent);
+}
+
+@media (max-width:500px) {
+
+  .wy-choose-uss,
+  .wy-choose-us {
+    font-size: 2.2rem !important;
+    text-align: left !important;
+  }
 }
 
 @media (max-width:400px) {
