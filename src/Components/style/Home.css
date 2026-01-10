@@ -60,7 +60,7 @@
 
 @media (max-width:500px) {
   .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 }
 
@@ -230,7 +230,7 @@
 
   .wy-choose-uss,
   .wy-choose-us {
-    font-size: 2.2rem !important;
+    font-size: 2rem !important;
     text-align: left !important;
   }
 }
