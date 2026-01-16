@@ -78,6 +78,10 @@ export default function Contact() {
     window.location.href = `mailto:sales.raiyanglobal@gmail.com?subject=${subject}&body=${body}`;
   };
 
+  const openWhatsApp = (number) => {
+    window.open(`https://wa.me/${number}`, "_blank");
+  };
+
   return (
     <div className="contact-container">
       <h2 className="title">
@@ -88,8 +92,8 @@ export default function Contact() {
         {/* LEFT SIDE */}
         <div>
           <h2 className="conatact-title">
-          <span className="mint-text">Stay In</span> <span className="orange-text">Touch</span>
-        </h2>
+            <span className="mint-text">Stay In</span> <span className="orange-text">Touch</span>
+          </h2>
 
           {serverStatus === "offline" && !status.submitted && (
             <div className="alert alert-warning">
@@ -210,8 +214,8 @@ export default function Contact() {
         {/* RIGHT SIDE */}
         <div>
           <h2 className="conatact-title">
-          <span className="mint-text">Contact</span> <span className="orange-text">Information</span>
-        </h2>
+            <span className="mint-text">Contact</span> <span className="orange-text">Information</span>
+          </h2>
 
           <div className="info-block">
             <MapPin className="icons" />
@@ -225,9 +229,24 @@ export default function Contact() {
             <Phone className="icons" />
             <div>
               <h4>Phone</h4>
-              <p>+91 9920810651</p>
-              <p>+91 8879917449</p>
-              <p>+91 8928608614</p>
+              <p
+                onClick={() => openWhatsApp("919920810651")}
+                style={{ cursor: "pointer" }}
+              >
+                +91 9920810651
+              </p>
+              <p
+                onClick={() => openWhatsApp("918879917449")}
+                style={{ cursor: "pointer" }}
+              >
+                +91 8879917449
+              </p>
+              <p
+                onClick={() => openWhatsApp("918928608614")}
+                style={{ cursor: "pointer" }}
+              >
+                +91 8928608614
+              </p>
             </div>
           </div>
 

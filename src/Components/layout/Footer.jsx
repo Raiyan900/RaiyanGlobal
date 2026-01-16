@@ -2,6 +2,11 @@ import '../style/Footer.css';
 import logos from '../../assets/logo/Raiyan_Global_Logos.svg'
 
 export default function Footer() {
+
+    const openWhatsApp = (number) => {
+        window.open(`https://wa.me/${number}`, "_blank");
+    };
+
     return (
         <>
             {/* TOP FULL-WIDTH DIVIDER */}
@@ -12,7 +17,7 @@ export default function Footer() {
                 {/* ABOUT SECTION */}
                 <div className="footer-col abouts_us">
                     <div className="img-cnt">
-                        <img src={logos} alt="Logo" /> 
+                        <img src={logos} alt="Logo" />
                     </div>
 
                     <p>
@@ -40,7 +45,7 @@ export default function Footer() {
                         <a href="#/products">Product</a>
                         <a href="#/contact">Contact</a>
                     </div>
-                </div>  
+                </div>
 
                 {/* VERTICAL DIVIDER */}
                 <div className="vertical-divider"></div>
@@ -64,17 +69,32 @@ export default function Footer() {
 
                     <div className="footer-item">
                         <i className="fa-solid fa-phone"></i>
-                        <p>+91 9920810651</p>
+                        <p
+                            onClick={() => openWhatsApp("919920810651")}
+                            style={{ cursor: "pointer" }}
+                        >
+                            +91 9920810651
+                        </p>
                     </div>
 
                     <div className="footer-item">
                         <i className="fa-solid fa-phone"></i>
-                        <p>+91 8879917449</p>
+                        <p
+                            onClick={() => openWhatsApp("918879917449")}
+                            style={{ cursor: "pointer" }}
+                        >
+                            +91 8879917449
+                        </p>
                     </div>
 
                     <div className="footer-item">
                         <i className="fa-solid fa-phone"></i>
-                        <p>+91 8928608614</p>
+                        <p
+                            onClick={() => openWhatsApp("918928608614")}
+                            style={{ cursor: "pointer" }}
+                        >
+                            +91 8928608614
+                        </p>
                     </div>
 
                     <div className="footer-item">
