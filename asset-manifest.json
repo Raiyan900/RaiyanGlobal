@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/RaiyanGlobal/static/css/main.242bbf00.css",
-    "main.js": "/RaiyanGlobal/static/js/main.7d4b1393.js",
-    "static/js/453.1914582b.chunk.js": "/RaiyanGlobal/static/js/453.1914582b.chunk.js",
-    "static/media/fruits_video.mp4": "/RaiyanGlobal/static/media/fruits_video.b3b8a2d7fdf59009a678.mp4",
-    "static/media/supplychainMobile.svg": "/RaiyanGlobal/static/media/supplychainMobile.9681f522e60424fe3081c9c4a39f7cd9.svg",
-    "static/media/supplychainDesktop.svg": "/RaiyanGlobal/static/media/supplychainDesktop.fdba2cb9dd5274d3492e67a09755bae4.svg",
-    "static/media/Heroimage.gif": "/RaiyanGlobal/static/media/Heroimage.37a55d7c852c25329cec.gif",
-    "static/media/Raiyan_Global_Logos.svg": "/RaiyanGlobal/static/media/Raiyan_Global_Logos.01eed5d7004f735471d7afe3bfd06ad8.svg",
-    "static/media/foscos.png": "/RaiyanGlobal/static/media/foscos.166e9e5a88dfd2f6bc5e.png",
-    "static/media/fssai.png": "/RaiyanGlobal/static/media/fssai.0379b6074dabf1d393a7.png",
-    "static/media/apeda.png": "/RaiyanGlobal/static/media/apeda.dc44636b61e8f4b34172.png",
-    "static/media/spice.png": "/RaiyanGlobal/static/media/spice.e10e9ec45f550d7966f5.png",
-    "static/media/shefexil.png": "/RaiyanGlobal/static/media/shefexil.3a384aa385c27a673fb3.png",
-    "static/media/coconut.png": "/RaiyanGlobal/static/media/coconut.814887594734b00953ba.png",
-    "index.html": "/RaiyanGlobal/index.html",
-    "main.242bbf00.css.map": "/RaiyanGlobal/static/css/main.242bbf00.css.map",
-    "main.7d4b1393.js.map": "/RaiyanGlobal/static/js/main.7d4b1393.js.map",
-    "453.1914582b.chunk.js.map": "/RaiyanGlobal/static/js/453.1914582b.chunk.js.map"
+    "main.css": "./static/css/main.242bbf00.css",
+    "main.js": "./static/js/main.a1af9b1b.js",
+    "static/js/453.1914582b.chunk.js": "./static/js/453.1914582b.chunk.js",
+    "static/media/fruits_video.mp4": "./static/media/fruits_video.b3b8a2d7fdf59009a678.mp4",
+    "static/media/supplychainMobile.svg": "./static/media/supplychainMobile.9681f522e60424fe3081c9c4a39f7cd9.svg",
+    "static/media/supplychainDesktop.svg": "./static/media/supplychainDesktop.fdba2cb9dd5274d3492e67a09755bae4.svg",
+    "static/media/Heroimage.gif": "./static/media/Heroimage.37a55d7c852c25329cec.gif",
+    "static/media/Raiyan_Global_Logos.svg": "./static/media/Raiyan_Global_Logos.01eed5d7004f735471d7afe3bfd06ad8.svg",
+    "static/media/foscos.png": "./static/media/foscos.166e9e5a88dfd2f6bc5e.png",
+    "static/media/fssai.png": "./static/media/fssai.0379b6074dabf1d393a7.png",
+    "static/media/apeda.png": "./static/media/apeda.dc44636b61e8f4b34172.png",
+    "static/media/spice.png": "./static/media/spice.e10e9ec45f550d7966f5.png",
+    "static/media/shefexil.png": "./static/media/shefexil.3a384aa385c27a673fb3.png",
+    "static/media/coconut.png": "./static/media/coconut.814887594734b00953ba.png",
+    "index.html": "./index.html",
+    "main.242bbf00.css.map": "./static/css/main.242bbf00.css.map",
+    "main.a1af9b1b.js.map": "./static/js/main.a1af9b1b.js.map",
+    "453.1914582b.chunk.js.map": "./static/js/453.1914582b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.242bbf00.css",
-    "static/js/main.7d4b1393.js"
+    "static/js/main.a1af9b1b.js"
   ]
 }
