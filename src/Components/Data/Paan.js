@@ -2,7 +2,7 @@ const Pann = [
     {
     id: "PN001",
     name: "Culcutta Paan",
-    image: "/RaiyanGlobal/Products/Paan/CulcuttaPaan.svg",
+    image: "./Products/Paan/CulcuttaPaan.svg",
     category: "Paan",
     shortDescription: "Fresh Culcutta paan known for its smooth texture and mild sweetness.",
     fullDescription:
@@ -25,7 +25,7 @@ const Pann = [
 {
     id: "PN002",
     name: "Bangla Paan",
-    image: "/RaiyanGlobal/Products/Paan/BanglaPaan.svg",
+    image: "./Products/Paan/BanglaPaan.svg",
     category: "Paan",
     shortDescription: "Traditional Bangla paan with bold flavor and strong fragrance.",
     fullDescription:
@@ -48,7 +48,7 @@ const Pann = [
 {
     id: "PN003",
     name: "Kapoori Paan",
-    image: "/RaiyanGlobal/Products/Paan/KapooriPaan.svg",
+    image: "./Products/Paan/KapooriPaan.svg",
     category: "Paan",
     shortDescription: "Aromatic Kapoori paan prized for its soft, delicate leaves.",
     fullDescription:

@@ -2,7 +2,7 @@ const Fruits = [
   {
     id: "FR001",
     name: "White Guava",
-    image: "/RaiyanGlobal/Products/Fruits/WhiteGuava.svg",
+    image: "./Products/Fruits/WhiteGuava.svg",
     category: "Fruits",
     shortDescription: "Fresh, mildly sweet white guavas with soft texture.",
     fullDescription:
@@ -25,7 +25,7 @@ const Fruits = [
   {
     id: "FR002",
     name: "Pink Guava",
-    image: "/RaiyanGlobal/Products/Fruits/PinkGuava.svg",
+    image: "./Products/Fruits/PinkGuava.svg",
     category: "Fruits",
     shortDescription: "Bright pink guavas with strong aroma and sweetness.",
     fullDescription:
@@ -42,13 +42,13 @@ const Fruits = [
       Grade: "A-Grade",
       Packaging: "5kg boxes"
     },
-    gallery: ["/RaiyanGlobal/Products/Fruits/PINK_GUAVA_1.svg", , "///images/rice3.jpg"]
+    gallery: ["./Products/Fruits/PINK_GUAVA_1.svg", , "///images/rice3.jpg"]
   },
 
   {
     id: "FR003",
     name: "Custard Apple Golden",
-    image: "/RaiyanGlobal/Products/Fruits/CUSTARD_APPLE_GOLDEN.svg",
+    image: "./Products/Fruits/CUSTARD_APPLE_GOLDEN.svg",
     category: "Fruits",
     shortDescription: "Golden variety of custard apple with creamy pulp.",
     fullDescription:
@@ -71,7 +71,7 @@ const Fruits = [
   {
     id: "FR004",
     name: "Custard Apple Desi",
-    image: "/RaiyanGlobal/Products/Fruits/CUSTARD_APPLE_GOLDEN.svg",
+    image: "./Products/Fruits/CUSTARD_APPLE_GOLDEN.svg",
     category: "Fruits",
     shortDescription: "Classic desi custard apples with rich pulp.",
     fullDescription:
@@ -94,7 +94,7 @@ const Fruits = [
   {
     id: "FR005",
     name: "Chickoo",
-    image: "/RaiyanGlobal/Products/Fruits/Chickoo.svg",
+    image: "./Products/Fruits/Chickoo.svg",
     category: "Fruits",
     shortDescription: "Sweet and smooth-textured sapota fruit.",
     fullDescription:
@@ -117,7 +117,7 @@ const Fruits = [
   {
     id: "FR006",
     name: "Dragon Fruit",
-    image: "/RaiyanGlobal/Products/Fruits/DragonFruit.svg",
+    image: "./Products/Fruits/DragonFruit.svg",
     category: "Fruits",
     shortDescription: "Vibrant tropical fruit with mild sweetness.",
     fullDescription:
@@ -140,7 +140,7 @@ const Fruits = [
   {
     id: "FR007",
     name: "Papaya",
-    image: "/RaiyanGlobal/Products/Fruits/Papaya.svg",
+    image: "./Products/Fruits/Papaya.svg",
     category: "Fruits",
     shortDescription: "Rich, sweet papayas with soft orange flesh.",
     fullDescription:
@@ -163,7 +163,7 @@ const Fruits = [
   {
     id: "FR008",
     name: "Banana",
-    image: "/RaiyanGlobal/Products/Fruits/Banana.svg",
+    image: "./Products/Fruits/Banana.svg",
     category: "Fruits",
     shortDescription: "Naturally sweet bananas rich in potassium.",
     fullDescription:
@@ -186,7 +186,7 @@ const Fruits = [
   {
     id: "FR009",
     name: "Ellichi Banana",
-    image: "/RaiyanGlobal/Products/Fruits/Elaichibanana.svg",
+    image: "./Products/Fruits/Elaichibanana.svg",
     category: "Fruits",
     shortDescription: "Small-sized premium bananas with rich aroma.",
     fullDescription:
@@ -209,7 +209,7 @@ const Fruits = [
   {
     id: "FR010",
     name: "Pomegranate",
-    image: "/RaiyanGlobal/Products/Fruits/Pomegranate.svg",
+    image: "./Products/Fruits/Pomegranate.svg",
     category: "Fruits",
     shortDescription: "Fresh red pomegranates rich in antioxidants.",
     fullDescription:
@@ -232,7 +232,7 @@ const Fruits = [
   {
     id: "FR011",
     name: "Jamun",
-    image: "/RaiyanGlobal/Products/Fruits/Jamun.svg",
+    image: "./Products/Fruits/Jamun.svg",
     category: "Fruits",
     shortDescription: "Deep-purple jamun fruit with tangy-sweet taste.",
     fullDescription:
@@ -255,7 +255,7 @@ const Fruits = [
   {
     id: "FR012",
     name: "Apple Bore",
-    image: "/RaiyanGlobal/Products/Fruits/AppleBer.svg",
+    image: "./Products/Fruits/AppleBer.svg",
     category: "Fruits",
     shortDescription: "Juicy bore fruit with apple-like crunch.",
     fullDescription:
@@ -278,7 +278,7 @@ const Fruits = [
   {
     id: "FR013",
     name: "Chameli Bore",
-    image: "/RaiyanGlobal/Products/Fruits/ChameliBer.svg",
+    image: "./Products/Fruits/ChameliBer.svg",
     category: "Fruits",
     shortDescription: "Soft-textured bore variety with sweet taste.",
     fullDescription:
@@ -301,7 +301,7 @@ const Fruits = [
   {
     id: "FR014",
     name: "Red Bore",
-    image: "/RaiyanGlobal/Products/Fruits/RedBer.svg",
+    image: "./Products/Fruits/RedBer.svg",
     category: "Fruits",
     shortDescription: "Red-skinned bore fruit with strong sweetness.",
     fullDescription:
@@ -324,7 +324,7 @@ const Fruits = [
   {
     id: "FR015",
     name: "Coconut",
-    image: "/RaiyanGlobal/Products/Fruits/Coconut.svg",
+    image: "./Products/Fruits/Coconut.svg",
     category: "Fruits",
     shortDescription: "Fresh coconuts with sweet water and soft malai.",
     fullDescription:
@@ -347,7 +347,7 @@ const Fruits = [
   {
     id: "FR016",
     name: "Ice Apple (Tadgola)",
-    image: "/RaiyanGlobal/Products/Fruits/IceApple.svg",
+    image: "./Products/Fruits/IceApple.svg",
     category: "Fruits",
     shortDescription: "Tender ice apples with cooling natural sweetness.",
     fullDescription:
@@ -370,7 +370,7 @@ const Fruits = [
   {
     id: "FR017",
     name: "Singada",
-    image: "/RaiyanGlobal/Products/Fruits/Singada.svg",
+    image: "./Products/Fruits/Singada.svg",
     category: "Fruits",
     shortDescription: "Fresh water chestnuts with crisp texture.",
     fullDescription:
@@ -393,7 +393,7 @@ const Fruits = [
   {
     id: "FR018",
     name: "Jackfruit",
-    image: "/RaiyanGlobal/Products/Fruits/JackFruit.svg",
+    image: "./Products/Fruits/JackFruit.svg",
     category: "Fruits",
     shortDescription: "Large jackfruit with sweet aromatic bulbs.",
     fullDescription:
@@ -416,7 +416,7 @@ const Fruits = [
   {
     id: "FR019",
     name: "Green Grapes",
-    image: "/RaiyanGlobal/Products/Fruits/GreenGrapes.svg",
+    image: "./Products/Fruits/GreenGrapes.svg",
     category: "Fruits",
     shortDescription: "Crisp green grapes with juicy sweetness.",
     fullDescription:
@@ -439,7 +439,7 @@ const Fruits = [
   {
     id: "FR020",
     name: "Black Grapes",
-    image: "/RaiyanGlobal/Products/Fruits/BlackGrapes.svg",
+    image: "./Products/Fruits/BlackGrapes.svg",
     category: "Fruits",
     shortDescription: "Dark black grapes rich in antioxidants.",
     fullDescription:
@@ -462,7 +462,7 @@ const Fruits = [
   {
     id: "FR021",
     name: "Musk Melon",
-    image: "/RaiyanGlobal/Products/Fruits/MuskMelon.svg",
+    image: "./Products/Fruits/MuskMelon.svg",
     category: "Fruits",
     shortDescription: "Sweet muskmelon with aromatic orange flesh.",
     fullDescription:
@@ -485,7 +485,7 @@ const Fruits = [
   {
     id: "FR022",
     name: "Lychee",
-    image: "/RaiyanGlobal/Products/Fruits/Lychee.svg",
+    image: "./Products/Fruits/Lychee.svg",
     category: "Fruits",
     shortDescription: "Juicy and aromatic litchi fruit.",
     fullDescription:
@@ -508,7 +508,7 @@ const Fruits = [
   {
     id: "FR023",
     name: "Amla",
-    image: "/RaiyanGlobal/Products/Fruits/Amla.svg",
+    image: "./Products/Fruits/Amla.svg",
     category: "Fruits",
     shortDescription: "Highly nutritious amla rich in vitamin C.",
     fullDescription:
@@ -531,7 +531,7 @@ const Fruits = [
   {
     id: "FR024",
     name: "Tamarind",
-    image: "/RaiyanGlobal/Products/Fruits/Tamarind.svg",
+    image: "./Products/Fruits/Tamarind.svg",
     category: "Fruits",
     shortDescription: "Tangy tamarind pods full of natural flavor.",
     fullDescription:
@@ -554,7 +554,7 @@ const Fruits = [
   {
     id: "FR025",
     name: "Wood Apple",
-    image: "/RaiyanGlobal/Products/Fruits/WoodApple.svg",
+    image: "./Products/Fruits/WoodApple.svg",
     category: "Fruits",
     shortDescription: "Aromatic wood apples with strong flavor.",
     fullDescription:
@@ -577,7 +577,7 @@ const Fruits = [
   {
     id: "FR026",
     name: "Mango Steem",
-    image: "/RaiyanGlobal/Products/Fruits/Mangosteen.svg",
+    image: "./Products/Fruits/Mangosteen.svg",
     category: "Fruits",
     shortDescription: "Aromatic mango variety known for sweetness.",
     fullDescription:
@@ -600,7 +600,7 @@ const Fruits = [
   {
     id: "FR027",
     name: "Rambutan",
-    image: "/RaiyanGlobal/Products/Fruits/Rambutan.svg",
+    image: "./Products/Fruits/Rambutan.svg",
     category: "Fruits",
     shortDescription: "Exotic rambutan with juicy translucent pulp.",
     fullDescription:
@@ -622,7 +622,7 @@ const Fruits = [
   {
     id: "FR028",
     name: "Red Chaniya Ber",
-    image: "/RaiyanGlobal/Products/Fruits/RedChaniyaBer.svg",
+    image: "./Products/Fruits/RedChaniyaBer.svg",
     category: "Fruits",
     shortDescription: "Fresh red chaniya ber with sweet and tangy flavor.",
     fullDescription:

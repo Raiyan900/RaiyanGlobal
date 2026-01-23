@@ -200,7 +200,7 @@ const Body = () => {
               <SwiperSlide>
                 <div className="prdts-fd-cards fruits">
                   <Link to="/product/MG001" className="onclick_full_product_details">
-                    <img src="/RaiyanGlobal/Products/Mangos/AlphansoMango.svg" alt="Mango" />
+                    <img src="./Products/Mangos/AlphansoMango.svg" alt="Mango" />
                     <div className="prdts-content">
                       <h3>Mango</h3>
                       <h2>Premium Alphonso Mangoes</h2>
@@ -216,7 +216,7 @@ const Body = () => {
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
                   <Link to="/Product/FR019" className="onclick_full_product_details">
-                    <img src="/RaiyanGlobal/Products/Fruits/GreenGrapes.svg" alt="Fruits" />
+                    <img src="./Products/Fruits/GreenGrapes.svg" alt="Fruits" />
                     <div className="prdts-content">
                       <h3>Fruits</h3>
                       <h2>Fresh Premium Grapes</h2>
@@ -232,7 +232,7 @@ const Body = () => {
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
                   <Link to="/Product/VG002" className="onclick_full_product_details">
-                    <img src="/RaiyanGlobal/Products/Vegetables/Guwar.svg" alt="Vegetables" />
+                    <img src="./Products/Vegetables/Guwar.svg" alt="Vegetables" />
                     <div className="prdts-content">
                       <h3>Vegetables</h3>
                       <h2>Fresh Premium Vegetables</h2>
@@ -248,7 +248,7 @@ const Body = () => {
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
                   <Link to="/Product/PN001" className="onclick_full_product_details">
-                    <img src="/RaiyanGlobal/Products/Paan/CulcuttaPaan.svg" alt="Vegetables" />
+                    <img src="./Products/Paan/CulcuttaPaan.svg" alt="Vegetables" />
                     <div className="prdts-content">
                       <h3>Paan</h3>
                       <h2>Fresh Premium Quality Paan Leaf</h2>
@@ -264,7 +264,7 @@ const Body = () => {
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
                   <Link to="/Product/BV001" className="onclick_full_product_details">
-                    <img src="/RaiyanGlobal/Products/BanglaVegetables/KochurLothi.svg" alt="Vegetables" />
+                    <img src="./Products/BanglaVegetables/KochurLothi.svg" alt="Vegetables" />
                     <div className="prdts-content">
                       <h3>Bangla Vegetables</h3>
                       <h2>Fresh Premium Bangla Vegetables</h2>
@@ -280,7 +280,7 @@ const Body = () => {
               <SwiperSlide>
                 <div className="prdts-fd-cards spices">
                   <Link to="/Product/FL001" className="onclick_full_product_details">
-                    <img src="/RaiyanGlobal/Products/Flowers/LotusFlower.svg" alt="Vegetables" />
+                    <img src="./Products/Flowers/LotusFlower.svg" alt="Vegetables" />
                     <div className="prdts-content">
                       <h3>Flowers</h3>
                       <h2>Fresh Premium Qaulity Flowers</h2>

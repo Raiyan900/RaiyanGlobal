@@ -57,9 +57,8 @@ export default function Footer() {
                     </h2>
 
                     <div className="social-icons">
-                        <a href="https://www.instagram.com/"><i className="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i className="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/ziyanimpex?igshid=ZDdkNTZiNTM="><i className="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100090133916795&mibextid=ZbWKwL"><i className="fa-brands fa-facebook"></i></a>
                     </div>
 
                     <div className="footer-item">

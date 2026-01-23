@@ -2,7 +2,7 @@ const BanglaVegetables = [
   {
     id: "BV001",
     name: "Kotchur Lothi",
-    image: "/RaiyanGlobal/Products/BanglaVegetables/KochurLothi.svg",
+    image: "./Products/BanglaVegetables/KochurLothi.svg",
     category: "Bangla Vegetables",
     shortDescription: "Traditional Bengali Kotchur Lothi with rich earthy flavor.",
     fullDescription:
@@ -25,7 +25,7 @@ const BanglaVegetables = [
   {
     id: "BV002",
     name: "Round Dhudhi",
-    image: "/RaiyanGlobal/Products/BanglaVegetables/RoundDhudhi.svg",
+    image: "./Products/BanglaVegetables/RoundDhudhi.svg",
     category: "Bangla Vegetables",
     shortDescription: "Fresh round dhudhi ideal for curries, soups, and sabzi.",
     fullDescription:
@@ -47,7 +47,7 @@ const BanglaVegetables = [
     {
     id: "BV003",
     name: "Snake Gourd",
-    image: "/RaiyanGlobal/Products/BanglaVegetables/SnakeGourdBG.svg",
+    image: "./Products/BanglaVegetables/SnakeGourdBG.svg",
     category: "Bangla Vegetables",
     shortDescription: "Fresh snake gourd perfect for healthy curries.",
     fullDescription:

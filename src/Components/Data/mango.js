@@ -2,7 +2,7 @@ const mango = [
  {
     id: "MG001",
     name: "Alphanso Mango",
-    image: "/RaiyanGlobal/Products/Mangos/AlphansoMango.svg",
+    image: "./Products/Mangos/AlphansoMango.svg",
     category: "Mango",
     shortDescription: "Premium Alphanso mango known for rich sweetness and aroma.",
     fullDescription:
@@ -25,7 +25,7 @@ const mango = [
 {
     id: "MG002",
     name: "Kesar Mango",
-    image: "/RaiyanGlobal/Products/Mangos/KesarMango.svg",
+    image: "./Products/Mangos/KesarMango.svg",
     category: "Mango",
     shortDescription: "Bright saffron-colored Kesar mango full of sweetness.",
     fullDescription:
@@ -48,7 +48,7 @@ const mango = [
 {
     id: "MG003",
     name: "Badami Mango",
-    image: "/RaiyanGlobal/Products/Mangos/BadamiMango.svg",
+    image: "./Products/Mangos/BadamiMango.svg",
     category: "Mango",
     shortDescription: "Soft, juicy Badami mango with naturally sweet taste.",
     fullDescription:
@@ -71,7 +71,7 @@ const mango = [
 {
     id: "MG004",
     name: "Langda Mango",
-    image: "/RaiyanGlobal/Products/Mangos/LangdaMango.svg",
+    image: "./Products/Mangos/LangdaMango.svg",
     category: "Mango",
     shortDescription: "Green-skinned Langda mango with rich aroma and taste.",
     fullDescription:
@@ -94,7 +94,7 @@ const mango = [
 {
     id: "MG005",
     name: "Chausa Mango",
-    image: "/RaiyanGlobal/Products/Mangos/ChausaMango.svg",
+    image: "./Products/Mangos/ChausaMango.svg",
     category: "Mango",
     shortDescription: "Super sweet Chausa mango with juicy golden pulp.",
     fullDescription:
@@ -117,7 +117,7 @@ const mango = [
 {
     id: "MG006",
     name: "Lal Bag Mango",
-    image: "/RaiyanGlobal/Products/Mangos/LalBaghMango.svg",
+    image: "./Products/Mangos/LalBaghMango.svg",
     category: "Mango",
     shortDescription: "Distinctive red-shaded mango with balanced sweetness.",
     fullDescription:
@@ -140,7 +140,7 @@ const mango = [
 {
     id: "MG007",
     name: "Amrapali Mango",
-    image: "/RaiyanGlobal/Products/Mangos/AmrapaliMango.svg",
+    image: "./Products/Mangos/AmrapaliMango.svg",
     category: "Mango",
     shortDescription: "Traditional Arapalli mango with strong natural aroma.",
     fullDescription:
@@ -163,7 +163,7 @@ const mango = [
 {
     id: "MG008",
     name: "Payari Mango",
-    image: "/RaiyanGlobal/Products/Mangos/PayariMango.svg",
+    image: "./Products/Mangos/PayariMango.svg",
     category: "Mango",
     shortDescription: "Juicy Payari mango known for aamras preparation.",
     fullDescription:
@@ -186,7 +186,7 @@ const mango = [
 {
     id: "MG009",
     name: "Rajapuri Mango",
-    image: "/RaiyanGlobal/Products/Mangos/RajapuriMango.svg",
+    image: "./Products/Mangos/RajapuriMango.svg",
     category: "Mango",
     shortDescription: "Large Rajapuri mango ideal for pickles and table use.",
     fullDescription:
@@ -209,7 +209,7 @@ const mango = [
 {
     id: "MG010",
     name: "Totapuri Mango",
-    image: "/RaiyanGlobal/Products/Mangos/TootapuriMango.svg",
+    image: "./Products/Mangos/TootapuriMango.svg",
     category: "Mango",
     shortDescription: "Pointed Totapuri mango used for juice and pulp.",
     fullDescription:
@@ -232,7 +232,7 @@ const mango = [
 {
     id: "MG011",
     name: "Raw Mango",
-    image: "/RaiyanGlobal/Products/Mangos/RawMango.svg",
+    image: "./Products/Mangos/RawMango.svg",
     category: "Mango",
     shortDescription: "Tangy raw mango ideal for pickles and chutneys.",
     fullDescription:
@@ -255,7 +255,7 @@ const mango = [
 {
     id: "MG012",
     name: "Dasheri Mango",
-    image: "/RaiyanGlobal/Products/Mangos/DasheriMango.svg",
+    image: "./Products/Mangos/DasheriMango.svg",
     category: "Mango",
     shortDescription: "Sweet Dasheri mango with smooth aromatic pulp.",
     fullDescription:
@@ -278,7 +278,7 @@ const mango = [
 {
     id: "MG013",
     name: "Banganapalli Mango",
-    image: "/RaiyanGlobal/Products/Mangos/BanganpalliMango.svg",
+    image: "./Products/Mangos/BanganpalliMango.svg",
     category: "Mango",
     shortDescription: "Large Banganapalli mango with sweet fiberless pulp.",
     fullDescription:
@@ -301,7 +301,7 @@ const mango = [
 {
     id: "MG014",
     name: "Neelam Mango",
-    image: "/RaiyanGlobal/Products/Mangos/NeelamMango.svg",
+    image: "./Products/Mangos/NeelamMango.svg",
     category: "Mango",
     shortDescription: "Late-season Neelam mango with sweet aromatic flesh.",
     fullDescription:
@@ -324,7 +324,7 @@ const mango = [
 {
     id: "MG015",
     name: "Himsagar Mango",
-    image: "/RaiyanGlobal/Products/Mangos/HimsagarMango.svg",
+    image: "./Products/Mangos/HimsagarMango.svg",
     category: "Mango",
     shortDescription: "Highly aromatic Himsagar mango with rich pulp.",
     fullDescription:
@@ -347,7 +347,7 @@ const mango = [
 {
     id: "MG016",
     name: "Himayat Mango",
-    image: "/RaiyanGlobal/Products/Mangos/HimayatMango.svg",
+    image: "./Products/Mangos/HimayatMango.svg",
     category: "Mango",
     shortDescription: "Royal Himayat mango known for massive size and sweetness.",
     fullDescription:
@@ -370,7 +370,7 @@ const mango = [
 {
     id: "MG017",
     name: "Rasalu Mango",
-   image: "/RaiyanGlobal/Products/Mangos/RasaluMango.svg",
+   image: "./Products/Mangos/RasaluMango.svg",
     category: "Mango",
     shortDescription: "Extremely juicy Rasalu mango perfect for drinks.",
     fullDescription:

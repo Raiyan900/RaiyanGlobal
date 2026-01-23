@@ -4,7 +4,7 @@ const vegetables = [
   {
     id: "VG001",
     name: "Karela",
-    image: "/RaiyanGlobal/Products/Vegetables/Karela.svg",
+    image: "./Products/Vegetables/Karela.svg",
     category: "Vegetables",
     shortDescription: "Fresh bitter gourd rich in nutrients and medicinal value.",
     fullDescription:
@@ -27,7 +27,7 @@ const vegetables = [
   {
     id: "VG002",
     name: "Guwar",
-    image: "/RaiyanGlobal/Products/Vegetables/Guwar.svg",
+    image: "./Products/Vegetables/Guwar.svg",
     category: "Vegetables",
     shortDescription: "Tender guvar beans ideal for sabzis and traditional dishes.",
     fullDescription:
@@ -50,7 +50,7 @@ const vegetables = [
   {
     id: "VG003",
     name: "Drumstick",
-    image: "/RaiyanGlobal/Products/Vegetables/Drumstick.svg",
+    image: "./Products/Vegetables/Drumstick.svg",
     category: "Vegetables",
     shortDescription: "Fresh drumsticks packed with nutrition and flavor.",
     fullDescription:
@@ -73,7 +73,7 @@ const vegetables = [
   {
     id: "VG004",
     name: "Okra",
-    image: "/RaiyanGlobal/Products/Vegetables/Okra.svg",
+    image: "./Products/Vegetables/Okra.svg",
     category: "Vegetables",
     shortDescription: "Tender okra perfect for crispy sabzis and curries.",
     fullDescription:
@@ -96,7 +96,7 @@ const vegetables = [
   {
     id: "VG005",
     name: "Valor Papdi",
-    image: "/RaiyanGlobal/Products/Vegetables/ValorPapdi.svg",
+    image: "./Products/Vegetables/ValorPapdi.svg",
     category: "Vegetables",
     shortDescription: "Fresh V Papdi ideal for Gujarati-style sabzis.",
     fullDescription:
@@ -118,7 +118,7 @@ const vegetables = [
   {
     id: "VG006",
     name: "Suran",
-    image: "/RaiyanGlobal/Products/Vegetables/Suran.svg",
+    image: "./Products/Vegetables/Suran.svg",
     category: "Vegetables",
     shortDescription: "Rich and dense suran ideal for curries and fry dishes.",
     fullDescription:
@@ -141,7 +141,7 @@ const vegetables = [
   {
     id: "VG007",
     name: "Desi Parwal",
-    image: "/RaiyanGlobal/Products/Vegetables/DesiParwal.svg",
+    image: "./Products/Vegetables/DesiParwal.svg",
     category: "Vegetables",
     shortDescription: "Local desi papdi with classic taste and texture.",
     fullDescription:
@@ -164,7 +164,7 @@ const vegetables = [
   {
     id: "VG008",
     name: "Culcutta parwal",
-    image: "/RaiyanGlobal/Products/Vegetables/CulcuttaParwal.svg",
+    image: "./Products/Vegetables/CulcuttaParwal.svg",
     category: "Vegetables",
     shortDescription: "Culcutta papdi with crisp texture and rich taste.",
     fullDescription:
@@ -187,7 +187,7 @@ const vegetables = [
   {
     id: "VG09",
     name: "Tinda",
-    image: "/RaiyanGlobal/Products/Vegetables/Tinda.svg",
+    image: "./Products/Vegetables/Tinda.svg",
     category: "Vegetables",
     shortDescription: "Fresh tinda perfect for light and healthy sabzis.",
     fullDescription:
@@ -210,7 +210,7 @@ const vegetables = [
   {
     id: "VG010",
     name: "Galka",
-    image: "/RaiyanGlobal/Products/Vegetables/Galka.svg",
+    image: "./Products/Vegetables/Galka.svg",
     category: "Vegetables",
     shortDescription: "Fresh galka with soft flesh and mild sweetness.",
     fullDescription:
@@ -234,7 +234,7 @@ const vegetables = [
   {
     id: "VG011",
     name: "Red Carrot",
-    image: "/RaiyanGlobal/Products/Vegetables/Carrot.svg",
+    image: "./Products/Vegetables/Carrot.svg",
     category: "Vegetables",
     shortDescription: "Sweet red carrots ideal for halwa and salads.",
     fullDescription:
@@ -257,7 +257,7 @@ const vegetables = [
   {
     id: "VG012",
     name: "Green Peas",
-    image: "/RaiyanGlobal/Products/Vegetables/GreenPeas.svg",
+    image: "./Products/Vegetables/GreenPeas.svg",
     category: "Vegetables",
     shortDescription: "Fresh green peas with natural sweetness.",
     fullDescription:
@@ -280,7 +280,7 @@ const vegetables = [
   {
     id: "VG013",
     name: "Tuwer",
-    image: "/RaiyanGlobal/Products/Vegetables/TuwerPapdi.svg",
+    image: "./Products/Vegetables/TuwerPapdi.svg",
     category: "Vegetables",
     shortDescription: "Tender tuver beans used in traditional dishes.",
     fullDescription:
@@ -303,7 +303,7 @@ const vegetables = [
   {
     id: "VG014",
     name: "Yellow Haldi",
-    image: "/RaiyanGlobal/Products/Vegetables/YellowHaldi.svg",
+    image: "./Products/Vegetables/YellowHaldi.svg",
     category: "Vegetables",
     shortDescription: "Fresh yellow turmeric root used for cooking and health.",
     fullDescription:
@@ -326,7 +326,7 @@ const vegetables = [
   {
     id: "VG015",
     name: "Amba Haldi",
-    image: "/RaiyanGlobal/Products/Vegetables/AmbaHaldi.svg",
+    image: "./Products/Vegetables/AmbaHaldi.svg",
     category: "Vegetables",
     shortDescription: "Aromatic amba haldi with mango-like flavor.",
     fullDescription:
@@ -344,15 +344,15 @@ const vegetables = [
       Packaging: "250g / 500g packs"
     },
     // gallery: [
-    //   // "/RaiyanGlobal/Products/Vegetables/AmbaHaldi.svg",
-    //   // "/RaiyanGlobal/gallery/Vegetables/AmbaHaldi.svg"
+    //   // "./Products/Vegetables/AmbaHaldi.svg",
+    //   // "./gallery/Vegetables/AmbaHaldi.svg"
     // ]
   },
 
   {
     id: "VG016",
     name: "Bombay Onion",
-    image: "/RaiyanGlobal/Products/Vegetables/BombayOnion.svg",
+    image: "./Products/Vegetables/BombayOnion.svg",
     category: "Vegetables",
     shortDescription: "Fresh Bombay onions with rich flavor and crispness.",
     fullDescription:
@@ -375,7 +375,7 @@ const vegetables = [
   {
     id: "VG017",
     name: "Madras Onion",
-    image: "/RaiyanGlobal/Products/Vegetables/MadrasOnion.svg",
+    image: "./Products/Vegetables/MadrasOnion.svg",
     category: "Vegetables",
     shortDescription: "Small Madras onions ideal for sambhar and traditional dishes.",
     fullDescription:
@@ -398,7 +398,7 @@ const vegetables = [
   {
     id: "VG018",
     name: "Dudhi",
-    image: "/RaiyanGlobal/Products/Vegetables/Dudhi.svg",
+    image: "./Products/Vegetables/Dudhi.svg",
     category: "Vegetables",
     shortDescription: "Soft and fresh bottle gourd ideal for healthy dishes.",
     fullDescription:
@@ -420,7 +420,7 @@ const vegetables = [
   {
     id: "VG019",
     name: "Arvi",
-    image: "/RaiyanGlobal/Products/Vegetables/Arvi.svg",
+    image: "./Products/Vegetables/Arvi.svg",
     category: "Vegetables",
     shortDescription: "Fresh arbi roots ideal for fry, curry, and snacks.",
     fullDescription:
@@ -443,7 +443,7 @@ const vegetables = [
   {
     id: "VG020",
     name: "Ghevda Papdi",
-    image: "/RaiyanGlobal/Products/Vegetables/GhevdaPapdi.svg",
+    image: "./Products/Vegetables/GhevdaPapdi.svg",
     category: "Vegetables",
     shortDescription: "Tender ghevda papdi used in traditional Gujarati dishes.",
     fullDescription:
@@ -466,7 +466,7 @@ const vegetables = [
   {
     id: "VG021",
     name: "Ash Gourd",
-    image: "/RaiyanGlobal/Products/Vegetables/AshGourd.svg",
+    image: "./Products/Vegetables/AshGourd.svg",
     category: "Vegetables",
     shortDescription: "Fresh ash gourd ideal for curries, juices, and soups.",
     fullDescription:
@@ -489,7 +489,7 @@ const vegetables = [
   {
     id: "VG022",
     name: "Allu Patta",
-    image: "/RaiyanGlobal/Products/Vegetables/AlluPatta.svg",
+    image: "./Products/Vegetables/AlluPatta.svg",
     category: "Vegetables",
     shortDescription: "Fresh alu leaves used for patra and traditional dishes.",
     fullDescription:
@@ -512,7 +512,7 @@ const vegetables = [
   {
     id: "VG023",
     name: "Curry Leaves",
-    image: "/RaiyanGlobal/Products/Vegetables/CurryLeaves.svg",
+    image: "./Products/Vegetables/CurryLeaves.svg",
     category: "Vegetables",
     shortDescription: "Aromatic curry leaves used for seasoning.",
     fullDescription:
@@ -535,7 +535,7 @@ const vegetables = [
   {
     id: "VG024",
     name: "Long Bean",
-    image: "/RaiyanGlobal/Products/Vegetables/LongBeans.svg",
+    image: "./Products/Vegetables/LongBeans.svg",
     category: "Vegetables",
     shortDescription: "Fresh long beans with crisp texture.",
     fullDescription:
@@ -558,7 +558,7 @@ const vegetables = [
   {
     id: "VG025",
     name: "Coriander",
-    image: "/RaiyanGlobal/Products/Vegetables/Coriander.svg",
+    image: "./Products/Vegetables/Coriander.svg",
     category: "Vegetables",
     shortDescription: "Fresh aromatic coriander leaves for garnishing.",
     fullDescription:
@@ -581,7 +581,7 @@ const vegetables = [
   {
     id: "VG026",
     name: "Surti Papdi",
-    image: "/RaiyanGlobal/Products/Vegetables/SurtiPapdi.svg",
+    image: "./Products/Vegetables/SurtiPapdi.svg",
     category: "Vegetables",
     shortDescription: "Popular surti papdi used in undhiyu and winter dishes.",
     fullDescription:
@@ -599,7 +599,7 @@ const vegetables = [
       Packaging: "1kg packs"
     },
     // gallery: [
-    //   "/RaiyanGlobal/gallery/Vegetables/SurtiPapdi.svg", 
+    //   "./gallery/Vegetables/SurtiPapdi.svg", 
     //  "///images/rice3.jpg"
     //   ]
   },
@@ -607,7 +607,7 @@ const vegetables = [
   {
     id: "VG027",
     name: "Surti Raviya",
-    image: "/RaiyanGlobal/Products/Vegetables/SurtiRaviya.svg",
+    image: "./Products/Vegetables/SurtiRaviya.svg",
     category: "Vegetables",
     shortDescription: "Popular surti papdi used in undhiyu and winter dishes.",
     fullDescription:
@@ -625,15 +625,15 @@ const vegetables = [
       Packaging: "1kg packs"
     },
     // gallery: [
-    //   "/RaiyanGlobal/Products/Vegetables/SurtiPapdi.svg", 
-    //   // "/RaiyanGlobal/gallery/Vegetables/SurtiRaviya.svg"
+    //   "./Products/Vegetables/SurtiPapdi.svg", 
+    //   // "./gallery/Vegetables/SurtiRaviya.svg"
     //  ]
   },
 
   {
     id: "VG028",
     name: "Poi Saag",
-    image: "/RaiyanGlobal/Products/Vegetables/PoiBhaji.svg",
+    image: "./Products/Vegetables/PoiBhaji.svg",
     category: "Vegetables",
     shortDescription: "Fresh poi leaves ideal for bhaji and healthy dishes.",
     fullDescription:
@@ -656,7 +656,7 @@ const vegetables = [
   {
     id: "VG029",
     name: "Pakoda Chilli",
-    image: "/RaiyanGlobal/Products/Vegetables/PakodaChilli.svg",
+    image: "./Products/Vegetables/PakodaChilli.svg",
     category: "Vegetables",
     shortDescription: "Large pakoda chilli used for stuffing and bhajiyas.",
     fullDescription:
@@ -679,7 +679,7 @@ const vegetables = [
   {
     id: "VG030",
     name: "G4 Chilli",
-    image: "/RaiyanGlobal/Products/Vegetables/G4Chilli.svg",
+    image: "./Products/Vegetables/G4Chilli.svg",
     category: "Vegetables",
     shortDescription: "Spicy G4 green chillies used in everyday cooking.",
     fullDescription:
@@ -702,7 +702,7 @@ const vegetables = [
   {
     id: "VG031",
     name: "Gangora Leaves",
-    image: "/RaiyanGlobal/Products/Vegetables/GangoraLeaves.svg",
+    image: "./Products/Vegetables/GangoraLeaves.svg",
     category: "Vegetables",
     shortDescription: "Fresh gangora leaves used in tangy traditional dishes.",
     fullDescription:
@@ -725,7 +725,7 @@ const vegetables = [
   {
     id: "VG032",
     name: "Pawta Papdi",
-    image: "/RaiyanGlobal/Products/Vegetables/PawtaPapdi.svg",
+    image: "./Products/Vegetables/PawtaPapdi.svg",
     category: "Vegetables",
     shortDescription: "Fresh pawta papdi commonly used in Gujarati dishes.",
     fullDescription:
@@ -748,7 +748,7 @@ const vegetables = [
   {
     id: "VG033",
     name: "Banana Flower",
-    image: "/RaiyanGlobal/Products/Vegetables/BananaFlower.svg",
+    image: "./Products/Vegetables/BananaFlower.svg",
     category: "Vegetables",
     shortDescription: "Fresh banana flower used in nutritious regional dishes.",
     fullDescription:
@@ -771,7 +771,7 @@ const vegetables = [
   {
     id: "VG034",
     name: "Lemon",
-    image: "/RaiyanGlobal/Products/Vegetables/Lemon.svg",
+    image: "./Products/Vegetables/Lemon.svg",
     category: "Vegetables",
     shortDescription: "Fresh juicy lemons perfect for cooking and drinks.",
     fullDescription:
@@ -794,7 +794,7 @@ const vegetables = [
   {
     id: "VG035",
     name: "Banana Leaf",
-    image: "/RaiyanGlobal/Products/Vegetables/BananaLeaf.svg",
+    image: "./Products/Vegetables/BananaLeaf.svg",
     category: "Vegetables",
     shortDescription: "Fresh banana leaves used for traditional serving and steaming.",
     fullDescription:
@@ -817,7 +817,7 @@ const vegetables = [
   {
     id: "VG036",
     name: "Drumstick Leaves",
-    image: "/RaiyanGlobal/Products/Vegetables/DrumstickLeaves.svg",
+    image: "./Products/Vegetables/DrumstickLeaves.svg",
     category: "Vegetables",
     shortDescription: "Highly nutritious drumstick leaves packed with vitamins.",
     fullDescription:
@@ -840,7 +840,7 @@ const vegetables = [
   {
     id: "VG037",
     name: "Vellerrica",
-    image: "/RaiyanGlobal/Products/Vegetables/Vellirica.svg",
+    image: "./Products/Vegetables/Vellirica.svg",
     category: "Vegetables",
     shortDescription: "Fresh vellerrica with crisp texture and mild flavor.",
     fullDescription:
@@ -863,7 +863,7 @@ const vegetables = [
   {
     id: "VG038",
     name: "Brinjal",
-    image: "/RaiyanGlobal/Products/Vegetables/Bringal.svg",
+    image: "./Products/Vegetables/Bringal.svg",
     category: "Vegetables",
     shortDescription: "Fresh brinjal ideal for roasting, curries, and fry dishes.",
     fullDescription:
@@ -881,14 +881,14 @@ const vegetables = [
       Packaging: "500g / 1kg packs"
     },
     //gallery: [
-    //  "/RaiyanGlobal/gallery/Vegetables/Brinjal.svg", 
+    //  "./gallery/Vegetables/Brinjal.svg", 
     //  "///images/rice3.jpg"
      //]
   },
   {
     id: "VG039",
     name: "Radish",
-    image: "/RaiyanGlobal/Products/Vegetables/Raddish.svg",
+    image: "./Products/Vegetables/Raddish.svg",
     category: "Vegetables",
     shortDescription: "Fresh radish with crisp texture and sharp flavor.",
     fullDescription:
@@ -911,7 +911,7 @@ const vegetables = [
   {
     id: "VG040",
     name: "Cabbage",
-    image: "/RaiyanGlobal/Products/Vegetables/Cabbage.svg",
+    image: "./Products/Vegetables/Cabbage.svg",
     category: "Vegetables",
     shortDescription: "Fresh cabbage with crisp leaves and mild taste.",
     fullDescription:
@@ -934,7 +934,7 @@ const vegetables = [
   {
     id: "VG041",
     name: "Turai",
-    image: "/RaiyanGlobal/Products/Vegetables/Turai.svg",
+    image: "./Products/Vegetables/Turai.svg",
     category: "Vegetables",
     shortDescription: "Soft textured turai ideal for everyday cooking.",
     fullDescription:
@@ -957,7 +957,7 @@ const vegetables = [
   {
     id: "VG042",
     name: "Cauliflower",
-    image: "/RaiyanGlobal/Products/Vegetables/CauliFlower.svg",
+    image: "./Products/Vegetables/CauliFlower.svg",
     category: "Vegetables",
     shortDescription: "Fresh cauliflower with tender white florets.",
     fullDescription:
@@ -980,7 +980,7 @@ const vegetables = [
   {
     id: "VG043",
     name: "French Beans",
-    image: "/RaiyanGlobal/Products/Vegetables/FrenchBeans.svg",
+    image: "./Products/Vegetables/FrenchBeans.svg",
     category: "Vegetables",
     shortDescription: "Fresh french beans with a crisp bite.",
     fullDescription:
@@ -1003,7 +1003,7 @@ const vegetables = [
   {
     id: "VG044",
     name: "Green Chilli",
-    image: "/RaiyanGlobal/Products/Vegetables/GreenChilli.svg",
+    image: "./Products/Vegetables/GreenChilli.svg",
     category: "Vegetables",
     shortDescription: "Spicy green chillies used daily for seasoning.",
     fullDescription:
@@ -1026,7 +1026,7 @@ const vegetables = [
   {
     id: "VG045",
     name: "Sarso Saag",
-    image: "/RaiyanGlobal/Products/Vegetables/SarsooSaag.svg",
+    image: "./Products/Vegetables/SarsooSaag.svg",
     category: "Vegetables",
     shortDescription: "Traditional mustard saag used in Punjabi cuisine.",
     fullDescription:
@@ -1048,7 +1048,7 @@ const vegetables = [
   {
     id: "VG046",
     name: "Big Kantola",
-    image: "/RaiyanGlobal/Products/Vegetables/BigKantola.svg",
+    image: "./Products/Vegetables/BigKantola.svg",
     category: "Vegetables",
     shortDescription: "Fresh big kantola with firm texture and unique flavor.",
     fullDescription:
@@ -1070,7 +1070,7 @@ const vegetables = [
   {
     id: "VG047",
     name: "Lotus Stem",
-    image: "/RaiyanGlobal/Products/Vegetables/LotusStem.svg",
+    image: "./Products/Vegetables/LotusStem.svg",
     category: "Vegetables",
     shortDescription: "Fresh lotus stem with crunchy ridged slices.",
     fullDescription:
@@ -1093,7 +1093,7 @@ const vegetables = [
   {
     id: "VG048",
     name: "Ginger",
-    image: "/RaiyanGlobal/Products/Vegetables/Ginger.svg",
+    image: "./Products/Vegetables/Ginger.svg",
     category: "Vegetables",
     shortDescription: "Aromatic ginger root used for flavor & health.",
     fullDescription:
@@ -1116,7 +1116,7 @@ const vegetables = [
   {
     id: "VG049",
     name: "Garlic Cloves",
-    image: "/RaiyanGlobal/Products/Vegetables/Garlic.svg",
+    image: "./Products/Vegetables/Garlic.svg",
     category: "Vegetables",
     shortDescription: "Fresh garlic cloves rich in aroma and flavor.",
     fullDescription:
@@ -1138,7 +1138,7 @@ const vegetables = [
   {
     id: "VG050",
     name: "Palm Roots",
-    image: "/RaiyanGlobal/Products/Vegetables/PlamRoot.svg",
+    image: "./Products/Vegetables/PlamRoot.svg",
     category: "Vegetables",
     shortDescription: "Fresh palm roots with unique earthy flavor.",
     fullDescription:
@@ -1161,7 +1161,7 @@ const vegetables = [
   {
     id: "VG051",
     name: "Gunda",
-    image: "/RaiyanGlobal/Products/Vegetables/Gunda.svg",
+    image: "./Products/Vegetables/Gunda.svg",
     category: "Vegetables",
     shortDescription: "Seasonal gunda perfect for pickles and curries.",
     fullDescription:
@@ -1184,7 +1184,7 @@ const vegetables = [
   {
     id: "VG052",
     name: "Durva Grass",
-    image: "/RaiyanGlobal/Products/Vegetables/DruvaGrass.svg",
+    image: "./Products/Vegetables/DruvaGrass.svg",
     category: "Vegetables",
     shortDescription: "Fresh duri grass used in traditional culinary recipes.",
     fullDescription:
@@ -1207,7 +1207,7 @@ const vegetables = [
   {
     id: "VG053",
     name: " Red Amaranth Leaves",
-    image: "/RaiyanGlobal/Products/Vegetables/RedAmaranthLeaves.svg",
+    image: "./Products/Vegetables/RedAmaranthLeaves.svg",
     category: "Vegetables",
     shortDescription: "Nutritious amaranthus leaves rich in minerals.",
     fullDescription:
@@ -1230,7 +1230,7 @@ const vegetables = [
   {
     id: "VG054",
     name: "Kand",
-    image: "/RaiyanGlobal/Products/Vegetables/Kand.svg",
+    image: "./Products/Vegetables/Kand.svg",
     category: "Vegetables",
     shortDescription: "Fresh purple kand ideal for frying and sabzis.",
     fullDescription:
@@ -1252,7 +1252,7 @@ const vegetables = [
   {
     id: "VG055",
     name: "Green Tea",
-    image: "/RaiyanGlobal/Products/Vegetables/GreenTea.svg",
+    image: "./Products/Vegetables/GreenTea.svg",
     category: "Vegetables",
     shortDescription: "Fresh green tea leaves ideal for brewing healthy tea.",
     fullDescription:
@@ -1275,7 +1275,7 @@ const vegetables = [
   {
     id: "VG056",
     name: "Snake Gourd",
-    image: "/RaiyanGlobal/Products/Vegetables/SnakeGourd.svg",
+    image: "./Products/Vegetables/SnakeGourd.svg",
     category: "Vegetables",
     shortDescription: "Fresh snake gourd perfect for healthy curries.",
     fullDescription:
@@ -1297,7 +1297,7 @@ const vegetables = [
   {
     id: "VG057",
     name: "Coconut Leaves",
-    image: "/RaiyanGlobal/Products/Vegetables/CoconutLeaves.svg",
+    image: "./Products/Vegetables/CoconutLeaves.svg",
     category: "Vegetables",
     shortDescription: "Fresh coconut leaves used for decoration & rituals.",
     fullDescription:
@@ -1319,7 +1319,7 @@ const vegetables = [
   {
     id: "VG058",
     name: "Green Garlic",
-    image: "/RaiyanGlobal/Products/Vegetables/GreenGarlic.svg",
+    image: "./Products/Vegetables/GreenGarlic.svg",
     category: "Vegetables",
     shortDescription: "Fresh garlic cloves rich in aroma and flavor.",
     fullDescription:
@@ -1341,7 +1341,7 @@ const vegetables = [
   {
     id: "VG059",
     name: "Small Kantola",
-    image: "/RaiyanGlobal/Products/Vegetables/SmallKantola.svg",
+    image: "./Products/Vegetables/SmallKantola.svg",
     category: "Vegetables",
     shortDescription: "Fresh big kantola with firm texture and unique flavor.",
     fullDescription:
@@ -1363,7 +1363,7 @@ const vegetables = [
   {
     id: "VG060",
     name: "Patha",
-    image: "/RaiyanGlobal/Products/Vegetables/PathaLeaves.svg",
+    image: "./Products/Vegetables/PathaLeaves.svg",
     category: "Vegetables",
     shortDescription: "Fresh patha leaves used for traditional dishes.",
     fullDescription:
@@ -1386,7 +1386,7 @@ const vegetables = [
   {
     id: "VG061",
     name: "Lotus Root",
-    image: "/RaiyanGlobal/Products/Vegetables/LotusRoots.svg",
+    image: "./Products/Vegetables/LotusRoots.svg",
     category: "Vegetables",
     shortDescription: "Crispy lotus root with a lightly sweet flavor.",
     fullDescription:
@@ -1409,7 +1409,7 @@ const vegetables = [
   {
     id: "VG062",
     name: "Surti Kand",
-    image: "/RaiyanGlobal/Products/Vegetables/SurtiKand.svg",
+    image: "./Products/Vegetables/SurtiKand.svg",
     category: "Vegetables",
     shortDescription: "Purple yam with creamy and rich taste.",
     fullDescription:
@@ -1432,7 +1432,7 @@ const vegetables = [
   {
     id: "VG063",
     name: "Yellow Dates",
-    image: "/RaiyanGlobal/Products/Vegetables/YellowDates.svg",
+    image: "./Products/Vegetables/YellowDates.svg",
     category: "Vegetables",
     shortDescription: "Fresh crunchy yellow dates with natural sweetness.",
     fullDescription:
@@ -1455,7 +1455,7 @@ const vegetables = [
   {
     id: "VG064",
     name: "Red Dates",
-    image: "/RaiyanGlobal/Products/Vegetables/RedDates.svg",
+    image: "./Products/Vegetables/RedDates.svg",
     category: "Vegetables",
     shortDescription: "Soft and sweet red dates full of nutrients.",
     fullDescription:
@@ -1477,7 +1477,7 @@ const vegetables = [
   {
     id: "VG065",
     name: "Lemon Grass",
-    image: "/RaiyanGlobal/Products/Vegetables/LemonGrass.svg",
+    image: "./Products/Vegetables/LemonGrass.svg",
     category: "Vegetables",
     shortDescription: "Aromatic lemongrass used in teas and curries.",
     fullDescription:
@@ -1499,7 +1499,7 @@ const vegetables = [
   {
     id: "VG066",
     name: "Bilva Leaves",
-    image: "/RaiyanGlobal/Products/Vegetables/BilvaLeaves.svg",
+    image: "./Products/Vegetables/BilvaLeaves.svg",
     category: "Vegetables",
     shortDescription: "Sacred bilva leaves used for rituals and remedies.",
     fullDescription:
@@ -1522,7 +1522,7 @@ const vegetables = [
   {
     id: "VG067",
     name: "Pudina Leaves",
-    image: "/RaiyanGlobal/Products/Vegetables/Pudina.svg",
+    image: "./Products/Vegetables/Pudina.svg",
     category: "Vegetables",
     shortDescription: "Fresh mint leaves with strong aroma.",
     fullDescription:
@@ -1545,7 +1545,7 @@ const vegetables = [
   {
     id: "VG068",
     name: "Jalpai",
-    image: "/RaiyanGlobal/Products/Vegetables/Jalpai.svg",
+    image: "./Products/Vegetables/Jalpai.svg",
     category: "Vegetables",
     shortDescription: "Tangy jalpai fruit used for pickles.",
     fullDescription:
@@ -1568,7 +1568,7 @@ const vegetables = [
   {
     id: "VG069",
     name: "Green Big Pumpkin",
-    image: "/RaiyanGlobal/Products/Vegetables/GreenBigPumpkin.svg",
+    image: "./Products/Vegetables/GreenBigPumpkin.svg",
     category: "Vegetables",
     shortDescription: "Fresh green pumpkin with dense flesh.",
     fullDescription:
@@ -1591,7 +1591,7 @@ const vegetables = [
   {
     id: "VG070",
     name: "Tindora",
-    image: "/RaiyanGlobal/Products/Vegetables/Tindora.svg",
+    image: "./Products/Vegetables/Tindora.svg",
     category: "Vegetables",
     shortDescription: "Fresh tindora ideal for fry dishes.",
     fullDescription:
@@ -1614,7 +1614,7 @@ const vegetables = [
   {
     id: "VG071",
     name: "Bathua Leaves",
-    image: "/RaiyanGlobal/Products/Vegetables/BathuaLeaves.svg",
+    image: "./Products/Vegetables/BathuaLeaves.svg",
     category: "Vegetables",
     shortDescription: "Nutritious bathua leaves for winter dishes.",
     fullDescription:
@@ -1637,7 +1637,7 @@ const vegetables = [
   {
     id: "VG072",
     name: "Neem Flowers",
-    image: "/RaiyanGlobal/Products/Vegetables/NeemLeaves.svg",
+    image: "./Products/Vegetables/NeemLeaves.svg",
     category: "Vegetables",
     shortDescription: "Fresh edible neem flowers used in herbal recipes.",
     fullDescription:
@@ -1660,7 +1660,7 @@ const vegetables = [
   {
     id: "VG073",
     name: "Haldi Leaves",
-    image: "/RaiyanGlobal/Products/Vegetables/HaldiLeaves.svg",
+    image: "./Products/Vegetables/HaldiLeaves.svg",
     category: "Vegetables",
     shortDescription: "Aromatic turmeric leaves used for steaming sweets.",
     fullDescription:
@@ -1683,7 +1683,7 @@ const vegetables = [
   {
     id: "VG074",
     name: "Curry Banana",
-    image: "/RaiyanGlobal/Products/Vegetables/CurryBanana.svg",
+    image: "./Products/Vegetables/CurryBanana.svg",
     category: "Vegetables",
     shortDescription: "Raw banana ideal for curry dishes.",
     fullDescription:
@@ -1706,7 +1706,7 @@ const vegetables = [
   {
     id: "VG075",
     name: "Jalbi Embly",
-    image: "/RaiyanGlobal/Products/Vegetables/JalebiImli.svg",
+    image: "./Products/Vegetables/JalebiImli.svg",
     category: "Vegetables",
     shortDescription: "Sour jalbi embly used in pickles and curries.",
     fullDescription:
@@ -1729,7 +1729,7 @@ const vegetables = [
   {
     id: "VG076",
     name: "Green Amaranth Leaves",
-    image: "/RaiyanGlobal/Products/Vegetables/GreenAmaranthLaves.svg",
+    image: "./Products/Vegetables/GreenAmaranthLaves.svg",
     category: "Vegetables",
     shortDescription: "Fresh green amaranth leaves full of nutrients.",
     fullDescription:

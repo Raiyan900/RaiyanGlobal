@@ -2,7 +2,7 @@ const Flowers = [
     {
     id: "FL001",
     name: "Lotus Flower",
-    image: "/RaiyanGlobal/Products/Flowers/LotusFlower.svg",
+    image: "./Products/Flowers/LotusFlower.svg",
     category: "Flowers",
     shortDescription: "Fresh lotus flowers known for purity and spiritual significance.",
     fullDescription:
@@ -25,7 +25,7 @@ const Flowers = [
 {
     id: "FL002",
     name: "Red Rose",
-    image: "/RaiyanGlobal/Products/Flowers/RedRose.svg",
+    image: "./Products/Flowers/RedRose.svg",
     category: "Flowers",
     shortDescription: "Premium red roses with vibrant color and strong fragrance.",
     fullDescription:
@@ -48,7 +48,7 @@ const Flowers = [
 {
     id: "FL003",
     name: "Mogra",
-    image: "/RaiyanGlobal/Products/Flowers/Mogra.svg",
+    image: "./Products/Flowers/Mogra.svg",
     category: "Flowers",
     shortDescription: "Aromatic mogra flowers known for intense fragrance.",
     fullDescription:
@@ -71,7 +71,7 @@ const Flowers = [
 {
     id: "FL004",
     name: "Jasmine",
-    image: "/RaiyanGlobal/Products/Flowers/Jasmine.svg",
+    image: "./Products/Flowers/Jasmine.svg",
     category: "Flowers",
     shortDescription: "Fresh jasmine flowers with sweet and calming aroma.",
     fullDescription:
@@ -94,7 +94,7 @@ const Flowers = [
 {
     id: "FL005",
     name: "Yellow Marigold",
-    image: "/RaiyanGlobal/Products/Flowers/YellowMarigold.svg",
+    image: "./Products/Flowers/YellowMarigold.svg",
     category: "Flowers",
     shortDescription: "Bright yellow marigold ideal for decoration and festivals.",
     fullDescription:
@@ -117,7 +117,7 @@ const Flowers = [
 {
     id: "FL006",
     name: "Orange Marigold",
-    image: "/RaiyanGlobal/Products/Flowers/OrangeMarigold.svg",
+    image: "./Products/Flowers/OrangeMarigold.svg",
     category: "Flowers",
     shortDescription: "Vibrant orange marigold used widely in celebrations.",
     fullDescription:
@@ -139,7 +139,7 @@ const Flowers = [
 {
   id: "FL007",
   name: "White Rose",
-  image: "/RaiyanGlobal/Products/Flowers/WhiteRose.svg",
+  image: "./Products/Flowers/WhiteRose.svg",
   category: "Flowers",
   shortDescription: "Fresh white roses known for their purity and fragrance.",
   fullDescription:
@@ -161,7 +161,7 @@ const Flowers = [
 {
   id: "FL008",
   name: "Yellow Rose",
-  image: "/RaiyanGlobal/Products/Flowers/YellowRose.svg",
+  image: "./Products/Flowers/YellowRose.svg",
   category: "Flowers",
   shortDescription: "Bright yellow roses symbolizing joy and friendship.",
   fullDescription:
