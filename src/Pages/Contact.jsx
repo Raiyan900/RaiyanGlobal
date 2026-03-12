@@ -85,7 +85,7 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <h2 className="title">
-        <span className="mint-text_title">Conatct</span> <span className="orange-text_title">Us</span>
+        <span className="mint-text_title">Contact</span> <span className="orange-text_title">Us</span>
       </h2>
 
       <div className="contact-grid">
