@@ -63,7 +63,7 @@ export default function Footer() {
 
                     <div className="footer-item">
                         <i className="fa-solid fa-location-crosshairs"></i>
-                        <p>Versova, Andheri West, Mumbai 500061, Maharashtra</p>
+                        <p>Versova, Andheri West, Mumbai 400061, Maharashtra</p>
                     </div>
 
                     <div className="footer-item">
@@ -98,7 +98,7 @@ export default function Footer() {
 
                     <div className="footer-item">
                         <i className="fa-solid fa-envelope"></i>
-                        <p>sales.raiyanglobal@gmail.com</p>
+                        <p>raiyanglobal@gmail.com</p>
                     </div>
 
                 </div>
