@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a3864f87.css",
-    "main.js": "./static/js/main.6a169917.js",
+    "main.js": "./static/js/main.3d6cc375.js",
     "static/js/206.41be7795.chunk.js": "./static/js/206.41be7795.chunk.js",
     "static/media/fruits_video.mp4": "./static/media/fruits_video.b3b8a2d7fdf59009a678.mp4",
     "static/media/supplychainMobile.svg": "./static/media/supplychainMobile.9681f522e60424fe3081c9c4a39f7cd9.svg",
@@ -18,6 +18,6 @@
   },
   "entrypoints": [
     "static/css/main.a3864f87.css",
-    "static/js/main.6a169917.js"
+    "static/js/main.3d6cc375.js"
   ]
 }
